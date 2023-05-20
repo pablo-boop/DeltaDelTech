@@ -1,0 +1,274 @@
+/*responsavel pela cor de fundo*/
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+#titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #c6d0de;
+    margin-top: 1%;
+}
+
+/*estilo das box shadow*/
+#bloco1 {   background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 18%;
+}
+
+#bloco2 { 
+    width: 65%;
+      background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin: 1%;
+
+}
+.lado {
+    display: flex;
+}
+#bloco3{
+    padding:2%;
+    margin: 1%
+}
+
+aside {
+    width: 35%;
+}
+#card3 {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin: 1%
+}
+
+h1{
+    text-align: center;
+    margin: 5px;
+    margin-left: -13%;
+}
+
+#card1{
+  display: flex;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#iframe{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+*{
+    margin: 0;
+}
+
+p{
+    margin-top: 10px;
+}
+
+#div4{
+    margin-top: 3%;
+    border-top: 1px solid black;
+    display: flex;
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 5px solid black;
+}
+
+#p1{
+    margin-top: 4%;
+    margin-left: -8%;
+    margin-bottom: -1%;
+}
+
+#img4 {
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+#img5 {
+    margin-left: 11%;
+}
+
+#div0 {
+    background-color: #c6d0de;
+    text-align: center;
+}
+
+#img0 {
+    margin-top: -27px;
+}
+
+#img00 {
+    margin-bottom: -19px;
+    margin-top: 2%;
+}
+
+#div6 {
+    background-color: rgb(253, 199, 208);
+    text-align: center;
+    margin-top: 3%;
+}
+
+#art1 {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.loi:hover {
+    transform: scale(1.05);
+}
+
+.loi {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 18%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+img {
+    margin-left: 15px;
+}
+
+#art4 {
+    background-color: none;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    margin-bottom: 0;
+    text-align: none;
+    margin-top: 5%;
+    margin-left: -15%;
+  }
+  
+  .sec4 {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+    padding: 2%;
+    width: 33%;
+    margin-bottom: 0;
+  }
+  
+  .icon_profile {
+    border-radius: 100%;
+  }
+  
+  .content_comment_card {
+  
+  }
+  .nickname {
+    margin-left: 5%;
+    margin-top: 5%;
+    border-bottom: 2px solid #063e8d;
+  }
+  
+  .comment_info {
+    display: flex;
+    margin-top: 10%;
+  }
+  
+  .title_name {
+    color: #999;
+  }
+  
+  .comment_card {
+  
+  }
+  
+  .content_comment_card p::after {
+  content: "\201D";
+  display: inline;
+  color: #999;
+  }
+  
+  .content_comment_card p::before {
+  content: "\201C";
+  display: inline;
+  color: #999;
+  }
+  
+  #div5 form {
+    margin-left: 4%;
+   flex-direction: column;
+   display: flex;
+  }
+  
+  #your_comment {
+    width: 245%;
+  }
+  
+  #comments {
+    font-size:x-large;
+    margin-top: 4%;
+  }
+
+  #divj {
+    text-align: center;
+    background-color: #c6d0de;
+  }
+
+  li {
+    margin: 2%;
+  }
+
+#card2 {
+    padding: 5%;
+}
+
+#julia{
+    margin-left: 28%;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+
+.martins {
+    margin-left: 2px;
+}
+
+#leite {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+#pp1 {
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+p {
+    font-size: 20px;
+}

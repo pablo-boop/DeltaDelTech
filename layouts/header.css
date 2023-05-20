@@ -1,0 +1,85 @@
+/*Estilização do body*/
+body{
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Estilização do header*/
+header{
+    background-image: radial-gradient(#053f8b,#003985, #013883 , #022455);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 1% 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+/*Estilização do imgg*/
+#imgg{
+    align-items: center;
+    justify-content: center;
+    max-width: 12%;
+    margin:0;
+
+}
+
+/*Estilização do nav ul, li*/
+nav ul{
+    list-style: none;
+    margin:0;
+    padding:1%;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    margin:0 10px;
+
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px;
+    
+}
+nav a:hover{
+    background-color: #5a7fb6;
+    color:#1a3764;
+    border-radius: 5px;
+}
+
+/*Estilização da logo*/
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  }
+
+
+@keyframes mymove {
+    0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.imgg:hover {
+    animation: mymove 2s linear infinite;
+}
+.imgg {
+    border: 1px solid white;
+    border-radius: 100%;
+
+}
+
+/*Estilização da div*/
+#sub {
+    border-bottom: white solid 1px;
+}

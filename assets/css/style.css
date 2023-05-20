@@ -1,0 +1,128 @@
+.imgADs{
+    text-align: center;
+}
+#firstarticle {
+    display: flex;
+
+}
+
+#s1 {
+    background-image: url(../imagens/profissõesEmAlta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 29.6%;
+    margin: 2%;
+    border-radius: 1.5%;
+
+}
+
+#s2 {
+    background-image: url(../imagens/img-msc_updated\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8%;
+    margin-top: 1.8%;
+    border-radius: 1.5%;
+    height: 120px
+
+
+}
+
+#s3 {
+    background-image: url(../imagens/vestibular\ home.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8%;
+    margin-top:  1%;
+    border-radius: 1.5%;
+
+}
+
+#a1 {
+    width: 50%;
+    margin-left: 4%;
+    text-decoration: none;
+}
+#a2 {
+    margin-left:  1%;
+    width: 50%;
+    margin-right: 4%;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-size: 35px;
+    text-shadow: 3px 3px 15px #000000;
+    color: #ffffff;
+}
+article {
+    margin-top: 2%;
+}
+
+#s1:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+#s2:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+#s3:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.arc1 {
+
+    padding: 2%;
+    margin: 1%;
+    border-bottom: 1px solid black;
+}
+
+.art1 {
+    display: flex;
+
+}
+
+.risco {
+    background-color: #063e8d;
+    width: 0.1%;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.s4 {
+    margin-left:  1%;
+    margin-top: 5%;
+}
+
+p {
+    font-size: 150%;
+
+}
+
+.vejamais {
+    background-color: #063e8d;
+    width: 13%;
+    color: #ffffff;
+}
+
+.oi {
+    color: #ffffff;
+}
+
+.tn {
+    text-decoration: none;
+}
+
+#iframe2{
+    bottom: 0%;
+    margin-bottom: -5px;
+ }
+
+ *{
+    margin: 0;
+ }

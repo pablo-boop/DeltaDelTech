@@ -1,0 +1,211 @@
+/*Parte que incorpora o html*/
+body {
+background-color: rgb(220, 220, 220);
+font-size: 20px;
+text-align: justify;
+}
+/*Parte que contem o titulo*/
+#titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #c6d0de;
+    margin-top: 1%;
+}
+
+/*estilizaçao do primeiro article*/
+#bloco1 {   background-color: #c6d0de;
+    border-left: #063e8d solid 10px;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    padding:2%;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 18%;
+}
+/*estilizaçao do segundo article*/
+#bloco2 { 
+    width: 65%;
+      background-color: #c6d0de;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    border-left: #063e8d solid 10px;
+    padding:2%;
+    margin: 1%;
+
+}
+.lado {
+    display: flex;
+}
+/*estilizaçao do terceiro article*/
+#bloco3{
+    padding:2%;
+    margin: 1%
+}
+/*estilizaçao do aside*/
+aside {
+    width: 35%;
+}
+#card3 {
+    background-color: #c6d0de;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    border-left: #063e8d solid 10px;
+    padding:2%;
+    margin: 1%
+}
+/*estilizaçao dos titulos*/
+h1{
+    text-align: center;
+    margin: 5px;
+}
+
+#card1{
+  display: flex;
+}
+/*estilizaçao das imgs*/
+img{
+    border-radius: 10px;
+}
+/*estilizaçao do header e do footer*/
+#iframe{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+
+p{
+    margin-top: 10px;
+}
+/*estilizaçao dos comentarios*/
+#div4{
+    margin-top: 3%;
+    border-top: 1px solid black;
+    display: flex;
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 5px solid black;
+}
+
+#p1{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.img4 {
+    margin-top: 2%;
+}
+
+#img5 {
+    width: 100%;
+    height: 100%;
+}
+
+#p4 {
+    
+}
+
+.sub {
+    text-align: center;
+    margin-top: 2%;
+}
+/*estilizaçao dos componentes do titulo*/
+
+#card-item {
+    border: #063e8d 2px solid;
+    background-color: #063e8d;
+    width: 30%;
+    margin: auto;
+}
+#card-item2 {
+    border: #063e8d 2px solid;
+    background-color: #063e8d;
+    width: 23%;
+    margin: auto;
+}
+
+#div{
+    margin-bottom: 0;
+}
+#art7 {
+    background-color: none;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.sec7 {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+    padding: 2%;
+    width: 33%;
+    margin-bottom: 0;
+}
+
+.icon_profile {
+    border-radius: 100%;
+}
+
+.content_comment_card {
+
+}
+.nickname {
+    margin-left: 5%;
+    margin-top: 5%;
+    border-bottom: 2px solid #063e8d;
+}
+
+.comment_info {
+    display: flex;
+    margin-top: 10%;
+}
+
+.title_name {
+    color: #999;
+}
+
+.comment_card {
+
+}
+/*estilizaçao dos ""*/
+.content_comment_card p::after {
+	content: "\201D";
+	display: inline;
+	color: #999;
+}
+
+.content_comment_card p::before {
+	content: "\201C";
+	display: inline;
+	color: #999;
+}
+
+#div5 form {
+    margin-left: 4%;
+   flex-direction: column;
+   display: flex;
+}
+
+#your_comment {
+    width: 30.8%;
+}
+
+#comments {
+    font-size:x-large;
+}
+
+#div5 {
+    margin-top: 5%;
+}
+/*estilizaçao do header e do footer*/
+.iframe1 {
+    margin-bottom: -5px;
+    bottom: 0%;
+}
+*{
+    margin: 0;
+}
+p {
+    margin: 5%;}

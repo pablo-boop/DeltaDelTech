@@ -1,0 +1,266 @@
+/*Estilização do body*/
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+/*Estilização do titulo*/
+#titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #c6d0de;
+    margin-top: 1%;
+}
+
+/*Estilo das box shadow*/
+#bloco1 {   background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 18%;
+}
+
+#bloco2 { 
+    width: 65%;
+      background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin: 1%;
+
+}
+.lado {
+    display: flex;
+}
+#bloco3{
+    padding:2%;
+    margin: 1%
+}
+
+/*Estilização do aside*/
+aside {
+    width: 35%;
+}
+
+/*Estilização do h1*/
+h1{
+    text-align: center;
+    margin: 5px;
+}
+
+/*Estilização dos cards*/
+#card1{
+    display: flex;
+  }
+  
+  img{
+      border-radius: 10px;
+  }
+
+  p{
+    margin-top: 10px;
+}
+#card2{
+    margin-top: 1%;
+}
+#card3 {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin: 1%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+/*Estilização do div4*/
+#div4{
+    margin-top: 3%;
+    border-top: 1px solid black;
+    display: flex;
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 5px solid black;
+    margin-bottom: 2%;
+}
+
+/*Estilização do p1*/
+#p1{
+    margin-top: 6%;
+    margin-left: 9%;
+    font-size: 20px;
+}
+
+/*Estilização das img*/
+#img4 {
+    margin-top: 2%;
+    margin-left: 10px;
+}
+
+#img5 {
+    margin-left: 11%;
+}
+#img0 {
+    margin-top: -27px;
+}
+#img00 {
+    margin-bottom: -18px;
+    margin-top: 10px;
+}
+img {
+    margin-left: 15px;
+}
+#imgg4{
+    border-radius: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*Estilização da div*/
+#div5 {
+    background-color: #c6d0de;
+    text-align: center;
+    margin-top: 2%;
+}
+#div6 {
+    background-color: rgb(253, 199, 208);
+    text-align: center;
+    margin-top: 3%;
+}
+
+/*Estilização da art1*/
+#art1 {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.loi:hover {
+    transform: scale(1.05);
+}
+
+.loi {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 18%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#h22 {
+    margin-left: 1%;
+    margin-top: 2%;
+
+}
+#h2{
+    margin-left: 14%;
+    margin-top: 2%;
+}
+.h11{
+    font-size: 25px;
+}
+
+/*Fixação do header e footer*/
+iframe{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+*{
+    margin: 0;
+}
+#div{
+    margin-bottom: 0;
+}
+
+/*responsável pela aba de comentários*/
+#art4 {
+    background-color: none;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+.sec4 {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+    padding: 2%;
+    width: 33%;
+    margin-bottom: 0;
+}
+
+.icon_profile {
+    border-radius: 100%;
+}
+
+.content_comment_card {
+
+}
+.nickname {
+    margin-left: 5%;
+    margin-top: 5%;
+    border-bottom: 2px solid #063e8d;
+}
+
+.comment_info {
+    display: flex;
+    margin-top: 10%;
+}
+
+.title_name {
+    color: #999;
+}
+
+.content_comment_card p::after {
+	content: "\201D";
+	display: inline;
+	color: #999;
+}
+
+.content_comment_card p::before {
+	content: "\201C";
+	display: inline;
+	color: #999;
+}
+
+#div7 form {
+    margin-left: 4%;
+    flex-direction: column;
+   display: flex;
+}
+
+#your_comment {
+    width: 200%;
+}
+
+#comments {
+    font-size:x-large;
+    margin-top: 4%;
+}
+.p{
+    font-size: 20px;
+}

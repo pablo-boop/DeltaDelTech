@@ -1,0 +1,72 @@
+/* responsável pela cor de fundo*/
+body {
+    background-color: rgb( 220, 220, 220);
+}
+
+#h11{
+    font-size: 70px;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    
+}
+
+
+/* responsável pelo botão*/
+button {
+    color:black;
+    background-color: #5a7fb6;
+    border-radius: 5px;
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    width: 15%;
+    height: 15%;
+    margin-left: 16%;
+    padding: 5px;
+    margin-top: 1%;
+}
+
+button:hover {
+    width:17%;
+    height: 10%;
+    font-size: 15px;
+}
+
+/*responsável pela imagem da logo*/
+#img1 { 
+    border-radius: 30%;
+    width: 70%;
+    height: 70%;
+    margin-top: 20%;
+}
+
+#iframe{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+*{
+    margin: 0;
+} 
+
+#sla {
+    display: flex;
+}
+
+/*responsável pelos textos*/
+#p2 {
+    margin-top: -100px;
+    margin-left: 2%;
+}
+
+#p3 {
+    margin-left: 11%;
+}
+
+#p4 {
+    margin-left: 13%;
+}

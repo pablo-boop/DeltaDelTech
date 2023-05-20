@@ -1,0 +1,60 @@
+/*Estilização da section*/
+#s1 {
+    display: flex;
+    text-align: justify;
+    background-color: #c6d0de;
+}
+section  {
+
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    background-color: #c6d0de;
+    margin: 1%;
+}
+#section1{
+    padding: 1%;
+}
+
+/*Estilização da article*/
+#s2 {
+    display: flex;
+}
+
+/*Estilização do body*/
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+/*Estilização do h1*/
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+    padding: 1%;
+}
+
+/*Centralizar verticalmente*/
+ .icon{
+    display: flex;
+    margin: 2%;
+    padding: 1%;
+    margin: auto;
+    align-items: center;
+ }
+
+ /*Estilização do p*/
+ .p1{
+  padding: 2%;
+ }
+
+ /*Fixação do header e footer*/
+ #iframe2{
+    bottom: 0%;
+    margin-bottom: -5px;
+ }
+
+ *{
+    margin: 0;
+ }

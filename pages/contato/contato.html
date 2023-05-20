@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <!--responsável pelo título e link rel com o feedback.css-->
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../feedback/feedback.css">
+</head>
+
+<!--responsável pelo corpo do site e iframe com o header.html-->
+<body>
+    <iframe src="../../layouts/header.html" frameborder="0" width="100%"></iframe>
+
+    <div id="div1">
+        <h1>Contato</h1>
+        <!--Responsável pelo form-->
+        <form action="./../success/success.html">
+
+            <label id="label1" for="">Nome</label>
+            <div class="e" >
+                <img class="icon" src="../../assets/imagens/nomeicon.png" alt="nome">
+                <input id="input1" type="text" placeholder="Digite seu nome" required>
+            </div>
+
+            <label id="label1" for="">E-mail</label>
+            <div class="e">
+                 <img class="icon" src="../../assets/imagens/emailicon2.png" alt="email">
+                 <input id="input1" type="text" placeholder="Digite seu e-mail" required>
+            </div>
+            
+            <label id="label2" for="">Telefone</label>
+            <div class="e">
+                <img  class="icon" src="../julia/images/telefone.png" alt="telefone">
+                <input id="input1" type="text" placeholder="Digite seu telefone" required>
+            </div>
+            <input id="enviar" type="submit">
+        </form>
+    </div>
+
+    <!--responsável para linkar com o footer-->
+    <iframe id="iframe" src="../../layouts/footer.html" frameborder="0" width="100%"></iframe>
+</body>
+</html>

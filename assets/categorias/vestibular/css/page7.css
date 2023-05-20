@@ -1,0 +1,149 @@
+/*responsável pela cor de fundo*/
+body {
+    background-color: #dfdfdf;
+}
+
+/*responsável pelos textos e títulos*/
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: -11px;
+    font-size: 20px;
+}
+
+#div1 {
+    background-color: #c6d0de;
+}
+
+/*responsavel pelas imagens*/
+#img1 {
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 0%;
+}
+
+#diferenças {
+    margin-top: 3%;
+    font-size: 40px;
+    color: rgb(65, 65, 185);
+}
+
+/*responsável pelos cards*/
+#bloco1 {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin-top: 4%;
+    width: 60%;
+    margin-left: 18%;
+}
+
+#card1{
+    display: flex;
+}
+
+#div3 {
+    background-color: #dfdfdf;
+}
+
+/*responsável por colar o header e footer*/
+#iframe{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+*{
+    margin: 0;
+}
+
+#jml {
+    margin-top: -5%;
+    margin-bottom: 1%;
+}
+
+/*responsável pela aba de comentários*/
+#art4 {
+    background-color: none;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    margin-bottom: 0;
+    text-align: none;
+  }
+  
+  .sec4 {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+    padding: 2%;
+    width: 33%;
+    margin-bottom: 0;
+  }
+  
+  .icon_profile {
+    border-radius: 100%;
+  }
+  
+  .content_comment_card {
+  
+  }
+  .nickname {
+    margin-left: 5%;
+    margin-top: 5%;
+    border-bottom: 2px solid #063e8d;
+  }
+  
+  .comment_info {
+    display: flex;
+    margin-top: 10%;
+  }
+  
+  .title_name {
+    color: #999;
+  }
+  
+  .comment_card {
+  
+  }
+  
+  .content_comment_card p::after {
+  content: "\201D";
+  display: inline;
+  color: #999;
+  }
+  
+  .content_comment_card p::before {
+  content: "\201C";
+  display: inline;
+  color: #999;
+  }
+  
+  #div5 form {
+    margin-left: 4%;
+   flex-direction: column;
+   display: flex;
+  }
+  
+  #your_comment {
+    width: 30.8%;
+  }
+  
+  #comments {
+    font-size:x-large;
+    margin-top: 4%;
+  }
+
+  p {
+    font-size: 20px;
+}

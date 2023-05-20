@@ -1,0 +1,21 @@
+/* começo do css*/
+body {
+    background-color: #545b67;
+}
+article {
+    text-align: center;
+}
+button {
+    color:blue;
+    background-color: #c6d0de;
+    border-radius: 5px;
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    width: 12%;
+    height: 15%;
+}
+button:hover {
+    width: 15%;
+    height: 17%;
+    font-size: 20px;
+}
+/* criticos terminados*/

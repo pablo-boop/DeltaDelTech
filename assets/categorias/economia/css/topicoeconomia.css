@@ -70,3 +70,17 @@ body{
     margin-top: 2%;
  }
  
+ @media screen and (max-width: 687px) {
+    #iframe2 {
+        margin-bottom: -28px;
+    }
+    .pp {
+        height: 25vh;
+    }
+
+    #bi {
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+    }
+ }

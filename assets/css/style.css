@@ -126,3 +126,41 @@ p {
  *{
     margin: 0;
  }
+
+ @media screen and (max-width: 500px) {
+    #firstarticle {
+        width: 100%;
+        flex-direction: column;
+    }
+    #a1 {
+        width: 190vw;
+        margin-left: 10vw;
+    }
+    #a2 {
+        width: 183vw;
+        margin-left: 13vw;
+    }
+    .art1 {
+        width: 200vw;
+    }
+    .s4 {
+        font-size: 20px;
+        width: 120vw;
+    }
+    .vejamais {
+        width: 40vw;
+        font-size: 20px;
+    }
+    .imgADs img {
+        width: 210vw;
+    }
+    .imgADs a {
+        width: 210vw;
+    }
+    #iframe2 {
+        width: 210vw;
+    }
+    #footer {
+        width: 210vw;
+    }
+ }

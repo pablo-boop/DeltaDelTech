@@ -1,4 +1,4 @@
-#div {
+#div_ {
     display: flex;
 
 }
@@ -86,4 +86,37 @@ body {
 }
 *{
     margin: 0;
+}
+
+@media screen and (max-width: 687px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main {
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+
+    #div_ {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+
+    }
+
+    div {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .iframe1 {
+        margin-bottom: -10px;
+    }
 }

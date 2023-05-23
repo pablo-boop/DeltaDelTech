@@ -217,9 +217,6 @@ iframe{
     border-radius: 100%;
 }
 
-.content_comment_card {
-
-}
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
@@ -263,4 +260,66 @@ iframe{
 }
 .p{
     font-size: 20px;
+}
+
+@media screen and (max-width: 687px) {
+    .lado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #bloco2 {
+        width: 83vw;
+    }
+
+    aside {
+        width: 100vw;
+
+    }
+
+    #bloco3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #card3 {
+        width: 83vw;
+        margin: 0;
+    }
+
+    #div4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form {
+        text-align: center;
+    }
+
+    #in_com {
+        text-align: left;
+    }
+
+    #your_comment {
+        width: 60%;
+        height: 3vh;
+        margin: 10px;
+        border: rgb(0, 0, 0, 0.6) solid 1px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #art4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec4 {
+        width: 90vw;
+        margin: 10px;
+    }
 }

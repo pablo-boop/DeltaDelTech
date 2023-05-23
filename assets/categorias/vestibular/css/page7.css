@@ -147,3 +147,84 @@ h2 {
   p {
     font-size: 20px;
 }
+
+@media screen and (max-width: 500px) {
+
+  #div1 {
+    width: 230vw;
+    font-size: 25px;
+  }
+
+  #div2 {
+    margin-left: 65vw;
+    width: 100vw;
+  }
+
+  #img1 {
+    margin-left: 5vw;
+    height: 60vh;
+    width: 220vw;
+  }
+
+  #div3 {
+    width: 250vw;
+    margin-bottom: 10vh;
+    margin-left: -20vw;
+  }
+
+  #comments {
+    margin-left: 75vw;
+    margin-bottom: 5vh;
+    font-size: 35px;
+  }
+
+
+  #your_comment {
+    width: 120vw;
+    padding: 15px;
+    margin-left: 40vw;
+    font-size: 20px;
+    margin-bottom: 5vh;
+  }
+
+  #card1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #jml {
+    margin-left: 60vw;
+    margin-top: 5vh;
+  }
+
+  #div5 {
+    margin-left: 15vw;
+  }
+
+
+  #art4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35vw;
+  }
+  .sec4 {
+    width: 200vw;
+    margin-left: -23vw;
+    font-size: 20px;
+  }
+  .sec4 p {
+    font-size: 35px;
+  }
+  #bloco1 h1 {
+    font-size: 30px;
+  } 
+  #bloco1 {
+    width: 175vw;
+  }
+  #iframe {
+    width: 230vw;
+  }
+  #header {
+    width: 230vw;
+  }
+}

@@ -257,3 +257,17 @@ hr {
 *{
   margin: 0;
 }
+
+@media screen and (max-width: 500px) {
+  #arc3 {
+    display: flex;
+    flex-direction: column;
+  }
+  #arc4 {
+    display: flex;
+    flex-direction: column;
+  }
+  #nos {
+    width: 90vw;
+  }
+}

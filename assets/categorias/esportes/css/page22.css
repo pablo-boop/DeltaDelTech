@@ -11,36 +11,40 @@ body {
 }
 
 /*Estilização dos blocos*/
-#bloco1 {   background-color: #c6d0de;
+#bloco1 {
+    background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-left: #063e8d solid 10px;
     border-radius: 10px;
-    padding:2%;
+    padding: 2%;
     margin: 1%;
     margin-left: 107px;
     margin-right: 107px;
     margin-bottom: 2%;
 }
-#bloco2 { 
+
+#bloco2 {
     width: 65%;
-      background-color: #c6d0de;
+    background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-left: #063e8d solid 10px;
     border-radius: 10px;
-    padding:2%;
+    padding: 2%;
     margin: 1%;
 
 }
-#bloco3{
-    padding:2%;
+
+#bloco3 {
+    padding: 2%;
     margin: 1%
 }
+
 .lado {
     display: flex;
 }
@@ -59,46 +63,49 @@ aside {
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-left: #063e8d solid 10px;
     border-radius: 10px;
-    padding:2%;
+    padding: 2%;
     margin: 1%
 }
-#card1{
+
+#card1 {
     margin-left: 107px;
-   
-        display: flex;
-      }
-      
-      img{
-          border-radius: 10px;
-      }
-    
-      p{
-        margin-top: 2%;
- }
+
+    display: flex;
+}
+
+img {
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 2%;
+}
 
 /*Fixação do header e footer*/
-#iframe2{
+#iframe2 {
     bottom: 0%;
     margin-bottom: -5px;
 }
 
 * {
-    margin:0;
+    margin: 0;
 }
 
 /*Estilização ul li*/
-ul li{
-    list-style:none;
+ul li {
+    list-style: none;
 }
-.linha-do-tempo{
+
+.linha-do-tempo {
     position: relative;
     max-width: 1024px;
     height: auto;
     padding: 0px;
     margin: 0px auto;
-    overflow:hidden;
+    overflow: hidden;
 }
-.marcador{
+
+.marcador {
     width: 50%;
     float: left;
     height: 100%;
@@ -107,49 +114,57 @@ ul li{
     border-right: 2px dashed;
     box-sizing: border-box;
 }
-.ano{
+
+.ano {
     font-weight: 600;
     font-size: 25px;
     letter-spacing: 3px;
-    color:white;
-    background-color:#e00808;
+    color: white;
+    background-color: #e00808;
     text-align: center;
     margin-top: 7%;
-    margin:1% auto;
-    clear:both
+    margin: 1% auto;
+    clear: both
 }
-.item{
+
+.item {
     width: 44%;
     margin: 4% 0.5%;
     padding: 1%;
     float: right;
 }
-.item:nth-last-of-type(2n){
+
+.item:nth-last-of-type(2n) {
     float: left;
     margin: 4% 0.5%;
     padding: 1%;
 }
-.item p{
+
+.item p {
     color: black;
     text-align: center;
 }
-.item p a{
+
+.item p a {
     color: black;
 }
 
 
 /*Estilização h2*/
-h2{
+h2 {
     text-align: center;
     background-color: #c6d0de;
 }
-#ll{
+
+#ll {
     margin-bottom: 2%;
 }
-#img1{
+
+#img1 {
     margin-right: 6%;
 }
-#div{
+
+#div {
     margin-bottom: 0;
 }
 
@@ -176,9 +191,8 @@ h2{
     border-radius: 100%;
 }
 
-.content_comment_card {
+.content_comment_card {}
 
-}
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
@@ -194,26 +208,24 @@ h2{
     color: #999;
 }
 
-.comment_card {
-
-}
+.comment_card {}
 
 .content_comment_card p::after {
-	content: "\201D";
-	display: inline;
-	color: #999;
+    content: "\201D";
+    display: inline;
+    color: #999;
 }
 
 .content_comment_card p::before {
-	content: "\201C";
-	display: inline;
-	color: #999;
+    content: "\201C";
+    display: inline;
+    color: #999;
 }
 
 #div5 form {
     margin-left: 4%;
-   flex-direction: column;
-   display: flex;
+    flex-direction: column;
+    display: flex;
 }
 
 #your_comment {
@@ -221,10 +233,25 @@ h2{
 }
 
 #comments {
-    font-size:x-large;
+    font-size: x-large;
     margin-top: 4%;
 }
-.p{
+
+.p {
     font-size: 20px;
     margin-top: 7%;
+}
+
+@media screen and (max-width: 687px) {
+    #card1 {
+        margin-left: 107px;
+        flex-direction: column;
+        display: flex;
+    }
+    .p {
+        font-size: 13px
+    }
+    #img1 {
+        margin-right: 6%;
+    }
 }

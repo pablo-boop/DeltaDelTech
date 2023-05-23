@@ -238,3 +238,7 @@ display: flex;
     margin-top: 4%;
     text-align: left;
 }
+
+@media screen and (max-width: 687px) {
+    
+}

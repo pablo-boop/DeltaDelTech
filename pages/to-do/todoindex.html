@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.todo.css">
+    <script src="script.todo.js"></script>
     <title>To Do - List</title>
 </head>
 
@@ -17,7 +18,7 @@
             <section id="left">
                 <label>
                     <p>Título :</p>
-                    <input class="texto" type="text">
+                    <input id="titulo" type="text">
                 </label>
                 <label>
                     <p>Resumo :</p>
@@ -25,11 +26,11 @@
                 </label>
                 <label>
                     <p>Categoría :</p>
-                    <input class="texto" type="text">
+                    <input id="categoria" type="text">
                 </label>
                 <label>
                     <p>Autor :</p>
-                    <input class="texto" type="text">
+                    <input id="autortitle" type="text">
                 </label>
                 
                 <div id="bottom">
@@ -37,12 +38,14 @@
                         <p id="dataP">Data de publicação :</p>
                         <input id="data" type="date">
                     </label>
-                    <button id="botao">Resultado</button>
+                    <button id="botao" onclick="plotar()">Resultado</button>
+                    <button id="botao" onclick="editar()">editar</button>
                 </div>
             </section>
             <section id="right">
+                <h2>Lista de To - Do</h2>
                 <div id="tabela">
-                    <h2>Lista de To - Do</h2>
+                    
                 </div>
             </section>
         </div>

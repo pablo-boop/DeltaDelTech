@@ -151,7 +151,7 @@ h2 {
 @media screen and (max-width: 500px) {
 
   #div1 {
-    width: 225vw;
+    width: 230vw;
     font-size: 25px;
   }
 
@@ -161,9 +161,9 @@ h2 {
   }
 
   #img1 {
-    margin-left: 15vw;
+    margin-left: 5vw;
     height: 60vh;
-    width: 205vw;
+    width: 220vw;
   }
 
   #div3 {

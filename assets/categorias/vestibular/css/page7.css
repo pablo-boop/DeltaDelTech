@@ -221,4 +221,10 @@ h2 {
   #bloco1 {
     width: 175vw;
   }
+  #iframe {
+    width: 230vw;
+  }
+  #header {
+    width: 230vw;
+  }
 }

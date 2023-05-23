@@ -1,4 +1,4 @@
-let todo = [];
+/*let todo = [];
 let i = 0;
 
 
@@ -42,4 +42,25 @@ function editar() {
     todo.pop();
     todo.pop();
     todo.pop();
+}
+
+function atualizarlista() {
+
+}
+
+*/
+
+let todo = [];
+
+function fazer() {
+
+    for(let i = 0; i) {
+
+    
+    let titulo = document.getElementById('titulo').value;
+    let resumo = document.getElementById('resumo').value;
+    let autor = document.getElementById('autortitle').value;
+    let data = document.getElementById('data').value;
+    }
+
 }

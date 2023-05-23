@@ -36,7 +36,7 @@ body {
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-left: #063e8d solid 10px;
     border-radius: 10px;
-    padding:2%;
+    padding: 2%;
     margin-top: 2%;
     width: 60%;
     margin-left: 18%;
@@ -52,16 +52,16 @@ img {
 
 
 /*responsavel por colar o header e footer*/
-#iframe{
+#iframe {
     bottom: 0%;
     margin-bottom: -5px;
 }
 
-*{
+* {
     margin: 0;
 }
 
-#div{
+#div {
     margin-bottom: 0;
 }
 
@@ -88,9 +88,8 @@ img {
     border-radius: 100%;
 }
 
-.content_comment_card {
+.content_comment_card {}
 
-}
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
@@ -106,26 +105,24 @@ img {
     color: #999;
 }
 
-.comment_card {
-
-}
+.comment_card {}
 
 .content_comment_card p::after {
-	content: "\201D";
-	display: inline;
-	color: #999;
+    content: "\201D";
+    display: inline;
+    color: #999;
 }
 
 .content_comment_card p::before {
-	content: "\201C";
-	display: inline;
-	color: #999;
+    content: "\201C";
+    display: inline;
+    color: #999;
 }
 
 #div5 form {
     margin-left: 4%;
-   flex-direction: column;
-   display: flex;
+    flex-direction: column;
+    display: flex;
 }
 
 #your_comment {
@@ -133,7 +130,7 @@ img {
 }
 
 #comments {
-    font-size:x-large;
+    font-size: x-large;
     margin-top: 4%;
 }
 
@@ -155,4 +152,52 @@ h3 {
 
 p {
     font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    #div6 {
+        width: 200vw;
+        font-size: 25px;
+    }
+
+    #art1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 35vw;
+        margin-bottom: 10vh;
+    }
+
+    .loi {
+        width: 100vw;
+        margin-bottom: 5vh;
+    }
+
+    .jml {
+        margin-left: 50vw;
+    }
+
+    .image {
+        margin-left: 25vw;
+    }
+
+    #your_comment {
+        width: 80vw;
+        padding: 15px;
+        margin-left: 45vw;
+    }
+
+    #comments {
+        margin-left: 73vw;
+    }
+
+    #art4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 35vw;
+    }
+
+    .sec4 {
+        width: 150vw;
+        margin-left: -20vw;
+    }
 }

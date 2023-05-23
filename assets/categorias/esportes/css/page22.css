@@ -244,9 +244,11 @@ h2 {
 
 @media screen and (max-width: 687px) {
     #card1 {
-        margin-left: 107px;
         flex-direction: column;
-        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30%;
     }
     .p {
         font-size: 13px
@@ -255,15 +257,7 @@ h2 {
     #img1 {
         margin-right: 6%;
     }
-    .sec4 {
-        background-color: white;
-        border-radius: 0.25rem;
-        box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-        margin: 1%;
-        padding: 2%;
-        width: 33%;
-        margin-bottom: 0;
-    }
+    
     h3{
         font-size: 10px;
     }
@@ -284,6 +278,10 @@ h2 {
     .p {
         width: 175px;
     }
+
+    div {
+        align-items: center;
+    }
     #bloco1 {
         background-color: #c6d0de;
         border: 1px black solid;
@@ -295,6 +293,11 @@ h2 {
         padding: 2%;
         margin: 1%;
        margin-left: 5px;
+       width: 300px;
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       flex-direction: column;
     }
     #art4{
         flex-direction: column;
@@ -305,6 +308,12 @@ h2 {
     }
     main{
         align-items: center;
+    }
+    #bloco4{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
 
 }

@@ -147,3 +147,63 @@ h2 {
   p {
     font-size: 20px;
 }
+
+@media screen and (max-width: 500px) {
+
+  #div1 {
+    margin-left: 30vw;
+    width: 150vw;
+  }
+
+  #div2 {
+    margin-left: 55vw;
+    width: 100vw;
+  }
+
+  #img1 {
+    margin-left: 10vw;
+    height: 60vh;
+    width: 185vw;
+  }
+
+  #div3 {
+    width: 200vw;
+    margin-bottom: 10vh;
+    margin-right: 20vw;
+  }
+
+  #comments {
+    margin-left: 73vw;
+  }
+
+  #your_comment {
+    width: 80vw;
+    padding: 15px;
+    margin-left: 45vw;
+  }
+
+  #card1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #jml {
+    margin-top: 5vh;
+    margin-left: 15vw;
+  }
+
+  #div5 {
+    margin-left: 15vw;
+  }
+
+
+  #art4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35vw;
+  }
+  .sec4 {
+    width: 170vw;
+    margin-left: -20vw;
+  }
+}

@@ -163,7 +163,7 @@ p {
     #art1 {
         display: flex;
         flex-direction: column;
-        margin-left: 15vw;
+        margin-left: 20vw;
         margin-bottom: 10vh;
     }
 
@@ -173,7 +173,7 @@ p {
     }
 
     .jml {
-        margin-left: 70vw;
+        margin-left: 75vw;
         margin-bottom: 5vh;
     }
 
@@ -182,14 +182,15 @@ p {
     }
 
     #your_comment {
-        width: 80vw;
+        width: 100vw;
         padding: 15px;
         margin-left: 50vw;
         margin-bottom: 5vh;
+        font-size: 20px;
     }
 
     #comments {
-        margin-left: 75vw;
+        margin-left: 80vw;
         font-size: 30px;
     }
 
@@ -201,7 +202,19 @@ p {
     }
 
     .sec4 {
-        width: 150vw;
-        margin-left: -20vw;
+        width: 185vw;
+        margin-left: -40vw;
+        font-size: 20px;
     }
+
+    .sec4 p {
+        font-size: 35px;
+      }
+
+      #iframe {
+        width: 200vw;
+      }
+      #header {
+        width: 200vw;
+      }
 }

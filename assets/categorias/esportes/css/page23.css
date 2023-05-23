@@ -266,5 +266,19 @@ iframe{
 }
 
 @media screen and (max-width: 687px) {
-    
+    main{
+        align-items: center;
+    }
+    #art4{
+        flex-direction: column;
+    }
+    .sec4{
+        width: 300px;
+    }
+    #art4{
+        width: 90vw;
+    }
+    #div4{
+        width: 400vw;
+    }
 }

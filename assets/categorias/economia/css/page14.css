@@ -195,10 +195,10 @@ margin-left: 5%;
   }
 
   #bloco1 {
-    margin-left: 0%;
     margin: 5px;
     padding: 15px;
     width: 85vw;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
@@ -212,6 +212,10 @@ margin-left: 5%;
     justify-content: center;
   }
 
+  #sla {
+    margin: 0;
+  }
+
   #lower1 {
     margin: 0;
     width: 80vw;
@@ -221,6 +225,7 @@ margin-left: 5%;
 
   #lower2 {
     margin: 30px;
+    padding: 0;
     width: 80vw;
     border: white solid 0px;
     align-items: center;
@@ -231,13 +236,19 @@ margin-left: 5%;
     margin: 0;
   }
 
+  #icon2 {
+    margin-left: 4px;
+  }
+
   #jm {
     margin: 0;
   }
 
   #p1 {
-    margin: 0%;
+    margin-left: 25%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   #p2 {
@@ -250,6 +261,7 @@ margin-left: 5%;
     align-items: center;
     justify-content: center;
     text-align: center;
+    border: none;
   }
 
 

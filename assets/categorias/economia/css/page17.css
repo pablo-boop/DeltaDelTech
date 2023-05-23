@@ -133,9 +133,6 @@ body {
     border-radius: 100%;
 }
 
-.content_comment_card {
-
-}
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
@@ -151,9 +148,6 @@ body {
     color: #999;
 }
 
-.comment_card {
-
-}
 /*estilizaçao dos ""*/
 .content_comment_card p::after {
 	content: "\201D";
@@ -189,4 +183,59 @@ body {
     margin: 0;
 }
 p {
-    margin: 5%;}
+    margin: 5%;
+}
+
+@media screen and (max-width: 687px) {
+    #sla {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div1 {
+        width: 100vw;
+    }
+
+    #sec1 {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+    }
+
+    #arc1 {
+        align-items: center;
+    }
+
+    aside {
+        width: 100vw;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    #your_comment {
+        width: 60%;
+        height: 3vh;
+        margin: 10px;
+        border: rgb(0, 0, 0, 0.6) solid 1px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #in_com {
+        text-align: left;
+    }
+
+    #art4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec4 {
+        width: 90vw;
+        margin: 10px;
+    }
+}

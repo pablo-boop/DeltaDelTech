@@ -81,3 +81,37 @@ h1 {
     margin-right: 10px;
     margin-left: 5px;
 }
+
+/*Responsividade do feedback*/
+
+@media screen and (min-width: 400px) {
+    #div1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .icon {
+        height: 50px;
+        width: 50px;
+        margin-left: -25vw;
+    }
+    #input1 {
+        padding-right: 35vw;
+        font-size: 20px;
+    }
+    #enviar {
+        margin-top: 5px;
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+        margin-left: -9vw;
+    }
+    #label1 {
+        font-size: 25px;
+    }
+    #label2 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}

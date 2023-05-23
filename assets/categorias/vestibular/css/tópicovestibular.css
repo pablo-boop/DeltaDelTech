@@ -6,7 +6,6 @@ body{
 /*Estilização da div*/
 #div {
     display: flex;
-    
 }
 
 /*Estilização do pp*/
@@ -68,4 +67,16 @@ body{
     background-color: #c6d0de;
     text-align: center;
     margin-top: 2%;
+ }
+
+ @media screen and (max-width: 500px) {
+    #div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5vh;
+    }
+    .pp {
+        margin-bottom: 5vh;
+        width: 70vw;
+    }
  }

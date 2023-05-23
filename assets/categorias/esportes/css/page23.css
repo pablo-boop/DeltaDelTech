@@ -284,4 +284,22 @@ iframe{
     .p {
         width: 175px;
 }
+.p {
+    font-size: 13px
+    
+}
+#img0{
+    height: 90px;
+    width: 80px;
+}
+#imgg4{
+    height: 100px;
+    width: 80px;
+}
+.lado{
+    flex-direction: column;
+}
+#bloco3{
+    width: 300px;
+}
 }

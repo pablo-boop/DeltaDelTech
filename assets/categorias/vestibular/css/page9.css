@@ -163,37 +163,41 @@ p {
     #art1 {
         display: flex;
         flex-direction: column;
-        margin-left: 35vw;
+        margin-left: 15vw;
         margin-bottom: 10vh;
     }
 
     .loi {
-        width: 100vw;
+        width: 150vw;
         margin-bottom: 5vh;
     }
 
     .jml {
-        margin-left: 50vw;
+        margin-left: 70vw;
+        margin-bottom: 5vh;
     }
 
     .image {
-        margin-left: 25vw;
+        margin-left: 50vw;
     }
 
     #your_comment {
         width: 80vw;
         padding: 15px;
-        margin-left: 45vw;
+        margin-left: 50vw;
+        margin-bottom: 5vh;
     }
 
     #comments {
-        margin-left: 73vw;
+        margin-left: 75vw;
+        font-size: 30px;
     }
+
 
     #art4 {
         display: flex;
         flex-direction: column;
-        margin-left: 35vw;
+        margin-left: 45vw;
     }
 
     .sec4 {

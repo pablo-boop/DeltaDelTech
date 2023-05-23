@@ -6,7 +6,6 @@ body{
 /*Estilização da div*/
 #div {
     display: flex;
-    
 }
 
 /*Estilização do pp*/
@@ -70,3 +69,68 @@ body{
     margin-top: 2%;
  }
  
+
+ @media screen and (max-width: 687px) {
+    body{
+        background-color: rgb(220, 220, 220);
+    }
+
+    #div {
+        display: flex;
+    }
+    
+    .pp:hover{
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+
+    .pp {
+        text-align: center;
+        box-shadow: -webkit-box-shadow 10px 10px 19px 2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 19px 2px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 19px 2px rgba(0, 0, 0, 0.75);
+        border-left: #063e8d solid 10px;
+        border-radius: 5px;
+        background-color: #c6d0de;
+        margin: 1%;
+        padding: 4%;
+        margin: auto;
+        text-decoration: none;
+        color: black;
+        width: 35.5%;
+        
+    }
+
+    #d1{
+        text-align: center;
+    }
+    
+    #bi {
+        text-align: center;
+    }
+    
+    #iframe2{
+        bottom: 0%;
+        margin-bottom: -5px;
+     }
+    
+     *{
+        margin: 0;
+     }
+    
+     .sla {
+        margin: 2%;
+     }
+    
+
+     .imgg{
+        margin-top: 2%;
+     }
+    
+     #ee{
+        background-color: #c6d0de;
+        text-align: center;
+        margin-top: 2%;
+     }
+    
+ }

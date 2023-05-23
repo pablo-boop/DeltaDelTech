@@ -193,9 +193,6 @@ p {
     border-radius: 100%;
 }
 
-.content_comment_card {
-
-}
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
@@ -237,8 +234,8 @@ p {
 
 #div5 form {
     margin-left: 4%;
-    display: flex
-   flex-direction: column;
+    display: flex;
+   flex-direction:column;
 }
 
 #your_comment {
@@ -247,4 +244,38 @@ p {
 
 #comments{
     font-size: x-large;
+}
+
+@media (max-width: 687px){
+#div1{
+    margin-left: 0px;
+    padding: 0%;
+}
+#bloco1{
+   
+        background-color: #c6d0de;
+        border-left: #063e8d solid 10px;
+        border-radius: 0.25rem;
+        box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+        padding: 2%;
+        margin-top: 2%;
+        width: 70%;
+        margin-left: 18%;
+}
+#img1{
+    width: 150px;
+    height: 100px;
+}
+#card1 {
+    display: flex;
+    flex-direction: column;
+}
+art4{
+    background-color: none;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 0;
+}
 }

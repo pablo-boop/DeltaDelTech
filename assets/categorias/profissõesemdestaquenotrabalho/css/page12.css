@@ -202,10 +202,19 @@ body {
     font-size: x-large;
 }
 
-.content_comment_card {
-
-}
 
 p {
     font-size: 20px;
+}
+@media(max-width: 687px){
+    #sla{
+        flex-direction: column;
+    }
+    #sec1{
+        flex-direction: column;
+    }
+    .img1{
+        width: 350px;
+        margin: 1%;
+    }
 }

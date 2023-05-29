@@ -70,3 +70,40 @@ button:hover {
 #p4 {
     margin-left: 13%;
 }
+
+@media screen and (max-width: 500px) {
+    #h11 {
+        text-align: center;
+    }
+    #sla {
+        flex-direction: column;
+    }
+    #img1 {
+        margin-top: 5vh;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #p2 {
+        margin-top: 5vh;
+        text-align: center;
+    }
+    #p2 p {
+        font-size: 25px;
+    }
+    #p3 {
+        font-size: 25px;
+        margin-left: -2vw;
+    }
+    #p4 {
+        font-size: 25px;
+        margin-left: -2vw;
+    }
+    button {
+        text-align: center;
+        margin-left: 33vw;
+        margin-top: 10vh;
+        font-size: 20px;
+        height: 10vh;
+        width: 40vw;
+    }
+}

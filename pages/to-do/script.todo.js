@@ -2,12 +2,17 @@
 let info = [];
 let info2 = [];
 
+var title = "";
+var description = "";
+var autor = "";
+var data = "";
+
 //função de plotar
 function plotar() {
-    let title = document.getElementById("titulo").value;
-    let description = document.getElementById("resumo").value;
-    let autor = document.getElementById("autortitle").value;
-    let data = document.getElementById("data").value;
+    title = document.getElementById("titulo").value;
+    description = document.getElementById("resumo").value;
+    autor = document.getElementById("autortitle").value;
+    data = document.getElementById("data").value;
 
     info2.push(title);
     info2.push(description);
@@ -52,5 +57,9 @@ function atualizarlista() {
     document.getElementById("data").value = "";
 }
 
+//excloi..
+function antiplot() {
+
+}
 
 

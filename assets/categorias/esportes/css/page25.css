@@ -226,8 +226,27 @@ h2 {
     #div2 {
         flex-direction: column;
     }
+    #div3{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
     #div4{
         flex-direction: column;
+    }
+    .section {
+        background-color: #c6d0de;
+        border: 1px black solid;
+        -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        border-left: #063e8d solid 10px;
+        border-radius: 10px;
+        padding: 2%;
+        margin: 1%;
+        text-align: center;
+        width: 70vw;
+        margin-left: 7vh;
     }
     /*arrumando escritas*/
     .p {
@@ -242,6 +261,4 @@ h2 {
     h1{
         font-size: 25px;
     }
-    /*Arrumando imagem*/
-
 }

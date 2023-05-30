@@ -264,13 +264,14 @@ h1 {
         display: flex;
     }
     #div1{
-        margin: 0%;
+        margin: 15vw;
     }
 
     /*Arrumando escritas*/
     .p {
         width: 175px;
         text-align: center;
+        margin: 10vw;
     }
 
     .p {
@@ -290,9 +291,16 @@ h1 {
         height: 50vh;
     }
     #card3{
-        width: 10vw;
+        width: 50vw;
         height: 40vh;
-
-
     }
+    #lado-R {
+        width: 70vw;
+        height: 30vh;
+    }
+    #card1{
+        width: 70vw;
+        margin: 0%;
+    }
+
 }

@@ -156,7 +156,7 @@ li {
 #div{
     margin-bottom: 0;
   }
-  
+   
   /*responsável pela aba de comentários*/
   #art4 {
     background-color: none;
@@ -232,198 +232,174 @@ p {
 }
 
 
-
-
-/*responsividade*/
-
-
+/*Responsividade*/
 @media screen and (max-width: 687px){
+    body {
+        width: 100vw;
+      }
+    
+      h2 {
+        margin: 0;
+      }
 
-#bloco2 { 
-    width: 90%;
-    background-color: #c6d0de;
-    border: 1px black solid;
-    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    border-left: #063e8d solid 10px;
-    border-radius: 10px;
-    padding:2%;
-    margin: 1%;
-    margin-top: 3%;
-}
+      #card1{
+        display: flex;
+        flex-direction: column;
+      }
+    
+      #bloco1 {
+        margin: 5px;
+        padding: 15px;
+        width: 85vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+      }
 
+      #bloco2 {
+        margin: 5px;
+        padding: 15px;
+        width: 85vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+      }
 
-.lado {
-    display: flex;
-    flex-direction: column;
-}
+      #bloco3{
+        padding:2%;
+        margin: 1%;
+        margin-top: 6%;
+        width: 260%;
+    }
+    
+    aside {
+        width: 35%;
+    }
+    
+      #linha {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      #sla {
+        margin: 0;
+      }
+    
+      #lower1 {
+        margin: 0;
+        width: 80vw;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      #lower2 {
+        margin: 30px;
+        padding: 0;
+        width: 80vw;
+        border: white solid 0px;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      #icon1 {
+        margin: 0;
+      }
+    
+      #icon2 {
+        margin-left: 4px;
+      }
+    
+      #jm {
+        margin: 0;
+      }
+    
+      #p1{
+        width: 80vw;
+        margin: 0;
+        text-align: center;
+    }  
+    
+      #p2 {
+        width: 80vw;
+        margin: 0;
+        text-align:center;
+      }
+    
+      #linha2 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: none;
+      }
+    
+    
+     form {
+      text-align: center;
+     }
+    
+     #your_comment {
+      width: 60%;
+      height: 3vh;
+      margin: 10px;
+      border: rgb(0, 0, 0, 0.6) solid 1px;
+      padding: 0;
+      margin: 0;
+     }
 
-#bloco3{
-    padding:2%;
-    margin: 1%;
-    margin-top: 6%;
-    width: 260%;
-}
+     #comments {
+        font-size:x-large;
+        margin-top: 4%;
+        margin-left: 5%;
+      }
+    
+     #your_comment {
+      text-align: left;
+     }
+    
+      #art4 {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        margin-right: -10px;
+      }
+    
+      .sec4 {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin: 10px
+      }
 
-aside {
-    width: 35%;
-}
+    
+      
+      .p {
+        width: 100%;
+      }
 
+      .lado {
+        display: flex;
+        flex-direction: column;
+    }
 
-#card1{
-  display: flex;
-  flex-direction: column;
-}
-
-
-img{
-    border-radius: 10px;
-}
-
-p{
-    margin-top: 10px;
-    font-size: 17px;
-}
-
-#div4{
-    margin-top: 3%;
-    border-top: 1px solid black;
-    display: flex;
-    width: 80%;
-    margin-left: 9%;
-    margin-bottom: 5px solid black;
-}
-
-#p1{
-    margin-top: 15%;
-    margin-right: 5%;
-    text-align: center;
-}
-
-#img4 {
-    margin-top: 0%;
-}
-
-#img5 {
-    margin-left: 11%;
-    width: 200px;
-    height: 200px;
-}
-
-#img0 {
-    margin-bottom: -2%;
-    margin-top: 2%;
-}
-
-h2 {
-    margin-top: 1%;
-
-}
-
-#p2 {
-    margin-top: 100%;
-    margin-left: -190%;
-    margin-bottom: -9%;
-    margin-right: 100%;
-}
-
-#ado {
-    margin-left: 11%;
-}
-
-#img00 {
-    margin-right: 2%;
-    margin-top: 2%;
-}
-
-#h22 {
-    margin-left: -1%;
-}
-
-#adulto {
-    margin-left: 4px;
-}
-
-li {
-    margin: 5px;
-   margin-left: 2px;
-    list-style: none;
-}
-
-#div{
-    margin-bottom: 0;
-  }
-  
-  /*responsável pela aba de comentários*/
-  #art4 {
-    flex-direction: column;
-    width: 950px;
-  }
-  
-  .sec4 {
-    background-color: white;
-    border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-    margin-left: -95px;
-    padding: 0;
-    width: 200px;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: 40%;
-  }
-  
-  .icon_profile {
-    border-radius: 100%;
-  }
-  
-  .nickname {
-    margin-left: 5%;
-    margin-top: 5%;
-    border-bottom: 2px solid #063e8d;
-  }
-  
-  .comment_info {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-  }
-  
-  .title_name {
-    color: #999;
-  }
-  
-  
-  .content_comment_card p::after {
-  content: "\201D";
-  display: inline;
-  color: #999;
-  }
-  
-  .content_comment_card p::before {
-  content: "\201C";
-  display: inline;
-  color: #999;
-  }
-  
-  #div5 form {
-    margin-left: 2%;
-   flex-direction: column;
-   display: flex;
-  }
-  
-  #your_comment {
-    width: 220%;
-  }
-  
-  #comments {
-    font-size:x-large;
-    margin-top: 4%;
-  }
-
-
-p {
-    font-size: 5px;
-}
-}
+    #div4{
+        margin-top: 3%;
+        border-top: 1px solid black;
+        display: flex;
+        width: 80%;
+        margin-left: 9%;
+        margin-bottom: 5px solid black;
+        flex-direction: column;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+  } 

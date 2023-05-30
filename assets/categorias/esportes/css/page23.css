@@ -273,7 +273,7 @@ iframe{
         flex-direction: column;
     }
     .sec4{
-        width: 300px;
+        width: 65vw;
     }
     #art4{
         align-items: center;
@@ -335,5 +335,8 @@ iframe{
 }
 #img4{
     margin-bottom: 0px;
+}
+.comment_info {
+    display: flex;
 }
 }

@@ -70,9 +70,11 @@ body{
     margin-top: 2%;
  }
  @media screen and (max-width: 687px) {
+    /*footter e header*/
     #iframe2 {
         margin-bottom: -28px;
     }
+    /*concertando os cards*/
     .pp {
         height: 25vh;
        
@@ -84,6 +86,7 @@ body{
         justify-content: center;
         vertical-align: middle;
     }
+    /*arrumando a fonte*/
    h1{
     font-size: 15px;
    }

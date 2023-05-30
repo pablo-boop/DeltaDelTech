@@ -247,6 +247,7 @@ p {
 }
 
 @media (max-width: 687px){
+    /*arrumando o primeiro card*/
 #div1{
     margin-left: 0px;
     padding: 0%;
@@ -293,10 +294,12 @@ art4{
     margin-left: 5%;
     margin-bottom: 5px solid black;
 }
+/*arrumando a class lado*/
 .lado{
     flex-direction: column-reverse;
     margin-left: 1%
 }
+/*arrumando o card 2*/
 #div2{
     flex-direction: column;
     width: 95%;
@@ -305,6 +308,7 @@ art4{
 .img4{
 margin-left: 30%;
 }
+/*arrumando outros  cards*/
 #card-p {
     margin-right: 7%;
     width: 90%;

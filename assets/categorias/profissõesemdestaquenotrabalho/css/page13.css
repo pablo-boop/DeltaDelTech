@@ -197,10 +197,40 @@ body {
     font-size: x-large;
 }
 
-.content_comment_card {
 
-}
 
 p {
     font-size: 20px;
+}
+@media(max-width: 687px){
+    #sla{
+        flex-direction: column;
+    }
+    #sec1{
+        flex-direction: column;
+        width: 95vw;
+
+    }
+    .img1{
+        margin-left: -10%;
+        width: 350px;
+        
+    }
+    #sec3{
+        margin-left: 5%;
+        width: 90vw;
+        padding: 10%;
+    }
+    #div2{
+        width: 80%;
+    }
+    #art4{
+        flex-direction: column;
+    }
+    .sec4{
+    margin-left: 5%;
+    padding: 1%;
+    width: 90%;
+    margin-bottom: 0;
+    }
 }

@@ -270,4 +270,9 @@ display: flex;
     #div3{
         flex-direction: column;
     }
+    #card3{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
 }

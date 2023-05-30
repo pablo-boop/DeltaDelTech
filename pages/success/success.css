@@ -74,6 +74,7 @@ button:hover {
 @media screen and (max-width: 500px) {
     #h11 {
         text-align: center;
+        font-size: 30px;
     }
     #sla {
         flex-direction: column;
@@ -82,28 +83,37 @@ button:hover {
         margin-top: 5vh;
         margin-left: 15%;
         margin-right: 15%;
+        height: 30vh;
     }
     #p2 {
         margin-top: 5vh;
         text-align: center;
     }
     #p2 p {
-        font-size: 25px;
+        font-size: 20px;
     }
     #p3 {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: -2vw;
     }
     #p4 {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: -2vw;
     }
     button {
         text-align: center;
-        margin-left: 33vw;
+        margin-left: 25vw;
         margin-top: 10vh;
         font-size: 20px;
         height: 10vh;
-        width: 40vw;
+        width: 50vw;
+    }
+    button:hover {
+        text-align: center;
+        margin-left: 25vw;
+        margin-top: 10vh;
+        font-size: 20px;
+        height: 10vh;
+        width: 50vw;
     }
 }

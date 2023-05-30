@@ -239,6 +239,9 @@ h1 {
 }
 
 @media screen and (max-width: 687px) {
+    main{
+        text-align: center;
+    }
 
     /* Arrumando os comentarios */
     #art4 {
@@ -260,11 +263,14 @@ h1 {
         justify-content: center;
         display: flex;
     }
+    #div1{
+        margin: 0%;
+    }
 
     /*Arrumando escritas*/
     .p {
         width: 175px;
-        margin-left: 35px;
+        text-align: center;
     }
 
     .p {
@@ -274,5 +280,19 @@ h1 {
     /*Arrumando os cards*/
     #div3 {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+    #card1{
+        width: 20vh;
+        height: 50vh;
+    }
+    #card3{
+        width: 50vw;
+        height: 30vh;
+
+
     }
 }

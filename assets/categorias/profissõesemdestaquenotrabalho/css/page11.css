@@ -226,7 +226,7 @@ p {
   #linha2{
     margin-bottom: 5%;
   }
-
+  /*arrumando os comentarios*/
   #art4 {
     display: flex;
     flex-direction: column;

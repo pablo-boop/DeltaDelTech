@@ -251,25 +251,6 @@ display: flex;
         justify-content: center;
         display: flex;
     }
-#div7{
-    height: 45px;
-    display: flex;
-    flex-direction: column;
-}
-#your_comment{
-    width: 30.8%;
-}
-#card1{
-    display: flex;
-    flex-direction: column-reverse;
-}
-#bloco1{
-    height: 70%;
-}
-#p1{
-    height: 400px;
-    margin-left: 5px;
-}
 #img4{
     margin-bottom: 0px;
 }

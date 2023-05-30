@@ -117,6 +117,12 @@ main {
     width: 200px;
 }
 
+#btn_tab:hover {
+    background-color: #F1F6F9;
+    color: #212A3E;
+    transition: 0.5s;
+}
+
 #left {
     align-items: center;
     justify-content: center;

@@ -251,9 +251,6 @@ display: flex;
         justify-content: center;
         display: flex;
     }
-.lado{
-    flex-direction: column;
-}
 #bloco2{
     margin-left: 12%;
 }

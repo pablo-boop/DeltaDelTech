@@ -1,49 +1,51 @@
-body{
+body {
     background-color: rgb(220, 220, 220);
 }
-h1{
+
+h1 {
     color: black;
     margin-left: 120%;
     font-size: 70px;
 }
 
 /*banner*/
-.main-banner{
-    background:url(../../../../assets/imagens/banner2.png) no-repeat;
+.main-banner {
+    background: url(../../../../assets/imagens/banner2.png) no-repeat;
     background-size: cover;
     background-position: 0 30%;
     position: relative;
     border-radius: 10px;
 
 }
-.flexslider{
+
+.flexslider {
     position: relative;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 8%;
-    padding-bottom:7% ;
+    padding-bottom: 7%;
     text-align: center;
 }
 
 /*Fixação do footer*/
-#iframe2{
+#iframe2 {
     bottom: 0%;
     margin-bottom: -5px;
 }
 
 * {
-    margin:0;
+    margin: 0;
 }
 
 /*Estilização div1*/
-#div1{
+#div1 {
     text-align: center;
     padding: 2%;
-   
+
 }
 
-#bloco1 {   
+#bloco1 {
     background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -55,14 +57,15 @@ h1{
     margin: 5%;
     width: 70%;
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
-h2{
+
+h2 {
     text-align: center;
 }
 
 /*estilização dos cards*/
-.section{
+.section {
     background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -70,37 +73,44 @@ h2{
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-left: #063e8d solid 10px;
     border-radius: 10px;
-    padding:2%;
+    padding: 2%;
     margin: 1%;
     text-align: center;
     width: 33%;
 }
-#div2{
+
+#div2 {
     display: flex;
     border-top: 1px solid black;
     padding: 1%;
 }
-#div3{
+
+#div3 {
     display: flex;
- 
+
 }
-#div4{
+
+#div4 {
     display: flex;
 }
-h2{
+
+h2 {
     text-align: center;
 }
-.img1{
+
+.img1 {
     margin: 2%;
     padding: 1%;
     margin: 2%;
     align-items: center;
 }
+
 /*hover*/
-.section:hover{
+.section:hover {
     transform: scale(1.05);
 }
-#div{
+
+#div {
     margin-bottom: 0;
 }
 
@@ -113,7 +123,7 @@ h2{
     margin-bottom: 0;
     margin-top: 4%;
     margin-right: 10%;
-    
+
 }
 
 .sec4 {
@@ -132,8 +142,9 @@ h2{
 }
 
 .content_comment_card {
-display: flex;
+    display: flex;
 }
+
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
@@ -149,26 +160,24 @@ display: flex;
     color: #999;
 }
 
-.comment_card {
-    
-}
+.comment_card {}
 
 .content_comment_card p::after {
-	content: "\201D";
-	display: inline;
-	color: #999;
+    content: "\201D";
+    display: inline;
+    color: #999;
 }
 
 .content_comment_card p::before {
-	content: "\201C";
-	display: inline;
-	color: #999;
+    content: "\201C";
+    display: inline;
+    color: #999;
 }
 
 #div5 form {
     margin-left: 4%;
-   flex-direction: column;
-   display: flex;
+    flex-direction: column;
+    display: flex;
 }
 
 #your_comment {
@@ -176,16 +185,84 @@ display: flex;
 }
 
 #comments {
-    font-size:x-large;
+    font-size: x-large;
     margin-top: 4%;
     text-align: left;
 }
-#div5{
+
+#div5 {
     margin-top: 1%;
     margin-left: 3%;
 }
 
-.p{
+.p {
     font-size: 20px;
     margin-top: 2%;
+}
+
+@media screen and (max-width: 687px) {
+
+    /* Arrumando os comentarios */
+    #art4 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .sec4 {
+        width: 65vw;
+    }
+
+    #bloco1 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    /*arrumando blosos*/
+    #div1 {
+        width: 100vw;
+    }
+    #div2 {
+        flex-direction: column;
+    }
+    #div3{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    #div4{
+        flex-direction: column;
+    }
+    .section {
+        background-color: #c6d0de;
+        border: 1px black solid;
+        -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        border-left: #063e8d solid 10px;
+        border-radius: 10px;
+        padding: 2%;
+        margin: 1%;
+        text-align: center;
+        width: 68vw;
+        margin-left: 7vh;
+    }
+    /*arrumando escritas*/
+    .p {
+        width: 175px;
+        text-align: center;
+        margin: 10vw;
+    }
+
+    .p {
+        font-size: 13px
+    }
+    h1{
+        font-size: 25px;
+    }
+/*Input comentarios*/
+#your_comment{
+    width: 40vw;
+}
 }

@@ -18,12 +18,11 @@ body {
     border-radius: 10px;
     padding:2%;
     margin-top: 2%;
-    width: 100%;
-    margin-left: 18%;
+    width: 94%;
 }
 #bloco2 { 
     width: 65%;
-      background-color: #c6d0de;
+    background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -36,9 +35,8 @@ body {
 
 }
 .lado {
-    display: flex;
-    flex-direction: column;
 }
+
 #bloco3{
     padding:2%;
     margin: 1%;
@@ -56,6 +54,7 @@ aside {
     border-left: #063e8d solid 10px;
     border-radius: 10px;
     padding:2%;
+    width: 100%;
     margin: 1%
 }
 
@@ -104,7 +103,7 @@ p{
 }
 
 #img5 {
-    margin-left: 11%;
+    margin-left: 3%;
 }
 
 #img0 {
@@ -153,10 +152,9 @@ li {
 #art4 {
     background-color: none;
     margin: 1%;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
+    padding: 10%;
     margin-bottom: 0;
+
 }
 
 .sec4 {
@@ -165,7 +163,7 @@ li {
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     margin: 1%;
     padding: 2%;
-    width: 33vw;
+    width: 100%;
     margin-bottom: 0;
     margin-top: 3%;
 }
@@ -210,8 +208,6 @@ li {
 
 #div5 form {
     margin-left: 4%;
-   flex-direction: column;
-   display: flex;
 }
 
 #your_comment {

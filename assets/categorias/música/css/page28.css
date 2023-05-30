@@ -82,7 +82,6 @@ img {
     padding: 2%;
     width: 33%;
     margin-bottom: 0;
-    margin-left: 5vw;
 }
 
 .icon_profile {
@@ -203,9 +202,9 @@ p {
         border-radius: 10px;
         margin-top: 12%;
         width: 60%;
-        margin-left: -4%;
+        margin-left: -8%;
         margin-right: 23%;
-        width: 90vw;
+        width: 100vw;
     }
     
     
@@ -245,8 +244,8 @@ p {
         box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
         padding: 2%;
         margin-bottom: 0;
-        width:80vw;
-
+        width: 94vw;
+        margin-right:-10px;
     }
     
     .icon_profile {
@@ -284,8 +283,7 @@ p {
         content: "\201C";
         display: inline;
         color: #999;
-        display: flex;
-        flex-direction: column;
+      
     }
     
     #div5 form {
@@ -295,7 +293,7 @@ p {
     }
     
     #your_comment {
-        width: 75vw;
+        width: 30.8%;
     }
     
     #comments {
@@ -328,7 +326,7 @@ p {
     }
 
     .imagens {
-        width:80vw;
+        width:90vw;
     }
 
 }

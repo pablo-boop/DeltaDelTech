@@ -257,6 +257,7 @@ display: flex;
         justify-content: center;
         display: flex;
     }
+    /*Arrumando escritas*/
         .p {
             width: 175px;
             margin-left: 35px;
@@ -264,5 +265,9 @@ display: flex;
     .p {
         font-size: 13px
         
+    }
+    /*Arrumando os cards*/
+    #div3{
+        flex-direction: column;
     }
 }

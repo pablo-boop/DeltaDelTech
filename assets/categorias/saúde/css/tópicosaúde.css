@@ -72,14 +72,18 @@ body{
 
 /*responsividade*/
 @media screen and (max-width: 687px) {
-      .pp {
-         height: 25vh;
-        }
-    
+    #iframe2 {
+        margin-bottom: -28px;
+    }
+    .pp {
+        height: 25vh;
+        width: 15vh;
+    }
+
     #bi {
-      align-items: center;
-       justify-content: center;
-       vertical-align: middle;
-     }
-     }
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+    }
+}
    

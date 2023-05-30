@@ -446,4 +446,20 @@ p {
         text-align: center;
         flex-direction: column;
     }
+
+    #img0 {
+        margin-top: 3vh;
+    }
+
+    #card3 {
+        margin-right: -5vw;;
+    }
+
+    .loi{
+        margin-left: 15vw;
+    }
+
+    img {
+       margin-left: -3vw;
+    }
 } 

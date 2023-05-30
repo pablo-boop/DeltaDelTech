@@ -1,9 +1,18 @@
 /*Estilização da section*/
 #s1 {
     display: flex;
-
+    text-align: justify;
     background-color: #c6d0de;
-
+}
+#s1 p {
+    font-size: 25px;
+    padding: 10vh;
+    width: 40vw;
+}
+#s1 img {
+    margin: 5vh;
+    width: 50vw;
+    height: 50vh;
 }
 section  {
 
@@ -14,20 +23,23 @@ section  {
     border-radius: 10px;
     background-color: #c6d0de;
     margin: 1%;
- 
-}
-#s2 {
-    display: flex;
 }
 #section1{
     padding: 1%;
 }
 
+#section1 h1 {
+    font-size: 30px;
+}
+
+/*Estilização da article*/
+#s2 {
+    display: flex;
+}
+
 /*Estilização do body*/
 body {
-    background-color: rgb(220, 220, 220);
-    font-size: 20px;
-    text-align: justify;
+    background-color: rgb(223, 223, 223);
 }
 
 /*Estilização do h1*/
@@ -37,8 +49,8 @@ h1{
     padding: 1%;
 }
 
-/*Centralização verticalmente*/
-.icon{
+/*Centralizar verticalmente*/
+ .icon{
     display: flex;
     margin: 2%;
     padding: 1%;
@@ -46,9 +58,10 @@ h1{
     align-items: center;
  }
 
- /*Estilização do p1*/
+ /*Estilização do p*/
  .p1{
   padding: 2%;
+  font-size: 25px;
  }
 
  /*Fixação do header e footer*/
@@ -61,36 +74,47 @@ h1{
     margin: 0;
  }
 
- .iframe1 {
-    margin-bottom: -5px;
-    bottom: 0%;
-}
+ ul li {
+    font-size: 25px;
+ }
 
-p {
-    margin: 3%;}
+ #curiosidade h1 {
+    font-size: 30px;
+ }
 
-    @media screen and (max-width: 500px) {
-        #s1 {
-            flex-direction: column;
-            text-align: center;
-            padding-bottom: 2vh;
-            margin-bottom: 5vh;
-        }
-        #s1 img {
-            margin: 5vh;
-        }
-        #s1 p {
-            width: 65vw;
-            margin-left: 15vw;
-        }
-        #section1 {
-            padding: 2vh;
-            margin-bottom: 5vh;
-        }
-        #s2 {
-            flex-direction: column;
-        }
-        #curiosidade {
-            padding: 2vh;
-        }
-     }
+ #curiosidade {
+    padding: 15vh;
+ }
+
+ @media screen and (max-width: 500px) {
+    #s1 {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2vh;
+        margin-bottom: 5vh;
+    }
+    #s1 img {
+        margin-left: 2vh;
+        margin-bottom: -5vh;
+        width: 350px;
+        height: 300px;
+    }
+    #s1 p {
+        width: 50vw;
+        margin-left: 1vw;
+    }
+    #section1 {
+        padding: 2vh;
+        margin-bottom: 5vh;
+    }
+    #s2 {
+        flex-direction: column;
+    }
+    #curiosidade {
+        padding: 2vh;
+    }
+    .p1 {
+        width: 50vw;
+        font-size: 20px;
+    }
+ }

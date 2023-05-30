@@ -311,11 +311,11 @@ iframe{
     margin-left: 12%;
 }
 #bloco3{
-    width: 300px;
+    width: 73vw;
     margin-left: 30%;
 }
 #div7{
-    height: 45px;
+    height: 8vh;
     display: flex;
     flex-direction: column;
 }
@@ -330,8 +330,8 @@ iframe{
     height: 70%;
 }
 #p1{
-    height: 400px;
-    margin-left: 5px;
+    height: 69vh;
+    margin-left: 1vh;
 }
 #img4{
     margin-bottom: 0px;

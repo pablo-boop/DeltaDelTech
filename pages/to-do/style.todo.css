@@ -81,6 +81,47 @@ main {
 
 #tabela {
     padding: 15px;
+    width: 15vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.plots {
+    border: #212A3E 1px solid;
+    -webkit-box-shadow: 10px 11px 31px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 31px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 31px -11px rgba(0,0,0,0.75);
+    width: 300%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+}
+
+.sec_tab {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#btn_tab {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #212A3E;
+    color: #F1F6F9;
+    width: 200px;
+}
+
+#left {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 800px) {
@@ -140,5 +181,6 @@ main {
     #dataP {
         text-align: center;
     }
+
 
 }

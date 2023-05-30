@@ -2,7 +2,7 @@
 let info = [];
 let info2 = [];
 
-//funções
+//função de plotar
 function plotar() {
     let title = document.getElementById("titulo").value;
     let description = document.getElementById("resumo").value;
@@ -15,23 +15,42 @@ function plotar() {
     info2.push(data);
 
     info.push(info2);
-
-    console.log(title);
-    console.log(description);
-    console.log(autor);
-    console.log(data);
-    console.log(info);
-
+    //atualiza
     atualizarlista()
 }
 
+var listaHtml = "";
+
+
+//função de inserir no to-do
 function atualizarlista() {
-    for (let i = 0; i < info.length; i++) {
-        for (let i = 0; i < info2.length; i++) {
-            document.getElementById("tabela").innerHTML = `
-                <p> ${info2[i]} </p>
-            `
-        }
-    }
+    //valor constante
+    const lista = document.getElementById("tabela");
+
+    listaHtml += `
+        <div class="plots">
+            <section class="sec_tab">
+            <h3 class="title"> Título: ${info2[0]} </h3>
+            <p class="p_a"> Resumo: ${info2[1]} </p>
+            <p class="p_a"> Autor: ${info2[2]} </p>
+            <p class="p_a"> Data: ${info2[3]} </p>
+            </section>
+            <section class="sec_tab">
+                <button id="btn_tab">excloi</button>
+            </section>
+        </div>
+        `
+    console.log(listaHtml);
+    //receber a alteração
+    lista.innerHTML = listaHtml;
+    //zera o valor do array
     info2 = [];
+
+    document.getElementById("titulo").value = "";
+    document.getElementById("resumo").value = "";
+    document.getElementById("autortitle").value = "";
+    document.getElementById("data").value = "";
 }
+
+
+

@@ -240,6 +240,7 @@ display: flex;
 }
 
 @media screen and (max-width: 687px) {
+    /* Arrumando os comentarios */
     #art4{
         flex-direction: column;
     }
@@ -250,5 +251,18 @@ display: flex;
         align-items: center;
         justify-content: center;
         display: flex;
+    }
+    #bloco1{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+        .p {
+            width: 175px;
+            margin-left: 35px;
+    }
+    .p {
+        font-size: 13px
+        
     }
 }

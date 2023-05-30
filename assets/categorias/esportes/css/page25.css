@@ -245,7 +245,7 @@ h2 {
         padding: 2%;
         margin: 1%;
         text-align: center;
-        width: 70vw;
+        width: 68vw;
         margin-left: 7vh;
     }
     /*arrumando escritas*/
@@ -261,4 +261,8 @@ h2 {
     h1{
         font-size: 25px;
     }
+/*Input comentarios*/
+#your_comment{
+    width: 40vw;
+}
 }

@@ -32,16 +32,15 @@ function plotar() {
     
 }
 
-var listaHtml = "";
-
 
 //função de inserir no to-do
 function atualizarlista() {
-  
+    var listaHtml = "";
     //valor constante
     const lista = document.getElementById("tabela");
 
-    listaHtml += `
+    for(let i = 0; i < info.length; i++) {
+        listaHtml += `
         <div class="plots">
             <section class="sec_tab">
             <h3 class="title"> Título: ${info2[0]} </h3>
@@ -50,11 +49,12 @@ function atualizarlista() {
             <p class="p_a"> Data: ${info2[3]} </p>
             </section>
             <section class="sec_tab">
-                <button id="btn_tab" onclick="antiplot()">excloi</button>
+                <button id="btn_tab" onclick="antiplot(${i})">excloi</button>
             </section>
         </div>
         `
-    console.log(listaHtml);
+    }
+
     //receber a alteração
     lista.innerHTML = listaHtml;
     //zera o valor do array
@@ -64,7 +64,8 @@ function atualizarlista() {
     document.getElementById("resumo").value = "";
     document.getElementById("autortitle").value = "";
     document.getElementById("data").value = "";
-    }
+
+}
 
 
 //excloi..
@@ -72,5 +73,5 @@ function antiplot(position) {
     info.splice(position, 1);
     atualizarlista();
 }
-antiplot();
+
 

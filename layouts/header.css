@@ -84,9 +84,13 @@ nav a:hover{
     border-bottom: white solid 1px;
 }
 
+
 /*Estilização da responsividade*/
-
-
+#responsive {
+    display: none;
+}
 @media screen and (max-width: 500px) {
-
+    nav ul {
+        display: none;
+    }
 }

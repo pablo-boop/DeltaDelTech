@@ -203,6 +203,7 @@ p {
     font-size: 20px;
 }
 @media(max-width: 687px){
+    /*arrumando o card 1*/
     #sla{
         flex-direction: column;
     }
@@ -216,6 +217,7 @@ p {
         width: 350px;
         
     }
+    
     #sec3{
         margin-left: 5%;
         width: 90vw;

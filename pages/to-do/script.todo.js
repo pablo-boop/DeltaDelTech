@@ -1,66 +1,37 @@
-/*let todo = [];
-let i = 0;
+//variaveis 
+let info = [];
+let info2 = [];
 
-
+//funções
 function plotar() {
+    let title = document.getElementById("titulo").value;
+    let description = document.getElementById("resumo").value;
+    let autor = document.getElementById("autortitle").value;
+    let data = document.getElementById("data").value;
 
-    let titulo = document.getElementById('titulo').value;
-    let resumo = document.getElementById('resumo').value;
-    let autor = document.getElementById('autortitle').value;
-    let data = document.getElementById('data').value;
+    info2.push(title);
+    info2.push(description);
+    info2.push(autor);
+    info2.push(data);
 
-    //colocando no array
-    todo.push(titulo);
-    todo.push(resumo);
-    todo.push(autor);
-    todo.push(data);
+    info.push(info2);
 
-    //apagando o conteudo do input
+    console.log(title);
+    console.log(description);
+    console.log(autor);
+    console.log(data);
+    console.log(info);
 
-    document.getElementById('titulo').innerHTML = '';
-    document.getElementById('resumo').innerHTML = '';
-    document.getElementById('autortitle').innerHTML = '';
-    document.getElementById('data').innerHTML = '';
-
-    let plot1 = '';
-    let plot2 = '';
-    let plot3 = '';
-    let plot4 = '';
-
-    plot1 = `<h3> título: ${todo[0]} </h3>`;
-    plot2 = `<p> resumo: ${todo[1]} <p>`;
-    plot3 = `<p> autor: ${todo[2]} <p>`;
-    plot4 = `<p> data: ${todo[3]} <p>`;
-
-
-//inserir no html
-document.getElementById("tabela").innerHTML = plot1 + plot2 + plot3 + plot4;
-}
-
-function editar() {
-    todo.pop();
-    todo.pop();
-    todo.pop();
-    todo.pop();
+    atualizarlista()
 }
 
 function atualizarlista() {
-
-}
-
-*/
-
-let todo = [];
-
-function fazer() {
-
-    for(let i = 0; i) {
-
-    
-    let titulo = document.getElementById('titulo').value;
-    let resumo = document.getElementById('resumo').value;
-    let autor = document.getElementById('autortitle').value;
-    let data = document.getElementById('data').value;
+    for (let i = 0; i < info.length; i++) {
+        for (let i = 0; i < info2.length; i++) {
+            document.getElementById("tabela").innerHTML = `
+                <p> ${info2[i]} </p>
+            `
+        }
     }
-
+    info2 = [];
 }

@@ -2,6 +2,7 @@
 let info = [];
 let info2 = [];
 
+
 var title = "";
 var description = "";
 var autor = "";
@@ -31,7 +32,7 @@ function plotar() {
 
     
 }
-
+var aux = [];
 
 //função de inserir no to-do
 function atualizarlista() {
@@ -39,14 +40,20 @@ function atualizarlista() {
     //valor constante
     const lista = document.getElementById("tabela");
 
+    let p = 0;
+    while (p < info2.length) {
+        aux.push(info2[p]);
+        p++
+    }    
+
     for(let i = 0; i < info.length; i++) {
         listaHtml += `
         <div class="plots">
             <section class="sec_tab">
-            <h3 class="title"> Título: ${info2[0]} </h3>
-            <p class="p_a"> Resumo: ${info2[1]} </p>
-            <p class="p_a"> Autor: ${info2[2]} </p>
-            <p class="p_a"> Data: ${info2[3]} </p>
+            <h3 class="title"> Título: ${aux[0]} </h3>
+            <p class="p_a"> Resumo: ${aux[1]} </p>
+            <p class="p_a"> Autor: ${aux[2]} </p>
+            <p class="p_a"> Data: ${aux[3]} </p>
             </section>
             <section class="sec_tab">
                 <button id="btn_tab" onclick="antiplot(${i})">excloi</button>
@@ -55,10 +62,12 @@ function atualizarlista() {
         `
     }
 
+
     //receber a alteração
     lista.innerHTML = listaHtml;
     //zera o valor do array
     info2 = [];
+
 
     document.getElementById("titulo").value = "";
     document.getElementById("resumo").value = "";
@@ -66,6 +75,9 @@ function atualizarlista() {
     document.getElementById("data").value = "";
 
 }
+
+aux = [];
+
 
 
 //excloi..

@@ -124,6 +124,11 @@ main {
     flex-direction: column;
 }
 
+#errorMsg{
+    color: red;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
 
     main {

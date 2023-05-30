@@ -14,14 +14,21 @@ function plotar() {
     autor = document.getElementById("autortitle").value;
     data = document.getElementById("data").value;
 
-    info2.push(title);
-    info2.push(description);
-    info2.push(autor);
-    info2.push(data);
+    if(data == "" || autor==""|| description == "" || title == "") {
+        document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";    
+    } else{
+        document.getElementById("errorMsg").innerHTML = "";    
+        info2.push(title);
+        info2.push(description);
+        info2.push(autor);
+        info2.push(data);
+    
+        info.push(info2);
+        //atualiza
+        atualizarlista()
+    }
 
-    info.push(info2);
-    //atualiza
-    atualizarlista()
+    
 }
 
 var listaHtml = "";
@@ -29,6 +36,7 @@ var listaHtml = "";
 
 //função de inserir no to-do
 function atualizarlista() {
+  
     //valor constante
     const lista = document.getElementById("tabela");
 
@@ -41,7 +49,7 @@ function atualizarlista() {
             <p class="p_a"> Data: ${info2[3]} </p>
             </section>
             <section class="sec_tab">
-                <button id="btn_tab">excloi</button>
+                <button id="btn_tab" onclick="antiplot()">excloi</button>
             </section>
         </div>
         `
@@ -55,11 +63,14 @@ function atualizarlista() {
     document.getElementById("resumo").value = "";
     document.getElementById("autortitle").value = "";
     document.getElementById("data").value = "";
-}
+    }
+
 
 //excloi..
 function antiplot() {
-
+    for(let i = 0; i < info2.length; i++){
+    info2.splice(info2.indexOf(i), 4);
+    }
 }
 
 

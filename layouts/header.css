@@ -83,3 +83,10 @@ nav a:hover{
 #sub {
     border-bottom: white solid 1px;
 }
+
+/*Estilização da responsividade*/
+
+
+@media screen and (max-width: 500px) {
+
+}

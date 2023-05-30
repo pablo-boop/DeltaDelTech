@@ -68,3 +68,29 @@ h1{
 
 p {
     margin: 3%;}
+
+    @media screen and (max-width: 500px) {
+        #s1 {
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 2vh;
+            margin-bottom: 5vh;
+        }
+        #s1 img {
+            margin: 5vh;
+        }
+        #s1 p {
+            width: 65vw;
+            margin-left: 15vw;
+        }
+        #section1 {
+            padding: 2vh;
+            margin-bottom: 5vh;
+        }
+        #s2 {
+            flex-direction: column;
+        }
+        #curiosidade {
+            padding: 2vh;
+        }
+     }

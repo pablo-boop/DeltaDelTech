@@ -69,4 +69,25 @@ body{
     text-align: center;
     margin-top: 2%;
  }
+ @media screen and (max-width: 687px) {
+    #iframe2 {
+        margin-bottom: -28px;
+    }
+    .pp {
+        height: 25vh;
+       
+        
+    }
+
+    #bi {
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+    }
+   h1{
+    font-size: 15px;
+   }
+   
+    
+ }
  

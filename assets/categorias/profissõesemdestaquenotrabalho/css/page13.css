@@ -203,6 +203,7 @@ p {
     font-size: 20px;
 }
 @media(max-width: 687px){
+    /*arrumando o card 1*/
     #sla{
         flex-direction: column;
     }
@@ -221,9 +222,11 @@ p {
         width: 90vw;
         padding: 10%;
     }
+    /*arrumando o card 2*/
     #div2{
         width: 80%;
     }
+    /*arrumando os comentarios*/
     #art4{
         flex-direction: column;
     }

@@ -9,6 +9,7 @@ var data = "";
 
 //função de plotar
 function plotar() {
+
     title = document.getElementById("titulo").value;
     description = document.getElementById("resumo").value;
     autor = document.getElementById("autortitle").value;
@@ -16,7 +17,7 @@ function plotar() {
 
     if(data == "" || autor==""|| description == "" || title == "") {
         document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";    
-    } else{
+    } else {
         document.getElementById("errorMsg").innerHTML = "";    
         info2.push(title);
         info2.push(description);
@@ -67,10 +68,9 @@ function atualizarlista() {
 
 
 //excloi..
-function antiplot() {
-    for(let i = 0; i < info2.length; i++){
-    info2.splice(info2.indexOf(i), 4);
-    }
+function antiplot(position) {
+    info.splice(position, 1);
+    atualizarlista();
 }
-
+antiplot();
 

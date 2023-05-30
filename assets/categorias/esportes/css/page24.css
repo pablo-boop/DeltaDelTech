@@ -296,11 +296,12 @@ h1 {
     }
     #lado-R {
         width: 70vw;
-        height: 30vh;
+        height: 35vh;
     }
     #card1{
         width: 70vw;
         margin: 0%;
+        height: 55vh;
     }
 
 }

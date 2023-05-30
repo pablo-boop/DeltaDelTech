@@ -287,8 +287,9 @@ iframe{
         flex-direction: column;
     }
     .p {
-        width: 185px;
+        width: 180px;
         margin-left: 30px;
+        text-align: center;
 }
 .p {
     font-size: 13px

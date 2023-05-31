@@ -1,10 +1,11 @@
 //variaveis 
+let global = [];
 let info = [];
-let info2 = [];
 
 
 var title = "";
 var description = "";
+var categoria = "";
 var autor = "";
 var data = "";
 
@@ -13,19 +14,22 @@ function plotar() {
 
     title = document.getElementById("titulo").value;
     description = document.getElementById("resumo").value;
+    categoria = document.getElementById("categoria").value;
     autor = document.getElementById("autortitle").value;
     data = document.getElementById("data").value;
 
-    if(data == "" || autor==""|| description == "" || title == "") {
+    if(data == "" || autor==""|| description == "" || title == "" || categoria == "Categorias...") {
         document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";    
     } else {
         document.getElementById("errorMsg").innerHTML = "";    
-        info2.push(title);
-        info2.push(description);
-        info2.push(autor);
-        info2.push(data);
+        info.push(title);
+        info.push(description);
+        info.push(categoria);
+        info.push(autor);
+        info.push(data);
     
-        info.push(info2);
+
+        global.push(info);
         //atualiza
         atualizarlista()
     }
@@ -40,20 +44,21 @@ function atualizarlista() {
     //valor constante
     const lista = document.getElementById("tabela");
 
-    let p = 0;
-    while (p < info2.length) {
-        aux.push(info2[p]);
+    let p = 0;while (p < info.length) {
+        aux.push(info[p]);
         p++
     }    
+    
 
-    for(let i = 0; i < info.length; i++) {
+    for(let i = 0; i < global.length; i++) {
         listaHtml += `
         <div class="plots">
             <section class="sec_tab">
             <h3 class="title"> Título: ${aux[0]} </h3>
             <p class="p_a"> Resumo: ${aux[1]} </p>
-            <p class="p_a"> Autor: ${aux[2]} </p>
-            <p class="p_a"> Data: ${aux[3]} </p>
+            <p class="p_a"> Categoria: ${aux[2]} </p>
+            <p class="p_a"> Autor: ${aux[3]} </p>
+            <p class="p_a"> Data: ${aux[4]} </p>
             </section>
             <section class="sec_tab">
                 <button id="btn_tab" onclick="antiplot(${i})">excloi</button>
@@ -66,11 +71,12 @@ function atualizarlista() {
     //receber a alteração
     lista.innerHTML = listaHtml;
     //zera o valor do array
-    info2 = [];
+    info = [];
 
 
     document.getElementById("titulo").value = "";
     document.getElementById("resumo").value = "";
+    document.getElementById("categoria").value = "Categoria...";
     document.getElementById("autortitle").value = "";
     document.getElementById("data").value = "";
 
@@ -82,7 +88,7 @@ aux = [];
 
 //excloi..
 function antiplot(position) {
-    info.splice(position, 1);
+    global.splice(position, 1);
     atualizarlista();
 }
 

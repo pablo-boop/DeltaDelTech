@@ -450,6 +450,7 @@ p {
         flex-direction: column;
     }
 
+    /*responsividade da imagem*/
     #img0 {
         margin-top: 3vh;
     }
@@ -458,10 +459,12 @@ p {
         margin-right: -5vw;;
     }
 
+    /*responsividade do card1*/
     .loi{
         margin-left: 15vw;
     }
 
+    /*responsividade da imagem*/
     img {
        margin-left: -3vw;
     }

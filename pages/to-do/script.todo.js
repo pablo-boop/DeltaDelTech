@@ -26,7 +26,7 @@ function plotar() {
         info.push(description);
         info.push(categoria);
         info.push(autor);
-        info.push(data(day, month, year));
+        info.push(data);
 
 
         global.push(info);
@@ -37,27 +37,26 @@ function plotar() {
 
 }
 
+
+
 //função de inserir no to-do
 function atualizarlista() {
     var listaHtml = "";
+
     //valor constante
     const lista = document.getElementById("tabela");
 
-
-
     for (let i = 0; i < global.length; i++) {
-        let aux = [];
-         for (let p = 0; p < info.length; p++) {
-            aux.push(info[p]);
-        }
-    listaHtml += `
+        const itens = global[i];
+        console.log(itens);
+        listaHtml += `
     <div class="plots">
         <section class="sec_tab">
-        <h3 class="title"> Título: ${aux[0]} </h3>
-        <p class="p_a"> Resumo: ${aux[1]} </p>
-        <p class="p_a"> Categoria: ${aux[2]} </p>
-        <p class="p_a"> Autor: ${aux[3]} </p>
-        <p class="p_a"> Data: ${aux[4]} </p>
+        <h3 class="title"> Título: ${itens[0]} </h3>
+        <p class="p_a"> Resumo: ${itens[1]} </p>
+        <p class="p_a"> Categoria: ${itens[2]} </p>
+        <p class="p_a"> Autor: ${itens[3]} </p>
+        <p class="p_a"> Data: ${itens[4]} </p>
         </section>
         <section class="sec_tab">
             <button id="btn_tab" onclick="antiplot(${i})">excloi</button>
@@ -65,7 +64,6 @@ function atualizarlista() {
     </div>
     `
         info = [];
-        aux = [];
     }
 
     //receber a alteração

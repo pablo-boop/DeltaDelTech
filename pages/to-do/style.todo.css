@@ -32,6 +32,7 @@ main {
     margin-top: 75px;
     padding-right: 475px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 40vw;
 
 }
 
@@ -137,61 +138,52 @@ main {
 
 @media screen and (max-width: 800px) {
 
-    main {
-        height: 200vh;
-    }
-
-    header {
-        width: 310vw;
-        height: 50vh;
-        font-size: 50px;
-        padding-top: 200px;
-    }
     #global {
-        display: flex;
         flex-direction: column;
-        width: 100%;
-    }
-    #left {
-        margin-left: 90vw;
-        font-size: 50px;
-    }
-    .texto {
-        width: 120vw;
-        height: 5vh;
-    }
-    #resumo {
-        width: 69vw;
-        height: 5vh;
-        padding: 4vw;
-        border: 1px solid black;
+        align-items: center;
     }
 
-    #data {
-        width: 50vw;
-        height: 3vh;
-        font-size: 30px;
-        margin-left: 45px;
-    }
-    #botao {
-        width: 250px;
-        height: 50px;
-        font-size: 25px;
-        border-radius: 15px;
-        margin-left: 30px;
-    }
     #right {
-        margin-left: 8vw;
-        margin-right: 7vw;
-        padding-bottom: 100vh;
-    }
-    #right h2 {
-        width: 300vw;
+        width: 90vw;
+        margin: 10px;
+        padding: 0;
+        margin: 10px;
+
     }
 
-    #dataP {
+    #left {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
 
+    #tabela {
+        height: 40vh;
+        margin: 0;
+        width: 90%;
+    }
+
+    #data {
+        margin: 0;
+    }
+
+    #botao {
+        margin: 10px;
+    }
+
+    #plots {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 10%;
+        margin: 0;
+        margin-right: -100%;
+    }
+
+    .sec_tab {
+        width: -10vw;
+        
+    }
 
 }

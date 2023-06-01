@@ -17,6 +17,7 @@ function plotar() {
     categoria = document.getElementById("categoria").value;
     autor = document.getElementById("autortitle").value;
     data = document.getElementById("data").value;
+    //transforma data em vetor pelo "-"
     let data2 = data.split("-");
     var novadata = data2.reverse().join("/");
 

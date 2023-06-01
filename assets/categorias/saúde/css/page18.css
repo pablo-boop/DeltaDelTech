@@ -242,11 +242,13 @@ p {
         margin: 0;
       }
 
+      /*Responsividade das partes do título e texto dos tópicos*/
       #card1{
         display: flex;
         flex-direction: column;
       }
-    
+
+    /*Responsividade do titulo*/
       #bloco1 {
         margin: 0vw;
         padding: 5vw;
@@ -274,6 +276,7 @@ p {
         width: 260%;
     }
     
+    /*Responsividade do aside*/
     aside {
         width: 35%;
     }
@@ -318,12 +321,13 @@ p {
         margin: 0;
       }
     
+      /*Responsividade do paragrafo*/
       #p1{
         width: 80vw;
         margin: 0;
         text-align: center;
     }  
-    
+     /*Responsividade do paragrafo*/
       #p2 {
         width: 80vw;
         margin: 0;
@@ -337,11 +341,12 @@ p {
         border: none;
       }
     
-    
+    /*responsividade do link com a pagina de contato*/
      form {
       text-align: center;
      }
     
+     /*Responsividade dos comentarios*/
      #your_comment {
       width: 60%;
       height: 3vh;
@@ -404,6 +409,7 @@ p {
         text-align: center;
     }
 
+     /*Responsividade das imagens*/
     #img0{
         margin-left: 13vh;
     }

@@ -279,12 +279,13 @@ p {
       h2 {
         margin: 0;
       }
-
+      /*responsividade do card*/
       #card1{
         display: flex;
         flex-direction: column;
       }
     
+       /*responsividade do card*/
       #bloco1 {
         margin: 0vw;
         padding: 5vw;
@@ -312,6 +313,7 @@ p {
         width: 260%;
     }
     
+    /*Responsividade do aside*/
     aside {
         width: 35%;
     }
@@ -356,6 +358,7 @@ p {
         margin: 0;
       }
     
+      /*responsividade do paragrafo*/
       #p1{
         width: 80vw;
         margin: 0;
@@ -375,11 +378,12 @@ p {
         border: none;
       }
     
-    
+    /*responsividade do link com a pagina de contato*/
      form {
       text-align: center;
      }
     
+     /*Responsividade dos comentarios*/
      #your_comment {
       width: 60%;
       height: 3vh;
@@ -447,6 +451,7 @@ p {
         flex-direction: column;
     }
 
+    /*responsividade da imagem*/
     #img0 {
         margin-top: 3vh;
     }
@@ -455,10 +460,12 @@ p {
         margin-right: -5vw;;
     }
 
+    /*responsividade do card1*/
     .loi{
         margin-left: 15vw;
     }
 
+    /*responsividade da imagem*/
     img {
        margin-left: -3vw;
     }

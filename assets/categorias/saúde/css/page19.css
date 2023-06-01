@@ -198,6 +198,7 @@ html {
     flex-direction: column;
   }
 
+  /*responsividade do card*/
   #bloco1 {
     margin: 0vw;
     padding: 5vw;
@@ -225,6 +226,7 @@ html {
     width: 260%;
 }
 
+/*Responsividade do aside*/
 aside {
     width: 35%;
 }
@@ -288,11 +290,12 @@ aside {
     border: none;
   }
 
-
+/*responsividade do link com a pagina de contato*/
  form {
   text-align: center;
  }
 
+ /*Responsividade dos comentarios*/
  #your_comment {
   width: 60%;
   height: 3vh;
@@ -351,7 +354,7 @@ aside {
     margin-bottom: 5px solid black;
     flex-direction: column;
 }
-
+/*responsividade do h2*/
 h2 {
     text-align: center;
 }

@@ -17,6 +17,8 @@ function plotar() {
     categoria = document.getElementById("categoria").value;
     autor = document.getElementById("autortitle").value;
     data = document.getElementById("data").value;
+    let data2 = data.split("-");
+    var novadata = data2.reverse().join("/");
 
     if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
         document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";
@@ -26,7 +28,7 @@ function plotar() {
         info.push(description);
         info.push(categoria);
         info.push(autor);
-        info.push(data);
+        info.push(novadata);
 
 
         global.push(info);

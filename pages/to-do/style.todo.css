@@ -6,12 +6,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: #9BA4B5;
-    text-align: center;
-    padding: 20px;
-}
-
 main {
     height: 1000px;
 }
@@ -139,13 +133,6 @@ main {
 
     main {
         height: 200vh;
-    }
-
-    header {
-        width: 310vw;
-        height: 50vh;
-        font-size: 50px;
-        padding-top: 200px;
     }
     #global {
         display: flex;

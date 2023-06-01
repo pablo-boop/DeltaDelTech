@@ -98,5 +98,18 @@ nav a:hover {
 }
 
 @media screen and (max-width: 500px) {
-
+    header {
+        height: 15vh;
+    }
+    #first {
+        display: none;
+    }
+    #mobile {
+        display: inline-flex;
+    }
+    svg {
+        color: white;
+        margin: 3vw;
+        margin-top: 3vh;
+    }
 }

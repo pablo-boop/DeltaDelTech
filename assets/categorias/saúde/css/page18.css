@@ -321,12 +321,13 @@ p {
         margin: 0;
       }
     
+      /*Responsividade do paragrafo*/
       #p1{
         width: 80vw;
         margin: 0;
         text-align: center;
     }  
-    
+     /*Responsividade do paragrafo*/
       #p2 {
         width: 80vw;
         margin: 0;

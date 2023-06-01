@@ -419,7 +419,8 @@ font-size: 20px;
         display: flex;
         margin-top: 3%;
         margin-left: -21px;
-        width: 88vw;
+        width: 87vw;
+        font-size: 15px;
         
     }
     

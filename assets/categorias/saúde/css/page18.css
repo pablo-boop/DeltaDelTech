@@ -247,7 +247,7 @@ p {
         display: flex;
         flex-direction: column;
       }
-    
+    /*Responsividade do titulo*/
       #bloco1 {
         margin: 0vw;
         padding: 5vw;

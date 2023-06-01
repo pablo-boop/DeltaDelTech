@@ -198,6 +198,7 @@ html {
     flex-direction: column;
   }
 
+  /*responsividade do card*/
   #bloco1 {
     margin: 0vw;
     padding: 5vw;

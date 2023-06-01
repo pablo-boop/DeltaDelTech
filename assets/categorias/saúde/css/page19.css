@@ -354,7 +354,7 @@ aside {
     margin-bottom: 5px solid black;
     flex-direction: column;
 }
-
+/*responsividade do h2*/
 h2 {
     text-align: center;
 }

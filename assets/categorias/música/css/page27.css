@@ -262,11 +262,12 @@ font-size: 20px;
         border-radius: 10px;
         padding:2%;
         margin-top: 5%;
-        width:90vw;
+        width:86vw;
+        margin-left: 18%;
         }
         
     #bloco2 { 
-        width: 65vw;
+        width: 80vw;
         background-color: #c6d0de;
         border: 1px black solid;
         -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -276,7 +277,6 @@ font-size: 20px;
         border-radius: 10px;
         padding:2%;
         margin-top: 5%;
-        width: 94vw;
         }
 
     .lado {
@@ -301,7 +301,9 @@ font-size: 20px;
         border-left: #063e8d solid 10px;
         border-radius: 10px;
         padding:2%;
-        margin: 1%
+        margin: 1%;
+        width: 86vw;
+    
     }
     
     h1{

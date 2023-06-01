@@ -187,6 +187,7 @@ h2 {
     width: 260%;
 }
 
+/*Responsividade do aside*/
 aside {
     width: 35%;
 }
@@ -255,6 +256,7 @@ aside {
   text-align: center;
  }
 
+  /*Responsividade dos comentarios*/
  #your_comment {
   width: 60%;
   height: 3vh;

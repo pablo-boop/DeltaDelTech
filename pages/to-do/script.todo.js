@@ -21,9 +21,10 @@ function plotar() {
     let data2 = data.split("-");
     //inverte e separar por "/"
     var novadata = data2.reverse().join("/");
-
+    //verifica se os inputs estão vazios
     if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
         document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";
+    //se não for vazio, realiza o plot do artigo
     } else {
         document.getElementById("errorMsg").innerHTML = "";
         info.push(title);

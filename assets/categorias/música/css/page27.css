@@ -18,12 +18,11 @@ body {
     border-radius: 10px;
     padding:2%;
     margin-top: 2%;
-    width: 60%;
-    margin-left: 18%;
+    width: 94%;
 }
 #bloco2 { 
     width: 65%;
-      background-color: #c6d0de;
+    background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -36,8 +35,8 @@ body {
 
 }
 .lado {
-    display: flex;
 }
+
 #bloco3{
     padding:2%;
     margin: 1%;
@@ -55,6 +54,7 @@ aside {
     border-left: #063e8d solid 10px;
     border-radius: 10px;
     padding:2%;
+    width: 100%;
     margin: 1%
 }
 
@@ -103,7 +103,7 @@ p{
 }
 
 #img5 {
-    margin-left: 11%;
+    margin-left: 3%;
 }
 
 #img0 {
@@ -152,9 +152,9 @@ li {
 #art4 {
     background-color: none;
     margin: 1%;
-    padding: 2%;
-    display: flex;
+    padding: 10%;
     margin-bottom: 0;
+
 }
 
 .sec4 {
@@ -163,7 +163,7 @@ li {
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     margin: 1%;
     padding: 2%;
-    width: 33%;
+    width: 100%;
     margin-bottom: 0;
     margin-top: 3%;
 }
@@ -208,8 +208,6 @@ li {
 
 #div5 form {
     margin-left: 4%;
-   flex-direction: column;
-   display: flex;
 }
 
 #your_comment {
@@ -224,3 +222,275 @@ li {
 p {
 font-size: 20px;
 }    
+
+
+@media screen and (max-width:687px) {
+    body {
+        background-color: rgb(223, 223, 223);
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div1 {
+        margin-left: -20vw;
+    }
+
+    #titulo {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        background-color: #c6d0de;
+        margin-top: 1%;
+    }
+    
+    p1 {
+        width: 180vw;
+        text-align: justify;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    #bloco1 {   
+        background-color: #c6d0de;
+        border: 1px black solid;
+        -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        border-left: #063e8d solid 10px;
+        border-radius: 10px;
+        padding:2%;
+        margin-top: 5%;
+        width:86vw;
+        margin-left: 18%;
+        }
+        
+    #bloco2 { 
+        width: 80vw;
+        background-color: #c6d0de;
+        border: 1px black solid;
+        -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        border-left: #063e8d solid 10px;
+        border-radius: 10px;
+        padding:2%;
+        margin-top: 5%;
+        }
+
+    .lado {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    #bloco3{
+        padding:2%;
+        margin: 1%;
+        width: 94vw;
+        margin-top: 6%;
+    }
+    
+    #card3 {
+        background-color: #c6d0de;
+        border: 1px black solid;
+        -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        border-left: #063e8d solid 10px;
+        border-radius: 10px;
+        padding:2%;
+        margin: 1%;
+        width: 86vw;
+    
+    }
+    
+    h1{
+        text-align: center;
+        margin: 5px;
+    }
+    
+    #card1{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    img{
+        border-radius: 10px;
+    }
+    
+    #iframe{
+        margin-bottom: -5px;
+    }
+    
+    *{
+        margin: 0;
+    }
+    
+    p{
+        margin-top: 10px;
+    }
+    
+    #div4{
+        margin-top: 3%;
+        border-top: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin-left: 9%;
+        margin-bottom: 5px solid black;
+    }
+    
+    #p1{
+        width: 75vw;
+        margin-left: 10%;
+        text-align: justify;
+    }
+    
+    #img4 {
+        margin-top: 15%;
+    }
+    
+    #img5 {
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #img0 {
+        margin-bottom: -2%;
+        margin-top: 2%;
+    }
+    
+    h2 {
+        margin-top: 1%;
+    }
+    
+    #p2 {
+        width: 75vw;
+        margin-left: 10%;
+        text-align: justify;
+    }
+    
+    #ado {
+        margin-left: 11%;
+    }
+    
+    #img00 {
+        margin-right: 2%;
+        margin-top: 2%;
+    }
+    
+    #h22 {
+        margin-left: -1%;
+    }
+    
+    #adulto {
+        margin-left: 4px;
+    }
+    
+    li {
+        margin: 5px;
+       margin-left: 2px;
+        list-style: none;
+    }
+    #div{
+        margin-bottom: 0;
+    }
+    
+    /*responsável pela aba de comentários*/
+    #art4 {
+        background-color: none;
+        margin: 1%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    
+    .sec4 {
+        background-color: white;
+        border-radius: 0.25rem;
+        box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+        margin: 1%;
+        width: 98vw;
+        flex-direction: column;
+        display: flex;
+        margin-top: 3%;
+        margin-left: -21px;
+        width: 87vw;
+        font-size: 15px;
+        
+    }
+    
+    .icon_profile {
+        border-radius: 100%;
+    }
+    
+    .content_comment_card {
+    }
+
+    .nickname {
+        margin-left: 5%;
+        margin-top: 5%;
+        border-bottom: 2px solid #063e8d;
+    }
+    
+    .comment_info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    
+    .title_name {
+        color: #999;
+    }
+    
+    
+    .content_comment_card p::after {
+        content: "\201D";
+        display: flex;
+        flex-direction: column;
+        display: inline;
+        color: #999;
+    }
+    
+    .content_comment_card p::before {
+        content: "\201C";
+        display: inline;
+        color: #999;
+    }
+    
+    #div5 form {
+       flex-direction: column;
+       display: flex;
+    }
+    
+    #your_comment {
+        width: 50vw;
+        
+    }
+    
+    #comments {
+        font-size:x-large;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    p {
+    font-size: 20px;
+    }    
+
+    #img1 {
+        margin-top: 20px;
+        width: 50vw;
+        margin-left: 80px;
+        height: 100px;
+    }
+
+}
+
+/*Obs: nas laterais tem uma pequena margem mas, desconheço da onde está  vindo
+por causa que já revi e não consegui detectar.

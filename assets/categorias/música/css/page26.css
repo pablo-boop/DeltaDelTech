@@ -33,7 +33,7 @@ body {
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     margin: 1%;
     padding: 2%;
-    width: 33%;
+    width: 33vw;
     margin-bottom: 0;
 }
 
@@ -57,10 +57,6 @@ body {
 
 .title_name {
     color: #999;
-}
-
-.comment_card {
-
 }
 
 .content_comment_card p::after {
@@ -116,17 +112,17 @@ html {
 
   /*responsável pela box shadow de um dos artigos*/
   #bloco1 {
-        background-color: #c6d0de;
-        border: 1px black solid;
-        -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-        -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-        box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-        border-left: #063e8d solid 10px;
-        border-radius: 10px;
-        padding:2%;
-        margin-top: 5%;
-        width: 60%;
-        margin-left: 18%;
+      background-color: #c6d0de;
+      border: 1px black solid;
+      -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+      -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+      box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+      border-left: #063e8d solid 10px;
+      border-radius: 10px;
+      padding:2%;
+      margin-top: 5%;
+      width: 60%;
+      height: 100%;
   }
 
 
@@ -142,7 +138,6 @@ html {
   }
 
   #linha {
-
     padding: 2%;
     display: flex;
   }
@@ -181,11 +176,208 @@ margin-left: 5%;
     margin-bottom: -5px;
     bottom: 0%;
 }
-*{
+
+.sla {
+    text-align: center;
+}
+
+
+@media screen and (max-width:687px) {
+  body {
+    background-color: #dfdfdf;
+    font-size: 20px;
+    border: none;
     margin: 0;
+    height: 100%;
+}
+
+#p1 {
+  width: 180vw;
+  margin-left: 30%;
+  text-align: justify;
+}
+
+#div0 {
+}
+
+#card-item {
+    background-color: #063e8d;
+    border: #063e8d solid 1px;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+#art4 {
+    background-color: none;
+    padding: 2%;
+    flex-direction: column;
+    text-align:justify;
+}
+
+.sec4 {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    width: 87vw;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.icon_profile {
+    border-radius: 100%;
+}
+
+.content_comment_card {
+
+}
+.nickname {
+    margin-top: 5%;
+    border-bottom: 2px solid #063e8d;
+}
+
+.comment_info {
+    margin-top: 10%;
+}
+
+.title_name {
+    color: #999;
+}
+
+.content_comment_card p::after {
+	content: "\201D";
+	display: inline;
+	color: #999;
+}
+
+.content_comment_card p::before {
+	content: "\201C";
+	display: inline;
+	color: #999;
+}
+
+#div5 form {
+  margin-left: 4%;
+  flex-direction: column;
+}
+
+#your_comment {
+    width: 36vw;
+}
+
+#comments {
+    font-size:x-large;
+}
+
+#div5 {
+    margin-top: 5%;
+}
+
+html {
+    margin: 0;
+    min-height: 300px;
+  }
+
+  /*responsável pelo titulo e cor*/
+  #titulo1 {
+    background-color: #c6d0de;
+    margin-top: 1%;
+    text-align: center;
+  }
+  
+
+  /*responsavel pela imagem icon*/
+  .image {
+    width: 50vw;
+    height: 85%;
+    border-radius: 2%;
+  }
+
+  /*responsável pela box shadow de um dos artigos*/
+    #bloco1 {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin-top: 5%;
+    width: 91vw;
+  }
+
+
+  /*responsável pelos icon e paragrafos*/
+  #icon1 {
+    width: 50vw;
+  }
+
+  #p1 {
+    width: 90vw;
+    margin-left: 5%;
+  }
+
+  #linha {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  section {
+    border: none;
+  }
+
+  #linha2 {
+    border-left: 1px solid black;
+    margin-right: 10%;
+  }
+
+  #p2 {
+    width: 90vw;
+    margin-left: 5%;
+    text-align: justify;
+    flex-direction: column;
+  }
+
+  #icon2 {
+    width: 50vw;
+    border: 3px solid black;
+    border-radius: 100%;
+  }
+
+  h2 {
+    margin-right: 6%;
+  }
+
+  #jm {
+    margin-left: 15%;
+  }
+
+  #sla {
+  margin-left: 5%;
+  }
+  
+  .iframe1 {
+    margin-bottom: -5px;
+    bottom: 0%;
 }
 
 .sla {
     text-align: center;
 }
 
+#card1 {
+  font-size: 20px;
+  text-align: center;
+  text-align: left;
+}
+
+#paragrafo1 {
+  text-align: justify;
+}
+}

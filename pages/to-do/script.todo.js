@@ -53,7 +53,6 @@ function atualizarlista() {
 
     for (let i = 0; i < global.length; i++) {
         const itens = global[i];
-        console.log(itens);
         listaHtml += `
     <div class="plots">
         <section class="sec_tab">
@@ -75,7 +74,7 @@ function atualizarlista() {
     lista.innerHTML = listaHtml;
     //zera o valor do array
 
-
+    //zera o valor dos inputs
     document.getElementById("titulo").value = "";
     document.getElementById("resumo").value = "";
     document.getElementById("categoria").value = "Categoria...";
@@ -83,8 +82,8 @@ function atualizarlista() {
     document.getElementById("data").value = "";
 }
 
-//excloi..
-function antiplot(position) {
+//exclui..
+function antiplot(position) { //parametro inserido na atualizar lista
     global.splice(position, 1);
     atualizarlista();
 }

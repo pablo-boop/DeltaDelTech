@@ -89,9 +89,40 @@ nav a:hover {
     border-bottom: white solid 1px;
 }
 
+#mobile {
+    display: none;
+}
 
+#list {
+    display: none;
+}
 /*Estilização da responsividade*/
 
 @media screen and (max-width: 500px) {
+    /*List*/
+    #mobile {
+        display: block;
+    }
+    #sidebar {
+        width: 15vw;
+        margin: 1vh;
+    }
+    #mobile button {
+        border: none;
+        background-color: transparent;
+    }
+    #img-side {
+        height: 20vw;
+    }
+    #check {
+        display: none;
+    }
+
+    #first {
+        display: none;
+    }
+    #list {
+        display: block;
+    }
 
 }

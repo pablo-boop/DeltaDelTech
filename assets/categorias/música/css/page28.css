@@ -204,7 +204,8 @@ p {
         width: 60%;
         margin-left: -8%;
         margin-right: 23%;
-        width: 100vw;
+        width: 94vw;
+        text-align: justify;
     }
     
     
@@ -244,7 +245,7 @@ p {
         box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
         padding: 2%;
         margin-bottom: 0;
-        width: 94vw;
+        width: 90vw;
         margin-right:-10px;
     }
     

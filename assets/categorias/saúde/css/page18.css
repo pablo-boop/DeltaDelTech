@@ -247,6 +247,7 @@ p {
         display: flex;
         flex-direction: column;
       }
+
     /*Responsividade do titulo*/
       #bloco1 {
         margin: 0vw;
@@ -275,6 +276,7 @@ p {
         width: 260%;
     }
     
+    /*Responsividade do aside*/
     aside {
         width: 35%;
     }

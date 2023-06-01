@@ -158,6 +158,14 @@ input {
         align-items: center;
     }
 
+    input {
+        width: 50vw;
+    }
+
+    select {
+        width: 50vw;
+    }
+
     #right {
         width: 90vw;
         margin: 10px;

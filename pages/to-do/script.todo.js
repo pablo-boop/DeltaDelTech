@@ -63,7 +63,7 @@ function atualizarlista() {
         <p class="p_a"> Data: ${itens[4]} </p>
         </section>
         <section class="sec_tab">
-            <button id="btn_tab" onclick="antiplot(${i})">excloi</button>
+            <button id="btn_tab" onclick="antiplot(${i})">EXCLUIR</button>
         </section>
     </div>
     `

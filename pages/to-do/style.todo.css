@@ -16,6 +16,21 @@ main {
     height: 1000px;
 }
 
+input {
+    width: 20vw;
+    height: 2.5vh;
+}
+
+#categoria {
+    width: 20vw;
+    height: 2.5vh;
+}
+
+#op_cat {
+    opacity: 0.3;
+    font-style: italic;
+}
+
 #left {
     margin-left: 125px;
     margin-top: 100px;

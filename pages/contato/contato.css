@@ -95,7 +95,7 @@ h1 {
         margin-left: -25vw;
     }
     #input1 {
-        padding-right: 35vw;
+        width: 50vw;
         font-size: 20px;
     }
     #enviar {

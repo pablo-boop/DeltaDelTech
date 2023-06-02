@@ -151,6 +151,10 @@ input {
     font-weight: bold;
 }
 
+button {
+    margin: 10px;
+}
+
 @media screen and (max-width: 800px) {
 
     #global {

@@ -64,6 +64,7 @@ function atualizarlista() {
         </section>
         <section class="sec_tab">
             <button id="btn_tab" onclick="antiplot(${i})">EXCLUIR</button>
+            <button id="btn_tab" onclick="editplot(${i})">EDITAR</button>
         </section>
     </div>
     `
@@ -88,4 +89,16 @@ function antiplot(position) { //parametro inserido na atualizar lista
     atualizarlista();
 }
 
+function editplot(position) {
+for (let i = 0; i < global.length; i++) {
+    const itens = global[i];
 
+    document.getElementById("titulo").value = itens[0];
+    document.getElementById("resumo").value = itens[1];
+    document.getElementById("categoria").value = itens[2];
+    document.getElementById("autortitle").value = itens[3];
+    document.getElementById("data").value = data;
+}
+
+    antiplot(position);
+}

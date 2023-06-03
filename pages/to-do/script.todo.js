@@ -93,11 +93,11 @@ function editplot(position) {
 for (let i = 0; i < global.length; i++) {
     const itens = global[i];
 
-    document.getElementById("titulo").value = itens[0];
-    document.getElementById("resumo").value = itens[1];
-    document.getElementById("categoria").value = itens[2];
-    document.getElementById("autortitle").value = itens[3];
-    document.getElementById("data").value = data;
+    document.getElementById("titulo").innerHTML = itens[0];
+    document.getElementById("resumo").innerHTML = itens[1];
+    document.getElementById("categoria").innerHTML = itens[2];
+    document.getElementById("autortitle").innerHTML = itens[3];
+    document.getElementById("data").innerHTML = data;
 }
 
     antiplot(position);

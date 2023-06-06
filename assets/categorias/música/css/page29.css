@@ -454,6 +454,7 @@ p {
         margin-bottom: 0;
     }
     
+/*estilização da sec4*/
     .sec4 {
         background-color: white;
         border-radius: 0.25rem;
@@ -465,19 +466,18 @@ p {
         margin-right: -15px;
     }
     
+/*estilização da ícone*/
     .icon_profile {
         border-radius: 100%;
     }
     
-    .content_comment_card {
-    }
-
     .nickname {
         margin-left: 5%;
         margin-top: 5%;
         border-bottom: 2px solid #063e8d;
     }
     
+/*estilização do comment_info*/
     .comment_info {
         display: flex;
         flex-direction: column;
@@ -488,9 +488,7 @@ p {
         color: #999;
     }
     
-    .comment_card {
-    }
-    
+/*estilização/estruturação dos cards*/
     .content_comment_card p::after {
         content: "\201D";
         display: inline;
@@ -516,11 +514,12 @@ p {
         margin-top: 4%;
     }
     
+/*estilização do paragrafo*/
     p {
         font-size: 20
-
     }
 
+/*estilização do anuncio*/
     #imagemanuncio {
         margin-left: -5vw;
     padding: 15px;

@@ -295,6 +295,7 @@ margin-left: 5%;
   text-align: left;
  }
 
+ /*Parte que é responsavel por conter os comentarios das pessoas*/
   #art4 {
     display: flex;
     flex-direction: column;
@@ -305,6 +306,7 @@ margin-left: 5%;
     margin-right: -10px;
   }
 
+  /*section*/
   .sec4 {
     width: 90%;
     justify-content: center;

@@ -24,7 +24,7 @@ body {
 #enviar:hover {
     transform: scale(1.1);
 }
-
+/*corpo do formulario*/
 form {
     flex-direction: column;
     margin-left: 30%;

@@ -4,14 +4,17 @@
     text-align: justify;
     background-color: #c6d0de;
 }
+/*Estilização do texto da section*/
 #s1 p {
     font-size: 25px;
     padding: 10vh;
     width: 40vw;
 }
+/*Estilização da imagem da section*/
 #s1 img {
     margin: 5vh;
 }
+/*Estilização da section*/
 section  {
 
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);

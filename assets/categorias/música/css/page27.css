@@ -72,23 +72,24 @@ h1{
     margin: 5px;
 }
 
+/*estilização do card1*/
 #card1{
   display: flex;
 }
 
+/*estilização da imagem*/
 img{
     border-radius: 10px;
 }
 
+/*estilização do iframe*/
 #iframe{
     bottom: 0%;
     margin-bottom: -5px;
 }
 
-*{
-    margin: 0;
-}
 
+/*estilização do paragrafo*/
 p{
     margin-top: 10px;
 }

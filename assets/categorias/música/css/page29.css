@@ -417,10 +417,12 @@ p {
         flex-direction: column;        
     }
     
+/*estilização do hover dos cards*/
     .loi:hover {
         transform: scale(1.05);
     }
     
+/*estilização dos cards*/
     .loi {
         background-color: #c6d0de;
         border: 1px black solid;

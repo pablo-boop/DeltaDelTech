@@ -100,6 +100,7 @@ body {
     font-size:x-large;
 }
 
+/*responsável pelo espaçamento*/
 #div5 {
     margin-top: 5%;
 }
@@ -147,16 +148,19 @@ html {
     margin-left: 10%;
   }
 
+  /*responsável pelo tamanho e largura da letra do ID P1*/
   #p1 {
     width: 50%;
     margin-left: 30%;
   }
 
+  /*resposável pelo espaçamento do ID LINHA*/
   #linha {
     padding: 2%;
     display: flex;
   }
 
+  /*responsável pela borda  e margem direita do ID LINHA2*/
   #linha2 {
     border-left: 1px solid black;
     margin-right: 10%;

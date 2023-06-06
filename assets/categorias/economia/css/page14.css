@@ -229,6 +229,7 @@ margin-left: 5%;
     justify-content: center;
   }
 
+  /*responsividade da section*/
   #lower2 {
     margin: 30px;
     padding: 0;
@@ -238,6 +239,7 @@ margin-left: 5%;
     justify-content: center;
   }
 
+  /*imagem do Brasil*/
   #icon1 {
     margin: 0;
   }
@@ -246,10 +248,12 @@ margin-left: 5%;
     margin-left: 4px;
   }
 
+  /* h2 - Politica + economia no Brasil*/
   #jm {
     margin: 0;
   }
 
+  /*responsividade do paragrafo*/
   #p1 {
     margin-left: 25%;
     text-align: center;

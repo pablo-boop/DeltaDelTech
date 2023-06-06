@@ -186,12 +186,16 @@ p {
     margin: 5%;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
+    /*div que separa o corpo do titulo*/
     #sla {
         display: flex;
         flex-direction: column;
     }
 
+    /*responsividade do primeiro article*/
     #div1 {
         width: 100vw;
     }
@@ -207,6 +211,7 @@ p {
         align-items: center;
     }
 
+    /*responsividade do aside*/
     aside {
         width: 100vw;
     }

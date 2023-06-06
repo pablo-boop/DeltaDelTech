@@ -1,13 +1,16 @@
+ /*responsável pela página inteira (corpo da página)*/
 body {
     background-color: #dfdfdf;
     font-size: 20px;
     text-align: justify;
 }
 
+ /*responsável pelo ID encontrado no html*/
 #div0 {
     text-align: center;
 }
 
+/*responsável pelo card*/
 #card-item {
     background-color: #063e8d;
     border: #063e8d solid 1px;
@@ -16,9 +19,12 @@ body {
     margin-bottom: 2%;
 }
 
+/*responsável pelo espaçamento*/
 #div{
     margin-bottom: 0;
 }
+
+/*responsável pelo ID art4(artigo 4) que está interligado com a CLASS sec4*/
 #art4 {
     background-color: none;
     margin: 1%;
@@ -27,6 +33,8 @@ body {
     margin-bottom: 0;
 }
 
+
+/*responsável pela CLASS sec4(section 4) encontrado dentro do ID ART4*/
 .sec4 {
     background-color: white;
     border-radius: 0.25rem;
@@ -37,58 +45,65 @@ body {
     margin-bottom: 0;
 }
 
+
+/*responsáel pelos ícones/imagens do comentário*/
 .icon_profile {
     border-radius: 100%;
 }
 
-.content_comment_card {
-
-}
+/*responsável pelo nome dos ícones*/
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
     border-bottom: 2px solid #063e8d;
 }
 
+/*responsável pela informação dos ícones*/
 .comment_info {
     display: flex;
     margin-top: 10%;
 }
 
+/*responsável pelo título dos ícones*/
 .title_name {
     color: #999;
 }
 
+/*responsável pela estruturação do site*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
 	color: #999;
 }
 
+/*responsável pela estruturação do card*/
 .content_comment_card p::before {
 	content: "\201C";
 	display: inline;
 	color: #999;
 }
 
+/*responsável pelo espaçamento*/
 #div5 form {
     margin-left: 4%;
    flex-direction: column;
    display: flex;
 }
 
+/*interligada com o card comments (comentários), largura*/
 #your_comment {
     width: 30.8%;
 }
 
+/*tamanho da letra dos cards comments(comentário)*/
 #comments {
     font-size:x-large;
 }
 
+/*responsável pelo espaçamento*/
 #div5 {
     margin-top: 5%;
 }
-
 
 html {
     margin: 0;
@@ -125,34 +140,37 @@ html {
       height: 100%;
   }
 
-
   /*responsável pelos icon e paragrafos*/
   #icon1 {
     width: 83px;
     margin-left: 10%;
   }
 
+  /*responsável pelo tamanho e largura da letra do ID P1*/
   #p1 {
     width: 50%;
     margin-left: 30%;
   }
 
+  /*resposável pelo espaçamento do ID LINHA*/
   #linha {
     padding: 2%;
     display: flex;
   }
 
+  /*responsável pela borda e pela margem direita do ID LINHA2*/
   #linha2 {
     border-left: 1px solid black;
     margin-right: 10%;
-    
   }
 
+  /*responsável pela largura e pela margem esquerda do ID P2*/
   #p2 {
     width: 50%;
     margin-left: 22%;
   }
 
+  /*responsável pelo ID ICON2, largura, margem esquerda e bordas*/
   #icon2 {
     width: 80px;
     margin-left: -6%;
@@ -160,29 +178,36 @@ html {
     border-radius: 100%;
   }
 
+  /*Resposável pela margem direita dessa tag*/
   h2 {
     margin-right: 6%;
   }
 
+  /*ID resposável pelo espaçamento da margem esquerda*/
   #jm {
     margin-left: 15%;
   }
 
+  /*ID resposável pelo espaçamento da margem esquerda*/
   #sla {
-margin-left: 5%;
+  margin-left: 5%;
   }
   
+  /*CLASS responsável pela margem do IFRAME*/
   .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;
 }
 
+  /*ID responsável pelo alinhamento do texto*/
 .sla {
     text-align: center;
 }
 
-
+/*Responsável pela responsividade do celular*/
 @media screen and (max-width:687px) {
+
+ /*responsável pela página inteira (corpo da página)*/
   body {
     background-color: #dfdfdf;
     font-size: 20px;
@@ -191,23 +216,23 @@ margin-left: 5%;
     height: 100%;
 }
 
+/*responsável pela largura, margem a esquerda e alinhamento desse ID*/
 #p1 {
   width: 180vw;
   margin-left: 30%;
   text-align: justify;
 }
 
-#div0 {
-}
-
+/*ID responsável pelos cards*/
 #card-item {
     background-color: #063e8d;
     border: #063e8d solid 1px;
     width: 60vw;
-    margin: auto;
+    margin: gauto;
     margin-bottom: 2%;
 }
 
+/*responsável pelo ID art4(artigo 4) que está interligado com a CLASS sec4*/
 #art4 {
     background-color: none;
     padding: 2%;
@@ -215,6 +240,7 @@ margin-left: 5%;
     text-align:justify;
 }
 
+/*CLASS sec4(section 4) que está dentro do ID art4*/
 .sec4 {
     background-color: white;
     border-radius: 0.25rem;
@@ -227,55 +253,63 @@ margin-left: 5%;
     font-size: 16px;
 }
 
+/*responsável pela borda da CLASS icon*/
 .icon_profile {
     border-radius: 100%;
 }
 
-.content_comment_card {
-
-}
+/*responsável pelo nome dos ícones*/
 .nickname {
     margin-top: 5%;
     border-bottom: 2px solid #063e8d;
 }
 
+/*responsável pela margem da CLASS  comment_info*/
 .comment_info {
     margin-top: 10%;
 }
 
+/*CLASS responsável pela cor*/
 .title_name {
     color: #999;
 }
 
+/*CLASS responsável pela estrutura do comentário*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
 	color: #999;
 }
 
+/*CLASS responsável pela estrutura do comentário*/
 .content_comment_card p::before {
 	content: "\201C";
 	display: inline;
 	color: #999;
 }
 
+/*ID responsável pelo espaçamento e margem*/
 #div5 form {
   margin-left: 4%;
   flex-direction: column;
 }
 
+/*ID your_comment responsável pela largura*/
 #your_comment {
     width: 36vw;
 }
 
+/*ID comments, responsável pelo tamanho da letra*/
 #comments {
     font-size:x-large;
 }
 
+/*ID div5, espaçamento*/
 #div5 {
     margin-top: 5%;
 }
 
+/*Tag responsável pela estiização do html*/
 html {
     margin: 0;
     min-height: 300px;
@@ -350,33 +384,39 @@ html {
     border-radius: 100%;
   }
 
+  /*Tag resonsável pela margem direita*/
   h2 {
     margin-right: 6%;
   }
 
+  /*Responsável pela margem esquerda do ID jm*/
   #jm {
     margin-left: 15%;
   }
 
+  /*Responsável pela margem esquerda do ID sla*/
   #sla {
   margin-left: 5%;
   }
   
+  /*CLASS responsável pelo IFRAME*/
   .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;
 }
 
+/*CLASS responsável pelo alinhamento do texto*/
 .sla {
     text-align: center;
 }
 
+/*Responsável pelo ID card1, tamanho da letra e alinhamento do texto*/
 #card1 {
   font-size: 20px;
   text-align: center;
-  text-align: left;
 }
 
+/*Responsável pelo alinhamento do texto*/
 #paragrafo1 {
   text-align: justify;
 }

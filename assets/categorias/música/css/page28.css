@@ -80,8 +80,9 @@ img {
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     margin: 1%;
     padding: 2%;
-    width: 33%;
+    width: 100%;
     margin-bottom: 0;
+    margin-top: 3%;
 }
 
 .icon_profile {
@@ -192,6 +193,7 @@ p {
         transform: scale(1.05);
     }
     
+    /*estilização pela maioria das coisas*/
     .loi {
         background-color: #c6d0de;
         border: 1px black solid;
@@ -229,7 +231,7 @@ p {
         margin-bottom: 0;
     }
     
-    /*responsável pela aba de comentários*/
+    /*estilização artigo 4*/
     #art4 {
         background-color: none;
         margin: 1%;
@@ -239,6 +241,7 @@ p {
         margin-bottom: 0;
     }
     
+    /*esilização section 4*/
     .sec4 {
         background-color: white;
         border-radius: 0.25rem;
@@ -248,29 +251,27 @@ p {
         width: 87vw;
     }
     
+    /*estilização do icone*/
     .icon_profile {
         border-radius: 100%;
     }
     
-    .content_comment_card {
-    
-    }
+    /*estilização do icone nome*/
     .nickname {
         margin-left: 5%;
         margin-top: 5%;
         border-bottom: 2px solid #063e8d;
     }
     
+    /*estilização do icone informação*/
     .comment_info {
         display: flex;
         margin-top: 10%;
     }
     
+    /*estilização do icone título*/
     .title_name {
         color: #999;
-    }
-    
-    .comment_card {    
     }
     
     .content_comment_card p::after {
@@ -296,6 +297,7 @@ p {
         width: 30.8%;
     }
     
+    /*estilização do comentário*/
     #comments {
         font-size:x-large;
         margin-top: 4%;
@@ -310,6 +312,7 @@ p {
         border-radius: 10px;
     }
     
+    /*estilização do h3*/
     h3 {
         text-align: center;
         margin-right: 4%;
@@ -317,14 +320,13 @@ p {
         margin-bottom: 3%;
     }
     
+    /*estilização do paragrafo*/
     p {
         text-align: justify;
-    }
-    
-    p {
         font-size: 20px;
     }
-
+    
+    /*estilização da imagem*/
     .imagens {
         width:90vw;
     }

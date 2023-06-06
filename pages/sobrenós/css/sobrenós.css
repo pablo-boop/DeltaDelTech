@@ -5,27 +5,32 @@ body {
     font-size: 20px;
 }
 /* estilizaçao da div*/
-#div1 {
 
-}
+/*estilização do id arc1*/
 #arc1 {
     background-color: none;
     padding: 2%;
     margin: 1%;
-/*estilizaçao das class e ids dos conteudos do html*/
 }
+
+/*estilizaçao das class e ids dos conteudos do html*/
 .tit {
   text-align: center;
 }
+
+/*estilização do id sobrenos*/
 #sobrenos {
     background-color: none;
     display: flex;
 }
+
 #sobre {
     margin: 1%;
     padding: 2%;
     text-align: justify;
 }
+
+/*Arrumar a imagem através do ID img1*/
 #img1 {
     border-radius: 22px;
     margin: 1%;
@@ -36,20 +41,16 @@ iframe {
     margin: 0;
     padding: 0;
 }
-#div2 {
-}
+
 #arc2 {
     background-color: none;
     padding: 2%;
     margin: 1%;
     display: flex;
     border-top: 1px black solid;
-    
 }
-#mvv {
-/* id e hover para poder customizar quando ou mouse passa por cima dos cards do mmv*/
-    
-}
+
+/* id e hover para poder customizar quando ou mouse passa por cima dos cards do mmv*/ 
 #mvv:hover {
     transform: scale(1.07);
     transform: scale(1.05);
@@ -58,9 +59,12 @@ iframe {
     -moz-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
     box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
 }
+
+/*ID responsável pela borda*/
 .div3 {
   border-top: 1px black solid;
 }
+
 /*estilizaçao dos article*/
 #arc3{
     background-color: none;
@@ -70,6 +74,8 @@ iframe {
 
     display: flex;
 }
+
+/*estilizaçao dos article*/
 #arc4 {
     background-color: none;
     padding: 2%;
@@ -77,6 +83,8 @@ iframe {
     margin: 1%;
     display: flex;
 }
+
+/*estilizaçao do sobre nos*/
 #nos {
     padding: 10%;
     margin: 5%;
@@ -85,16 +93,20 @@ iframe {
     border-radius: 10px;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
+
+/*estilizaçao do hover*/
 #nos:hover {
     transform: scale(1.05);
-    transition: 0.3s;}
-.no {
+    transition: 0.3s;
+  }
 
+.no {
     height: 256px;
     width: 100%;
     padding-bottom: 2%;
-
 }
+
+/*estilizaçao do texto*/
 #tex1 {
     text-align: justify;
     margin: 1%;
@@ -108,12 +120,12 @@ a {
     color: black;
     width: 33%;
 }
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 /* class principal dos cards*/
 .cards {
   display: flex;
@@ -123,41 +135,46 @@ a {
   padding: 0;
 }
 
+/* estilizaçao dos cards */
 .cards_item {
   display: flex;
   padding: 1rem;
 }
+
 /* class para poder ajustar a img dentro dos cards*/
 .card_image {
   position: relative;
   max-height: 250px;
 }
 
+/* class para poder ajustar a img dentro dos cards*/
 .card_image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-
+/* class para poder ajustar os cards*/
 .card_price span {
   font-size: 20px;
   margin-top: -2px;
 }
 
-
+/*media para deixar o site responsivo*/
 @media (min-width: 40rem) {
   .cards_item {
     width: 50%;
   }
 }
 
+/*media para deixar o site responsivo*/
 @media (min-width: 56rem) {
   .cards_item {
     width: 33.3333%;
   }
 }
 
+/*cards estilização*/
 .card {
   background-color: white;
   border-radius: 0.25rem;
@@ -166,6 +183,7 @@ a {
   flex-direction: column;
   overflow: hidden;
 }
+
 /* traço no card de mmv*/
 .card_content {
   position: relative;
@@ -174,20 +192,24 @@ a {
   max-height: 290px;
   overflow-y: scroll;
 }
+
 /* class para poder ajustar o tamnho da srcollbar*/
 .card_content::-webkit-scrollbar {
   width: 8px;
 }
+
 /* class para tirar a borda e shadow da srcollbar*/
 .card_content::-webkit-scrollbar-track {
   box-shadow: 0;
   border-radius: 0;
 }
+
 /* class para estilizar a srcollbar*/
 .card_content::-webkit-scrollbar-thumb {
   background: #063e8d;
   border-radius: 15px;
 }
+
 /* class para poder ajusatr o titulo dentro dos cards*/
 .card_title {
   position: relative;
@@ -197,6 +219,7 @@ a {
   font-size: 20px;
   font-weight: 700;
 }
+
 /* class para o titulo nao descer junto com o movimento de srolling*/
 .card_title::after {
   position: absolute;
@@ -216,15 +239,19 @@ hr {
   border-top: 2px solid #063e8d;
 }
 
+/*estilização do textos dentro do card*/
 .card_text p {
   margin: 0 0 24px;
   font-size: 20px;
   line-height: 1.5;
 }
 
+/*estilização do textos dentro do card*/
 .card_text p:last-child {
   margin: 0;
 }
+
+/*estilização dos cards através do hover*/
 .card:hover {
     transform: scale(1.05);
     transition: 0.3s;
@@ -233,6 +260,7 @@ hr {
     box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
 }
 
+/*estilização text2*/
 #tex2 {
   margin: auto;
   text-align: center;
@@ -248,25 +276,30 @@ hr {
 #shiu {
   color: white;
 }
+
 /*estilizaçao do header e do footer*/
 #iframe2{
   bottom: 0%;
   margin-bottom: -5px;
 }
 
-*{
-  margin: 0;
-}
 
+/*media para deixar o site responsivo*/
 @media screen and (max-width: 500px) {
+
+  /*estilização arc3*/
   #arc3 {
     display: flex;
     flex-direction: column;
   }
+
+  /*estilização arc4*/
   #arc4 {
     display: flex;
     flex-direction: column;
   }
+
+  /*estilização nós*/
   #nos {
     width: 90vw;
   }

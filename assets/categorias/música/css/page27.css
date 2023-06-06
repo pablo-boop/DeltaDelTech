@@ -1,6 +1,9 @@
+ /*responsável pela página inteira (corpo da página)*/
 body {
     background-color: rgb(223, 223, 223);
 }
+
+/*estilização do ID titulo*/
 #titulo {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -8,7 +11,7 @@ body {
     margin-top: 1%;
 }
 
-
+/*estilização do ID bloco1*/
 #bloco1 {   background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -20,6 +23,8 @@ body {
     margin-top: 2%;
     width: 94%;
 }
+
+/*estilização do ID bloco2*/
 #bloco2 { 
     width: 65%;
     background-color: #c6d0de;
@@ -34,17 +39,20 @@ body {
     margin-top: 3%;
 
 }
-.lado {
-}
 
+/*estilização do ID bloco3*/
 #bloco3{
     padding:2%;
     margin: 1%;
     margin-top: 6%;
 }
+
+/*estilização aside*/
 aside {
     width: 35%;
 }
+
+/*estilização Card3*/
 #card3 {
     background-color: #c6d0de;
     border: 1px black solid;
@@ -58,64 +66,76 @@ aside {
     margin: 1%
 }
 
+/*estilização do h1*/
 h1{
     text-align: center;
     margin: 5px;
 }
 
+/*estilização do card1*/
 #card1{
   display: flex;
 }
 
+/*estilização da imagem*/
 img{
     border-radius: 10px;
 }
 
+/*estilização do iframe*/
 #iframe{
     bottom: 0%;
     margin-bottom: -5px;
 }
 
-*{
-    margin: 0;
-}
 
+/*estilização do paragrafo*/
 p{
     margin-top: 10px;
 }
 
+/*estilização do div4*/
 #div4{
     margin-top: 3%;
     border-top: 1px solid black;
     display: flex;
-    width: 80%;
-    margin-left: 9%;
+    width: 94vw;
     margin-bottom: 5px solid black;
 }
 
+#div0 {
+margin-left: 50px;
+}
+
+/*estilização do paragrafo*/
 #p1{
     margin-top: 6%;
     margin-left: 5%;
 }
 
+/*estilização do imagem4*/
 #img4 {
     margin-top: 1%;
 }
 
+/*estilização do imagem5*/
 #img5 {
     margin-left: 3%;
 }
 
+/*estilização do imagem0*/
 #img0 {
     margin-bottom: -2%;
     margin-top: 2%;
 }
 
+/*estilização do titulo*/
 h2 {
     margin-top: 1%;
 
 }
 
+/*estilização do paragrafo*/
 #p2 {
     margin-top: 9%;
     margin-left: -19%;
@@ -126,6 +146,7 @@ h2 {
     margin-left: 11%;
 }
 
+/*estilização imagem*/
 #img00 {
     margin-right: 2%;
     margin-top: 2%;
@@ -141,22 +162,21 @@ h2 {
 
 li {
     margin: 5px;
-   margin-left: 2px;
+    margin-left: 2px;
     list-style: none;
-}
-#div{
-    margin-bottom: 0;
 }
 
 /*responsável pela aba de comentários*/
 #art4 {
     background-color: none;
     margin: 1%;
-    padding: 10%;
+    padding: 2%;
+    display: flex;
     margin-bottom: 0;
-
+    margin-left: -25px;
 }
 
+/*responsável pela estilização do art4*/
 .sec4 {
     background-color: white;
     border-radius: 0.25rem;
@@ -168,19 +188,19 @@ li {
     margin-top: 3%;
 }
 
+/*responsável pela estilização dos ícones*/
 .icon_profile {
     border-radius: 100%;
 }
 
-.content_comment_card {
-
-}
+/*responsável pela estilização dos comentarios*/
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
     border-bottom: 2px solid #063e8d;
 }
 
+/*responsável pela estilização dos comentarios*/
 .comment_info {
     display: flex;
     margin-top: 10%;
@@ -190,16 +210,14 @@ li {
     color: #999;
 }
 
-.comment_card {
-
-}
-
+/*responsável pela estilização dos comentarios*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
 	color: #999;
 }
 
+/*responsável pela estilização e estruturação dos comentarios*/
 .content_comment_card p::before {
 	content: "\201C";
 	display: inline;
@@ -219,12 +237,16 @@ li {
     margin-top: 4%;
 }
 
+/*responsável pela estilização do paragrafo*/
 p {
 font-size: 20px;
 }    
 
 
+ /*responsável pela responsividade**/
 @media screen and (max-width:687px) {
+
+    /*estilizacao do body*/
     body {
         background-color: rgb(223, 223, 223);
     }
@@ -252,6 +274,7 @@ font-size: 20px;
         display: flex;
     }
     
+    /*estilizacao do bloco1*/
     #bloco1 {   
         background-color: #c6d0de;
         border: 1px black solid;
@@ -266,6 +289,8 @@ font-size: 20px;
         margin-left: 18%;
         }
         
+
+    /*estilizacao do bloco2*/
     #bloco2 { 
         width: 80vw;
         background-color: #c6d0de;
@@ -284,7 +309,7 @@ font-size: 20px;
         flex-direction: column;
     }
     
-
+    /*estilizacao do bloco3*/
     #bloco3{
         padding:2%;
         margin: 1%;
@@ -292,6 +317,7 @@ font-size: 20px;
         margin-top: 6%;
     }
     
+    /*estilizacao do card3*/
     #card3 {
         background-color: #c6d0de;
         border: 1px black solid;
@@ -311,23 +337,23 @@ font-size: 20px;
         margin: 5px;
     }
     
+    /*estilizacao do card1*/
     #card1{
       display: flex;
       flex-direction: column;
     }
     
+    /*estilizacao do img*/
     img{
         border-radius: 10px;
     }
-    
+
+    /*estilizacao do iframe*/
     #iframe{
         margin-bottom: -5px;
     }
     
-    *{
-        margin: 0;
-    }
-    
+    /*estilizacao do paragrafo*/
     p{
         margin-top: 10px;
     }
@@ -352,6 +378,7 @@ font-size: 20px;
         margin-top: 15%;
     }
     
+    /*estilizacao da imagem*/
     #img5 {
         margin-left: 5%;
         display: flex;
@@ -399,7 +426,7 @@ font-size: 20px;
         margin-bottom: 0;
     }
     
-    /*responsável pela aba de comentários*/
+    /*estilização art4*/
     #art4 {
         background-color: none;
         margin: 1%;
@@ -409,6 +436,7 @@ font-size: 20px;
         margin-bottom: 0;
     }
     
+    /*estilização sec4*/
     .sec4 {
         background-color: white;
         border-radius: 0.25rem;
@@ -424,19 +452,18 @@ font-size: 20px;
         
     }
     
+    /*estilização icone*/
     .icon_profile {
         border-radius: 100%;
     }
     
-    .content_comment_card {
-    }
-
     .nickname {
         margin-left: 5%;
         margin-top: 5%;
         border-bottom: 2px solid #063e8d;
     }
-    
+
+    /*estilização icone, informações*/
     .comment_info {
         display: flex;
         flex-direction: column;
@@ -479,6 +506,7 @@ font-size: 20px;
         flex-direction: column;
     }
     
+    /*estilização paragrafo*/
     p {
     font-size: 20px;
     }    
@@ -492,5 +520,3 @@ font-size: 20px;
 
 }
 
-/*Obs: nas laterais tem uma pequena margem mas, desconheço da onde está  vindo
-por causa que já revi e não consegui detectar.

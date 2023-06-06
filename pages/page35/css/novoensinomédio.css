@@ -24,7 +24,7 @@ body {
     width: 60%;
     margin-left: 18%;
 }
-
+/*Estilização do bloco2*/
 #bloco2 { 
     width: 65%;
       background-color: #c6d0de;
@@ -38,9 +38,11 @@ body {
     margin: 1%;
 
 }
+/*Estilização lado com display flex*/
 .lado {
     display: flex;
 }
+/*Estilização do bloco3*/
 #bloco3{
     padding:2%;
     margin: 1%
@@ -69,9 +71,11 @@ h1{
   p{
     margin-top: 10px;
 }
+/*Estilização do card2*/
 #card2{
     margin-top: 1%;
 }
+/*Estilização do card3*/
 #card3 {
     background-color: #c6d0de;
     border: 1px black solid;
@@ -109,20 +113,24 @@ h1{
     margin-top: 2%;
     margin-left: 10px;
 }
-
+/*Estilização do id img5*/
 #img5 {
     margin-left: 11%;
 }
+/*Estilização do id img0*/
 #img0 {
     margin-top: -27px;
 }
+/*Estilização do id img00*/
 #img00 {
     margin-bottom: -18px;
     margin-top: 10px;
 }
+/*Estilização da tag img*/
 img {
     margin-left: 15px;
 }
+/*Estilização do id imgg4*/
 #imgg4{
     border-radius: 3%;
     margin-top: 2%;
@@ -135,6 +143,7 @@ img {
     text-align: center;
     margin-top: 2%;
 }
+/*Estilização do id div6*/
 #div6 {
     background-color: rgb(253, 199, 208);
     text-align: center;
@@ -148,11 +157,11 @@ img {
     padding: 10px;
     
 }
-
+/*Estilização do hover da class loi*/
 .loi:hover {
     transform: scale(1.05);
 }
-
+/*Estilização da class loi*/
 .loi {
     background-color: #c6d0de;
     border: 1px black solid;
@@ -168,15 +177,18 @@ img {
     margin-left: 3%;
     margin-right: 3%;
 }
+/*Estilização do id da h22*/
 #h22 {
     margin-left: 1%;
     margin-top: 2%;
 
 }
+/*Estilização do id da h2*/
 #h2{
     margin-left: 14%;
     margin-top: 2%;
 }
+/*Estilização da class h11 de texto*/
 .h11{
     font-size: 25px;
 }
@@ -189,6 +201,7 @@ iframe{
 *{
     margin: 0;
 }
+/*Estilização do id da div*/
 #div{
     margin-bottom: 0;
 }
@@ -202,7 +215,7 @@ iframe{
     margin-bottom: 0;
     margin-top: 5%;
 }
-
+/*Estilização da class da section sec4*/
 .sec4 {
     background-color: white;
     border-radius: 0.25rem;
@@ -212,97 +225,100 @@ iframe{
     width: 33%;
     margin-bottom: 0;
 }
-
+/*Estilização do icone de perfil*/
 .icon_profile {
     border-radius: 100%;
 }
-
+/*Estilização do nome*/
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
     border-bottom: 2px solid #063e8d;
 }
-
+/*Estilização dos comentarios*/
 .comment_info {
     display: flex;
     margin-top: 10%;
 }
-
+/*Estilização do titulo nome*/
 .title_name {
     color: #999;
 }
-
+/*Estilização do card de comentario de texto*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
 	color: #999;
 }
-
+/*Estilização do card de comentario de texto*/
 .content_comment_card p::before {
 	content: "\201C";
 	display: inline;
 	color: #999;
 }
-
+/*Estilização do id da div7*/
 #div7 form {
     margin-left: 4%;
     flex-direction: column;
    display: flex;
 }
-
+/*Estilização da caixa de comentarios*/
 #your_comment {
     width: 40vw;
 }
-
+/*Estilização dos comentarios*/
 #comments {
     font-size:x-large;
     margin-top: 4%;
 }
+/*Estilização da class de p*/
 .p{
     font-size: 20px;
 }
 
 @media screen and (max-width: 687px) {
+    /*Estilização da class lado media*/
     .lado {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-
+/*Estilização do bloco2 media*/
     #bloco2 {
         width: 83vw;
     }
-
+/*Estilização do aside media*/
     aside {
         width: 100vw;
 
     }
-
+/*Estilização do id do bloco3 media*/
     #bloco3 {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
+/*Estilização do id da card3 media*/
     #card3 {
         width: 83vw;
         margin: 0;
     }
-
+/*Estilização do id da div4 media*/
     #div4 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    /*Estilização da form media*/
     form {
         text-align: center;
     }
-
+    /*Estilização do id in_com media*/
     #in_com {
         text-align: left;
     }
-
+    /*Estilização da caixa de comentario media*/
     #your_comment {
         width: 60%;
         height: 3vh;
@@ -311,13 +327,13 @@ iframe{
         padding: 0;
         margin: 0;
     }
-
+    /*Estilização do id art4 media*/
     #art4 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
+    /*Estilização da class sec4 media*/
     .sec4 {
         width: 90vw;
         margin: 10px;

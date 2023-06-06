@@ -1,7 +1,8 @@
+/*corpo do site*/
 body {
     background-color: rgb(220, 220, 220);
 }
-
+/*primeiro input*/
 #input1 {
     display: flex;
     font-family: Andale Mono, monospace;
@@ -10,7 +11,7 @@ body {
     border-radius: 5px;
     padding: 10px;
 }
-
+/*botão enviar*/
 #enviar {
     color: rgb(255, 255, 255);
     width: 30%;
@@ -23,7 +24,7 @@ body {
 #enviar:hover {
     transform: scale(1.1);
 }
-
+/*corpo do formulario*/
 form {
     flex-direction: column;
     margin-left: 30%;
@@ -37,19 +38,19 @@ h1 {
     margin-left: 3%;
     padding: 10px;
 }
-
+/*primeiro input*/
 #label1 {
     color: rgb(0, 0, 0);
     margin-bottom: 4px;
     font-size: 18px;
 }
-
+/*segundo input*/
 #label2 {
     color: rgb(0, 0, 0);
     margin-bottom: 4px;
     font-size: 18px;
 }
-
+/*primeira div*/
 #div1 {
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -61,7 +62,7 @@ h1 {
     margin-top: 50px;
     background-color: rgb(189, 188, 188);
 }
-
+/*iframe*/
 #iframe {
     bottom: 0%;
     margin-bottom: -5px;
@@ -70,6 +71,7 @@ h1 {
 * {
     margin: 0;
 }
+/*pequena div para  input*/
 .e {
     display: flex;
 }
@@ -84,16 +86,19 @@ h1 {
 
 /*Responsividade do feedback*/
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) {  
+  /*primeira div*/
     #div1 {
         margin-left: 5%;
         margin-right: 5%;
     }
+    /*imagens*/
     .icon {
         height: 50px;
         width: 50px;
         margin-left: -25vw;
     }
+    /*primeiro input*/
     #input1 {
         width: 50vw;
         font-size: 20px;
@@ -105,12 +110,15 @@ h1 {
         font-size: 25px;
         margin-left: -9vw;
     }
+        /*primeiro input*/
     #label1 {
         font-size: 25px;
     }
+        /*segundo input*/
     #label2 {
         font-size: 25px;
     }
+        /*titulo*/
     h1 {
         font-size: 50px;
     }

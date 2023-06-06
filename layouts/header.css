@@ -47,6 +47,7 @@
     transition: 1s;
     font-weight: bold;
 }
+/*Estilizacção do hover dos links da barra de navegação*/
 .navigation_header a:hover{
     color: var(--color-white);
     background-color: var(--color-dark2);

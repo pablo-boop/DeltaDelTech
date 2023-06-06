@@ -27,7 +27,7 @@ function plotar() {
         document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";
     //se não for vazio, realiza o plot do artigo
     } else {
-        if(counter < 0) {
+        if(counter == -1) {
             document.getElementById("errorMsg").innerHTML = "";
             info.push(title);
             info.push(description);

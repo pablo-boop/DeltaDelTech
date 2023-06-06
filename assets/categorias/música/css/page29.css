@@ -286,6 +286,7 @@ p {
         display: flex;
     }
     
+/*estilização do bloco2*/
     #bloco2 { 
         width: 80vw;
         background-color: #c6d0de;
@@ -307,6 +308,7 @@ p {
         width: 100vw;
     }
 
+/*estilização do bloco2*/
     #bloco3{
         padding:2%;
         margin: 1%;
@@ -317,6 +319,7 @@ p {
         width: 40vw;
     }
 
+/*estilização do card 3*/
     #card3 {
         background-color: #c6d0de;
         border: 1px black solid;
@@ -332,6 +335,8 @@ p {
         width: 80vw;
     }
     
+
+/*estilização do h1*/
     h1{
         text-align: center;
         margin: 5px;

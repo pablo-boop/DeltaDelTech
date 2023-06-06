@@ -78,11 +78,13 @@ html {
     margin-left: 10%;
   }
 
+  /*estilizaçao do paragrafo*/
   #p1 {
     width: 50%;
     margin-left: 30%;
   }
 
+  /*estilizaçao do card sobre vestibular - areas de conhecimento-*/
   #linha {
     margin: 1%;
     padding: 2%;
@@ -166,6 +168,7 @@ li {
 
 }
 
+/*estilizaçao dos comentrios*/
 .content_comment_card p::after {
 content: "\201D";
 display: inline;
@@ -184,15 +187,18 @@ color: #999;
  display: flex;
 }
 
+ /*estilizaçao do input - digite seu comentario*/
 #your_comment {
   width: 30.8%;
 }
 
+/*estilizaçao label comentarios*/
 #comments {
   font-size:x-large;
   margin-top: 4%;
 }
 
+ /* estilizaçao do paragrafo*/
 p {
   font-size: 20px;
 }

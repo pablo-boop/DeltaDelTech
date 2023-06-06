@@ -39,17 +39,20 @@ body {
     margin-top: 3%;
 
 }
-.lado {
-}
 
+/*estilização do ID bloco3*/
 #bloco3{
     padding:2%;
     margin: 1%;
     margin-top: 6%;
 }
+
+/*estilização aside*/
 aside {
     width: 35%;
 }
+
+/*estilização Card3*/
 #card3 {
     background-color: #c6d0de;
     border: 1px black solid;
@@ -63,6 +66,7 @@ aside {
     margin: 1%
 }
 
+/*estilização do h1*/
 h1{
     text-align: center;
     margin: 5px;

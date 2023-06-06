@@ -86,7 +86,8 @@ h1 {
 
 /*Responsividade do feedback*/
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) {  
+  /*primeira div*/
     #div1 {
         margin-left: 5%;
         margin-right: 5%;

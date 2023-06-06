@@ -41,9 +41,9 @@ function plotar() {
             atualizarlista()
 
         } else {
-            
-
+            global[counter] = document.getElementById("tabela").value;
             counter = -1;
+            atualizarlista()
         }
     }
 

@@ -186,16 +186,21 @@ p {
     margin: 5%;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
+/* Primeiro texto responsivo */
     #sla {
         display: flex;
         flex-direction: column;
     }
 
+    /*responsividade do primeiro article*/
     #div1 {
         width: 100vw;
     }
-
+    
+/* Segundi testo responsivo */
     #sec1 {
         display: flex;
         flex-direction: column;
@@ -207,14 +212,17 @@ p {
         align-items: center;
     }
 
+/* Curiosidades e aapl responsiva */
     aside {
         width: 100vw;
     }
 
+/* Sessão de comentários responsiva */
     form {
         text-align: center;
     }
 
+    /*responsividade - Digite seu cometario*/
     #your_comment {
         width: 60%;
         height: 3vh;
@@ -224,10 +232,12 @@ p {
         margin: 0;
     }
 
+    /*label - insira seu comentario*/
     #in_com {
         text-align: left;
     }
 
+     /*Parte que é responsavel por conter os comentarios das pessoas*/
     #art4 {
         display: flex;
         flex-direction: column;

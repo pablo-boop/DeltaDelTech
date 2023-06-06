@@ -69,6 +69,7 @@ body{
     margin-top: 2%;
  }
 
+ /*responsividade do site*/
  @media screen and (max-width: 500px) {
     #div {
         display: flex;

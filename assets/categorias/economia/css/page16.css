@@ -202,7 +202,10 @@ p {
     margin: 5%;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
+/* Primeiro texto responsivo */
     #div1{
         display: flex;
         align-items: center;
@@ -215,6 +218,7 @@ p {
         width: 83vw;
     }
 
+    /*Parte onde contem a escrita do artigo*/
     #card1 {
         display: flex;
         flex-direction: column;
@@ -222,9 +226,11 @@ p {
         padding: 15px;
     }
 
+    /*responsividade do paragrafo*/
     p {
         text-align: justify;
     }
+/* Segundo texto responsivo */
 
     #div4 {
         display: flex;
@@ -234,6 +240,7 @@ p {
         width: 83vw;
     }
 
+    /*div*/
     .lado {
         display: flex;
         flex-direction: column;
@@ -245,7 +252,7 @@ p {
     #bloco2 {
         width: 83vw;
     }
-
+    /* Sessão do gráfico responsivo */
     aside {
         width: 100vw;
     }
@@ -261,10 +268,12 @@ p {
         margin: 0;
     }
 
+/* Sessão comentários responsiva */
     form {
         text-align: center;
     }
 
+    /*responsividade - Digite seu cometario*/
     #your_comment {
         width: 60%;
         height: 3vh;
@@ -274,10 +283,12 @@ p {
         margin: 0;
     }
 
+    /*label - insira seu comentario*/
     #in_com {
         text-align: left;
     }
 
+     /*Parte que é responsavel por conter os comentarios das pessoas*/
     #art7 {
         display: flex;
         flex-direction: column;
@@ -286,6 +297,7 @@ p {
         width: 90vw;
     }
 
+    /*section*/
     .sec7 {
         width: 90vw;
         margin: 10px;

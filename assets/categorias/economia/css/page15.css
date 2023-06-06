@@ -241,7 +241,10 @@ P {
     margin: 0;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
+/*Parte que contem o titulo responsivo*/
     #sla {
         display: flex;
         flex-direction: column;
@@ -249,6 +252,7 @@ P {
         justify-content: center;
     }
 
+/*estilizaçao do primeiro article responsivo*/
     #div1 {
         width: 90vw;
         justify-content: center;
@@ -257,6 +261,7 @@ P {
         flex-direction: column;
     }
 
+/*primeiro texto*/
     #arc1 {
         width: 90vw;
         justify-content: center;
@@ -273,6 +278,7 @@ P {
 
     }
 
+/*Segundo texto*/
     #sec3 {
         display: flex;
         flex-direction: column;
@@ -280,6 +286,7 @@ P {
 
     }
 
+/* Curiosidades e o carrosel responsivos*/
     aside {
         width: 90vw;
     }
@@ -299,14 +306,17 @@ P {
         width: 83vw;
     }
 
+    /*Parte que compoe o "veja mais" e o carrosel de img, que leva para as outras pages de economia*/
     #mundo {
         width: 83vw;
     }
 
+/* Cometários responsivos e adaptados */
     form {
         text-align: center;
     }
 
+    /*responsividade - Digite seu cometario*/
     #your_comment {
         width: 60%;
         height: 3vh;
@@ -316,15 +326,18 @@ P {
         margin: 0;
     }
 
+     /*label - insira seu comentario*/
     #in_com {
         text-align: left;
     }
 
+    /*Parte que é responsavel por conter os comentarios das pessoas*/
     #art4 {
         display: flex;
         flex-direction: column;
     }
 
+    /*section*/
     .sec4 {
         width: 90vw;
         padding: 15px;

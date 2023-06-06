@@ -1,4 +1,5 @@
 /*Estilização da div com display flex*/
+
 #div_ {
     display: flex;
 }
@@ -84,9 +85,7 @@ body {
     margin-bottom: -5px;
     bottom: 0%;
 }
-*{
-    margin: 0;
-}
+
 
 @media screen and (max-width: 687px) {
     /*Estilização da tag body media*/

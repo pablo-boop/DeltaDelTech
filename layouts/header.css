@@ -40,6 +40,7 @@
     height: 100vh;
     transition: 1s;
 }
+/*Estilizacção da barra de navegação*/
 .navigation_header a{
     text-decoration: none;
     color: var(--color-white);

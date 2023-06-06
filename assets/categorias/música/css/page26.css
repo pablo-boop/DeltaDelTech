@@ -240,7 +240,7 @@ html {
     text-align:justify;
 }
 
-/*responsável pelo ID art4(artigo 4) que está interligado com a CLASS sec4*/
+/*CLASS sec4(section 4) que está dentro do ID art4*/
 .sec4 {
     background-color: white;
     border-radius: 0.25rem;
@@ -264,43 +264,52 @@ html {
     border-bottom: 2px solid #063e8d;
 }
 
+/*responsável pela margem da CLASS  comment_info*/
 .comment_info {
     margin-top: 10%;
 }
 
+/*CLASS responsável pela cor*/
 .title_name {
     color: #999;
 }
 
+/*CLASS responsável pela estrutura do comentário*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
 	color: #999;
 }
 
+/*CLASS responsável pela estrutura do comentário*/
 .content_comment_card p::before {
 	content: "\201C";
 	display: inline;
 	color: #999;
 }
 
+/*ID responsável pelo espaçamento e margem*/
 #div5 form {
   margin-left: 4%;
   flex-direction: column;
 }
 
+/*ID your_comment responsável pela largura*/
 #your_comment {
     width: 36vw;
 }
 
+/*ID comments, responsável pelo tamanho da letra*/
 #comments {
     font-size:x-large;
 }
 
+/*ID div5, espaçamento*/
 #div5 {
     margin-top: 5%;
 }
 
+/*Tag responsável pela estiização do html*/
 html {
     margin: 0;
     min-height: 300px;

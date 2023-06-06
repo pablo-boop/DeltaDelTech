@@ -84,7 +84,7 @@
         display: block;
     }
     /*Estilizacção do hover dos icones de link no sidebar*/
-    .navigation_header a:hover{
+    .navigation_header a:hover {
         color: var(--color-white);
         background-color: var(--color-dark2);
         padding: 2vh;

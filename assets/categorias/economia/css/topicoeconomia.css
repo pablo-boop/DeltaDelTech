@@ -70,14 +70,20 @@ body{
     margin-top: 2%;
  }
  
+ 
+/*responsividade do site*/
+
  @media screen and (max-width: 687px) {
+    /*footer*/
     #iframe2 {
         margin-bottom: -28px;
     }
+
     .pp {
         height: 25vh;
     }
 
+    /*section*/
     #bi {
         align-items: center;
         justify-content: center;

@@ -10,12 +10,14 @@ h1 {
     margin-top: 2%;
 }
 
+/*titulo 2*/
 h2 {
     text-align: center;
     margin-top: -11px;
     font-size: 20px;
 }
 
+/*responsividade dos títulos iniciais*/
 #div1 {
     background-color: #c6d0de;
 }
@@ -27,6 +29,7 @@ h2 {
     margin-top: 0%;
 }
 
+/*titulo difernças*/
 #diferenças {
     margin-top: 3%;
     font-size: 40px;
@@ -48,6 +51,7 @@ h2 {
     margin-left: 18%;
 }
 
+/*div*/
 #card1{
     display: flex;
 }
@@ -66,6 +70,7 @@ h2 {
     margin: 0;
 }
 
+/*estilizaça da imagem*/
 #jml {
     margin-top: -5%;
     margin-bottom: 1%;
@@ -81,6 +86,7 @@ h2 {
     text-align: none;
   }
   
+  /*estilizaçao do comentario*/
   .sec4 {
     background-color: white;
     border-radius: 0.25rem;
@@ -91,6 +97,7 @@ h2 {
     margin-bottom: 0;
   }
   
+  /*imagem*/
   .icon_profile {
     border-radius: 100%;
   }
@@ -98,6 +105,7 @@ h2 {
   .content_comment_card {
   
   }
+  /* div nickname*/
   .nickname {
     margin-left: 5%;
     margin-top: 5%;
@@ -117,6 +125,7 @@ h2 {
   
   }
   
+  /*estilizaçao dos cometarios*/
   .content_comment_card p::after {
   content: "\201D";
   display: inline;
@@ -129,27 +138,33 @@ h2 {
   color: #999;
   }
   
+  /*div com a pagina de contato*/
   #div5 form {
     margin-left: 4%;
    flex-direction: column;
    display: flex;
   }
   
+  /*estilizaçao do input - digite seu comentario*/
   #your_comment {
     width: 30.8%;
   }
   
+   /*estilizaçao label comentarios*/
   #comments {
     font-size:x-large;
     margin-top: 4%;
   }
 
+  /* estilizaçao do paragrafo*/
   p {
     font-size: 20px;
 }
 
-@media screen and (max-width: 500px) {
 
+/*responsividade do site*/
+@media screen and (max-width: 500px) {
+/*responsável pelos títulos iniciais*/
   #div1 {
     width: 230vw;
     font-size: 25px;
@@ -160,25 +175,28 @@ h2 {
     width: 100vw;
   }
 
+  /*imagem*/
   #img1 {
     margin-left: 5vw;
     height: 60vh;
     width: 220vw;
   }
 
+  /*-responsável pelo card 1 sobre qual é melhor junto com icon ilustrativo*/
   #div3 {
     width: 250vw;
     margin-bottom: 10vh;
     margin-left: -20vw;
   }
 
+   /*label comentarios*/
   #comments {
     margin-left: 75vw;
     margin-bottom: 5vh;
     font-size: 35px;
   }
 
-
+/*responsividade do input - digite seu comentario*/
   #your_comment {
     width: 120vw;
     padding: 15px;
@@ -192,6 +210,7 @@ h2 {
     flex-direction: column;
   }
 
+  /*imagem*/
   #jml {
     margin-left: 60vw;
     margin-top: 5vh;
@@ -201,7 +220,7 @@ h2 {
     margin-left: 15vw;
   }
 
-
+/*article com comentarios*/
   #art4 {
     display: flex;
     flex-direction: column;
@@ -215,15 +234,18 @@ h2 {
   .sec4 p {
     font-size: 35px;
   }
+  /*article*/
   #bloco1 h1 {
     font-size: 30px;
   } 
   #bloco1 {
     width: 175vw;
   }
+  /*footer*/
   #iframe {
     width: 230vw;
   }
+  /*header*/
   #header {
     width: 230vw;
   }

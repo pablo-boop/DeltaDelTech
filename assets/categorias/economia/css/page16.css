@@ -202,6 +202,8 @@ p {
     margin: 5%;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
     #div1{
         display: flex;
@@ -215,6 +217,7 @@ p {
         width: 83vw;
     }
 
+    /*Parte onde contem a escrita do artigo*/
     #card1 {
         display: flex;
         flex-direction: column;
@@ -222,6 +225,7 @@ p {
         padding: 15px;
     }
 
+    /*responsividade do paragrafo*/
     p {
         text-align: justify;
     }
@@ -234,6 +238,7 @@ p {
         width: 83vw;
     }
 
+    /*div*/
     .lado {
         display: flex;
         flex-direction: column;
@@ -261,10 +266,12 @@ p {
         margin: 0;
     }
 
+    /*contato*/
     form {
         text-align: center;
     }
 
+    /*responsividade - Digite seu cometario*/
     #your_comment {
         width: 60%;
         height: 3vh;
@@ -274,10 +281,12 @@ p {
         margin: 0;
     }
 
+    /*label - insira seu comentario*/
     #in_com {
         text-align: left;
     }
 
+     /*Parte que é responsavel por conter os comentarios das pessoas*/
     #art7 {
         display: flex;
         flex-direction: column;
@@ -286,6 +295,7 @@ p {
         width: 90vw;
     }
 
+    /*section*/
     .sec7 {
         width: 90vw;
         margin: 10px;

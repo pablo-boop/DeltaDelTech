@@ -31,7 +31,7 @@ section  {
 #section1{
     padding: 1%;
 }
-
+/*Estilização do texto da section1*/
 #section1 h1 {
     font-size: 30px;
 }

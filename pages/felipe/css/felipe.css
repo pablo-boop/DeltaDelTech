@@ -119,6 +119,7 @@ h1{
     #s2 {
         flex-direction: column;
     }
+    /*Estilização da section curiosidade*/
     #curiosidade {
         padding: 2vh;
     }

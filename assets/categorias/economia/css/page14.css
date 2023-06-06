@@ -185,6 +185,8 @@ margin-left: 5%;
   font-size: 20px;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
 
 /*Parte que incorpora o html para o celular*/
@@ -216,10 +218,12 @@ margin-left: 5%;
     justify-content: center;
   }
 
+  /*responsividade do article*/
   #sla {
     margin: 0;
   }
 
+  /*responsividade da section*/
   #lower1 {
     margin: 0;
     width: 80vw;
@@ -227,6 +231,7 @@ margin-left: 5%;
     justify-content: center;
   }
 
+  /*responsividade da section*/
   #lower2 {
     margin: 30px;
     padding: 0;
@@ -236,6 +241,7 @@ margin-left: 5%;
     justify-content: center;
   }
 
+  /*imagem do Brasil*/
   #icon1 {
     margin: 0;
   }
@@ -244,10 +250,12 @@ margin-left: 5%;
     margin-left: 4px;
   }
 
+  /* h2 - Politica + economia no Brasil*/
   #jm {
     margin: 0;
   }
 
+  /*responsividade do paragrafo*/
   #p1 {
     margin-left: 25%;
     text-align: center;
@@ -261,6 +269,7 @@ margin-left: 5%;
     text-align: justify;
   }
 
+  /*responsável pelo card sobre saneamento no brasil junto com o icon*/
   #linha2 {
     align-items: center;
     justify-content: center;
@@ -273,6 +282,7 @@ margin-left: 5%;
   text-align: center;
  }
 
+ /*responsividade - Digite seu cometario*/
  #your_comment {
   width: 60%;
   height: 3vh;
@@ -282,10 +292,12 @@ margin-left: 5%;
   margin: 0;
  }
 
+ /*label - insira seu comentario*/
  #in_com {
   text-align: left;
  }
 
+ /*Parte que é responsavel por conter os comentarios das pessoas*/
   #art4 {
     display: flex;
     flex-direction: column;
@@ -296,6 +308,7 @@ margin-left: 5%;
     margin-right: -10px;
   }
 
+  /*section*/
   .sec4 {
     width: 90%;
     justify-content: center;

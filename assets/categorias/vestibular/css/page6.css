@@ -78,17 +78,20 @@ html {
     margin-left: 10%;
   }
 
+  /*estilizaçao do paragrafo*/
   #p1 {
     width: 50%;
     margin-left: 30%;
   }
 
+  /*estilizaçao do card sobre vestibular - areas de conhecimento-*/
   #linha {
     margin: 1%;
     padding: 2%;
     display: flex;
   }
 
+  /*estilizaçao do card sobre vestibular e icon*/
   #linha2 {
     border-left: 1px solid black;
   }
@@ -166,6 +169,7 @@ li {
 
 }
 
+/*estilizaçao dos comentrios*/
 .content_comment_card p::after {
 content: "\201D";
 display: inline;
@@ -178,30 +182,38 @@ display: inline;
 color: #999;
 }
 
+/*div com a pagina de contato*/
 #div5 form {
   margin-left: 4%;
  flex-direction: column;
  display: flex;
 }
 
+ /*estilizaçao do input - digite seu comentario*/
 #your_comment {
   width: 30.8%;
 }
 
+/*estilizaçao label comentarios*/
 #comments {
   font-size:x-large;
   margin-top: 4%;
 }
 
+ /* estilizaçao do paragrafo*/
 p {
   font-size: 20px;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 500px) {
   #titulo1 {
     margin-left: -10vw;
     padding-left: 20vw;
   }
+
+  /*responsividade do card de o que é vestibular*/
   #bloco1 {
     font-size: 25px;
     text-align: center;
@@ -211,10 +223,13 @@ p {
   #bloco1 h1 {
     margin-left: 20vw;
   }
+
+  /*paragrafo*/
   p {
     margin-left: 20vw;
     font-size: 20px;
   }
+  /*responsavel pela imagens*/
   .slides-list {
     margin-left: 5vw;
   }
@@ -225,6 +240,8 @@ p {
   #carrosel {
     margin-left: 5vw;
   }
+
+  /* div do card sobre vestibular - areas de conhecimento*/
   #linha {
       display: flex;
     flex-direction: column;
@@ -253,21 +270,29 @@ p {
     width: 50vw;
     margin-left: 15vw;
   }
+  
+  /* imagem*/
   #icon1 {
     margin-left: 5vw;
   }
+
+  /*responsividade do input - digite seu comentario*/
   #your_comment {
     width: 50vw;
   }
+
+  /*responsável pelos comentários do artigo*/
   #div5 {
     margin-top: 5vh;
     margin-bottom: 5vh;
     margin-left: 25vw;
   }
+  /*label comentarios*/
   #comments {
     margin-left: 10vw;
   }
 
+  /* article*/
   #art4 {
     display: flex;
     flex-direction: column;

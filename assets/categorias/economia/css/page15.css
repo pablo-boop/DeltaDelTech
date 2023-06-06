@@ -241,6 +241,8 @@ P {
     margin: 0;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
 /*Parte que contem o titulo responsivo*/
     #sla {
@@ -304,6 +306,7 @@ P {
         width: 83vw;
     }
 
+    /*Parte que compoe o "veja mais" e o carrosel de img, que leva para as outras pages de economia*/
     #mundo {
         width: 83vw;
     }
@@ -313,6 +316,7 @@ P {
         text-align: center;
     }
 
+    /*responsividade - Digite seu cometario*/
     #your_comment {
         width: 60%;
         height: 3vh;
@@ -322,15 +326,18 @@ P {
         margin: 0;
     }
 
+     /*label - insira seu comentario*/
     #in_com {
         text-align: left;
     }
 
+    /*Parte que é responsavel por conter os comentarios das pessoas*/
     #art4 {
         display: flex;
         flex-direction: column;
     }
 
+    /*section*/
     .sec4 {
         width: 90vw;
         padding: 15px;

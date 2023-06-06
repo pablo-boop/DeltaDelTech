@@ -89,10 +89,12 @@ function antiplot(position) { //parametro inserido na atualizar lista
     atualizarlista();
 }
 
+var element;
 
 function editplot(position) {
+
 for (let i = 0; i < global.length; i++) {
-    var element = global[i];
+    element = global[i];
 
     document.getElementById("titulo").value = element[0];
     document.getElementById("resumo").value = element[1];
@@ -100,6 +102,5 @@ for (let i = 0; i < global.length; i++) {
     document.getElementById("autortitle").value = element[3];
     document.getElementById("data").value = data;
 }
-
     antiplot(position);
 }

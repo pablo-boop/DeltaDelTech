@@ -143,6 +143,7 @@ h2 {
     margin-left: 11%;
 }
 
+/*estilização imagem*/
 #img00 {
     margin-right: 2%;
     margin-top: 2%;
@@ -341,15 +342,13 @@ font-size: 20px;
     img{
         border-radius: 10px;
     }
-    
+
+    /*estilizacao do iframe*/
     #iframe{
         margin-bottom: -5px;
     }
     
-    *{
-        margin: 0;
-    }
-    
+    /*estilizacao do paragrafo*/
     p{
         margin-top: 10px;
     }
@@ -374,6 +373,7 @@ font-size: 20px;
         margin-top: 15%;
     }
     
+    /*estilizacao da imagem*/
     #img5 {
         margin-left: 5%;
         display: flex;
@@ -421,7 +421,7 @@ font-size: 20px;
         margin-bottom: 0;
     }
     
-    /*responsável pela aba de comentários*/
+    /*estilização art4*/
     #art4 {
         background-color: none;
         margin: 1%;
@@ -431,6 +431,7 @@ font-size: 20px;
         margin-bottom: 0;
     }
     
+    /*estilização sec4*/
     .sec4 {
         background-color: white;
         border-radius: 0.25rem;
@@ -446,19 +447,18 @@ font-size: 20px;
         
     }
     
+    /*estilização icone*/
     .icon_profile {
         border-radius: 100%;
     }
     
-    .content_comment_card {
-    }
-
     .nickname {
         margin-left: 5%;
         margin-top: 5%;
         border-bottom: 2px solid #063e8d;
     }
-    
+
+    /*estilização icone, informações*/
     .comment_info {
         display: flex;
         flex-direction: column;
@@ -501,6 +501,7 @@ font-size: 20px;
         flex-direction: column;
     }
     
+    /*estilização paragrafo*/
     p {
     font-size: 20px;
     }    
@@ -514,5 +515,3 @@ font-size: 20px;
 
 }
 
-/*Obs: nas laterais tem uma pequena margem mas, desconheço da onde está  vindo
-por causa que já revi e não consegui detectar.

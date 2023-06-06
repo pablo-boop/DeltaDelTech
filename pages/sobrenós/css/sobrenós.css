@@ -5,27 +5,32 @@ body {
     font-size: 20px;
 }
 /* estilizaçao da div*/
-#div1 {
 
-}
+/*estilização do id arc1*/
 #arc1 {
     background-color: none;
     padding: 2%;
     margin: 1%;
-/*estilizaçao das class e ids dos conteudos do html*/
 }
+
+/*estilizaçao das class e ids dos conteudos do html*/
 .tit {
   text-align: center;
 }
+
+/*estilização do id sobrenos*/
 #sobrenos {
     background-color: none;
     display: flex;
 }
+
 #sobre {
     margin: 1%;
     padding: 2%;
     text-align: justify;
 }
+
+/*Arrumar a imagem através do ID img1*/
 #img1 {
     border-radius: 22px;
     margin: 1%;
@@ -36,20 +41,16 @@ iframe {
     margin: 0;
     padding: 0;
 }
-#div2 {
-}
+
 #arc2 {
     background-color: none;
     padding: 2%;
     margin: 1%;
     display: flex;
     border-top: 1px black solid;
-    
 }
-#mvv {
-/* id e hover para poder customizar quando ou mouse passa por cima dos cards do mmv*/
-    
-}
+
+/* id e hover para poder customizar quando ou mouse passa por cima dos cards do mmv*/ 
 #mvv:hover {
     transform: scale(1.07);
     transform: scale(1.05);

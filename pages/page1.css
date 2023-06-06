@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+}
+
+/* seção de bloco das categorias (por par) */
 #div_ {
     display: flex;
 
 }
 
+/* bloco da categoria estilização */
 a {
     width: 100%;
     text-align: center;
@@ -17,11 +23,11 @@ a {
     text-decoration: none;
 }
 
-
 body {
     background-color: white
 }
 
+/*Bloco quando passa mouse em cima*/
 .pp:hover{
     transform: scale(1.02);
     transition: 0.3s;
@@ -30,6 +36,8 @@ body {
     text-align: center;
 
 }
+
+/*estilização dos links das páginas*/
 
 #bi {
     background-image: url(../assets/imagens/img-economia.jpg);
@@ -80,15 +88,16 @@ body {
 
 }
 
+/*footer*/
+
 .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;
 }
-*{
-    margin: 0;
-}
+
 
 @media screen and (max-width: 687px) {
+    /* Adaptar para tela de celular */
     body {
         width: 100vw;
         height: 100vh;
@@ -99,6 +108,7 @@ body {
         margin-bottom: -10px;
     }
 
+    /* Deixando cada bloco em linha */
     #div_ {
         display: flex;
         flex-direction: column;
@@ -106,6 +116,7 @@ body {
 
     }
 
+    /*Div que engloba todo o site*/
     div {
         text-align: center;
         justify-content: center;
@@ -116,6 +127,7 @@ body {
         margin-bottom: 10px;
     }
 
+    /* footer */
     .iframe1 {
         margin-bottom: -10px;
     }

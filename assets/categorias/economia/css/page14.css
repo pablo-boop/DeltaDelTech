@@ -188,6 +188,8 @@ margin-left: 5%;
 
 /*responsividade do site*/
 @media screen and (max-width: 687px) {
+
+/*Parte que incorpora o html para o celular*/
   body {
     width: 100vw;
   }
@@ -196,7 +198,7 @@ margin-left: 5%;
     margin: 0;
   }
 
- /*responsividade dos artigos*/
+  /*responsável pela responsividade de um dos artigos*/
   #bloco1 {
     margin: 5px;
     padding: 15px;
@@ -207,7 +209,7 @@ margin-left: 5%;
     text-align: justify;
   }
 
-  /*responsável pelo card sobre saneamento e saude junto com o icon*/
+  /*responsável pelos icons e paragrafos responsivos*/
   #linha {
     display: flex;
     flex-direction: column;
@@ -275,7 +277,7 @@ margin-left: 5%;
     border: none;
   }
 
-/*contato*/
+/*Responsável por deixar os comentários responsivos*/
  form {
   text-align: center;
  }

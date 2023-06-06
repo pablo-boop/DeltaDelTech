@@ -74,16 +74,17 @@ body{
 /*responsividade do site*/
 
  @media screen and (max-width: 687px) {
-    /*footer*/
+
+/* Footer */    
     #iframe2 {
         margin-bottom: -28px;
     }
-
+/* Tamanho de cada bloco */
     .pp {
         height: 25vh;
     }
 
-    /*section*/
+/* Alinhamento do conteúdo */
     #bi {
         align-items: center;
         justify-content: center;

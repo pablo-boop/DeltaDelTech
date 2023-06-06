@@ -189,7 +189,7 @@ p {
 
 /*responsividade do site*/
 @media screen and (max-width: 687px) {
-    /*div que separa o corpo do titulo*/
+/* Primeiro texto responsivo */
     #sla {
         display: flex;
         flex-direction: column;
@@ -199,7 +199,8 @@ p {
     #div1 {
         width: 100vw;
     }
-
+    
+/* Segundi testo responsivo */
     #sec1 {
         display: flex;
         flex-direction: column;
@@ -211,12 +212,12 @@ p {
         align-items: center;
     }
 
-    /*responsividade do aside*/
+/* Curiosidades e aapl responsiva */
     aside {
         width: 100vw;
     }
 
-    /*contato*/
+/* Sessão de comentários responsiva */
     form {
         text-align: center;
     }

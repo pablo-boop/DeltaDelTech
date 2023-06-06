@@ -107,6 +107,7 @@ img {
 
 .comment_card {}
 
+/*estilizaçao dos comentarios*/
 .content_comment_card p::after {
     content: "\201D";
     display: inline;
@@ -119,22 +120,25 @@ img {
     color: #999;
 }
 
+/*div com a pagina de contato*/
 #div5 form {
     margin-left: 4%;
     flex-direction: column;
     display: flex;
 }
 
+ /*estilizaçao do input - digite seu comentario*/
 #your_comment {
     width: 30.8%;
 }
 
+ /*estilizaçao label comentarios*/
 #comments {
     font-size: x-large;
     margin-top: 4%;
 }
 
-/*responsável pelos textos de titulo e subtitulo*/
+/*imagem*/
 .jml {
     margin-left: 40%;
 }
@@ -150,6 +154,7 @@ h3 {
     margin-bottom: 3%;
 }
 
+/*estilizaçao do paragrafo*/
 p {
     font-size: 20px;
 }

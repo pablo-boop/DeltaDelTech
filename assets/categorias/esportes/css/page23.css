@@ -266,7 +266,7 @@ iframe{
 }
 
 @media screen and (max-width: 687px) {
-    /*arrumando corpo e blocos e cards*/
+    /*arrumando comentarios*/
     main{
         align-items: center;
     }
@@ -314,6 +314,10 @@ iframe{
 }
 #img4{
     margin-bottom: 0px;
+}
+/*arrumando blocos e cards*/
+main{
+    align-items: center;
 }
 .lado{
     flex-direction: column;

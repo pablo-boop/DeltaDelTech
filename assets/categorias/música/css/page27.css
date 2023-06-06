@@ -170,10 +170,10 @@ li {
 #art4 {
     background-color: none;
     margin: 1%;
-    padding: 4%;
+    padding: 2%;
     display: flex;
     margin-bottom: 0;
-
+    margin-left: -25px;
 }
 
 /*responsável pela estilização do art4*/

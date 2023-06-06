@@ -62,6 +62,7 @@
 }
 /*Estilização da responsividade do header*/
 @media screen and (max-width: 768px) {
+    /*Estilizacção da barra de nvagação*/
     .navigation_header{
         position: absolute;
         flex-direction: column !important;

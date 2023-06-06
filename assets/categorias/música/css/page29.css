@@ -105,10 +105,12 @@ p{
     margin-bottom: 5px solid black;
 }
 
+/*estilização do p1*/
 #p1{
     margin-top: 4%;
 }
 
+/*estilização da img4*/
 #img4 {
     margin-top: 2%;
     margin-left: 10px;
@@ -137,6 +139,7 @@ p{
     margin-top: 3%;
 }
 
+/*estilização do art1*/
 #art1 {
     display: flex;
     margin: 5px;
@@ -144,10 +147,12 @@ p{
     
 }
 
+/*estilização do hover dos cards*/
 .loi:hover {
     transform: scale(1.05);
 }
 
+/*estilização dos cards*/
 .loi {
     background-color: #c6d0de;
     border: 1px black solid;

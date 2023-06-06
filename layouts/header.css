@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: auto;
 }
 .header{
     background-color: var(--color-dark5);
@@ -71,9 +72,10 @@
         flex-direction: column !important;
         top: 0;
         background: var(--color-dark5);
-        height: 100%;
+        height: auto;
         width: 35vw;
         padding: 1em;
+        z-index: 3;
         animation-duration: 1s;
         margin-left: -100vw;
     }

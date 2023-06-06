@@ -59,9 +59,12 @@ iframe {
     -moz-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
     box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
 }
+
+/*ID responsável pela borda*/
 .div3 {
   border-top: 1px black solid;
 }
+
 /*estilizaçao dos article*/
 #arc3{
     background-color: none;
@@ -71,6 +74,8 @@ iframe {
 
     display: flex;
 }
+
+/*estilizaçao dos article*/
 #arc4 {
     background-color: none;
     padding: 2%;
@@ -78,6 +83,8 @@ iframe {
     margin: 1%;
     display: flex;
 }
+
+/*estilizaçao do sobre nos*/
 #nos {
     padding: 10%;
     margin: 5%;
@@ -86,16 +93,20 @@ iframe {
     border-radius: 10px;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
+
+/*estilizaçao do hover*/
 #nos:hover {
     transform: scale(1.05);
-    transition: 0.3s;}
-.no {
+    transition: 0.3s;
+  }
 
+.no {
     height: 256px;
     width: 100%;
     padding-bottom: 2%;
-
 }
+
+/*estilizaçao do texto*/
 #tex1 {
     text-align: justify;
     margin: 1%;
@@ -109,12 +120,12 @@ a {
     color: black;
     width: 33%;
 }
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 /* class principal dos cards*/
 .cards {
   display: flex;
@@ -124,35 +135,39 @@ a {
   padding: 0;
 }
 
+/* estilizaçao dos cards */
 .cards_item {
   display: flex;
   padding: 1rem;
 }
+
 /* class para poder ajustar a img dentro dos cards*/
 .card_image {
   position: relative;
   max-height: 250px;
 }
 
+/* class para poder ajustar a img dentro dos cards*/
 .card_image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-
+/* class para poder ajustar os cards*/
 .card_price span {
   font-size: 20px;
   margin-top: -2px;
 }
 
-
+/*media para deixar o site responsivo*/
 @media (min-width: 40rem) {
   .cards_item {
     width: 50%;
   }
 }
 
+/*media para deixar o site responsivo*/
 @media (min-width: 56rem) {
   .cards_item {
     width: 33.3333%;
@@ -167,6 +182,7 @@ a {
   flex-direction: column;
   overflow: hidden;
 }
+
 /* traço no card de mmv*/
 .card_content {
   position: relative;

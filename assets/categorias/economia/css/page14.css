@@ -186,6 +186,8 @@ margin-left: 5%;
 }
 
 @media screen and (max-width: 687px) {
+
+/*Parte que incorpora o html para o celular*/
   body {
     width: 100vw;
   }
@@ -194,6 +196,7 @@ margin-left: 5%;
     margin: 0;
   }
 
+  /*responsável pela responsividade de um dos artigos*/
   #bloco1 {
     margin: 5px;
     padding: 15px;
@@ -204,6 +207,7 @@ margin-left: 5%;
     text-align: justify;
   }
 
+  /*responsável pelos icons e paragrafos responsivos*/
   #linha {
     display: flex;
     flex-direction: column;
@@ -264,7 +268,7 @@ margin-left: 5%;
     border: none;
   }
 
-
+/*Responsável por deixar os comentários responsivos*/
  form {
   text-align: center;
  }

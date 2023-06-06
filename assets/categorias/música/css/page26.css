@@ -204,7 +204,10 @@ html {
     text-align: center;
 }
 
+/*Responsável pela responsividade do celular*/
 @media screen and (max-width:687px) {
+
+ /*responsável pela página inteira (corpo da página)*/
   body {
     background-color: #dfdfdf;
     font-size: 20px;
@@ -213,23 +216,23 @@ html {
     height: 100%;
 }
 
+/*responsável pela largura, margem a esquerda e alinhamento desse ID*/
 #p1 {
   width: 180vw;
   margin-left: 30%;
   text-align: justify;
 }
 
-#div{
-}
-
+/*ID responsável pelos cards*/
 #card-item {
     background-color: #063e8d;
     border: #063e8d solid 1px;
     width: 60vw;
-    margin: auto;
+    margin: gauto;
     margin-bottom: 2%;
 }
 
+/*responsável pelo ID art4(artigo 4) que está interligado com a CLASS sec4*/
 #art4 {
     background-color: none;
     padding: 2%;
@@ -237,6 +240,7 @@ html {
     text-align:justify;
 }
 
+/*responsável pelo ID art4(artigo 4) que está interligado com a CLASS sec4*/
 .sec4 {
     background-color: white;
     border-radius: 0.25rem;

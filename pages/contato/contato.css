@@ -71,6 +71,7 @@ h1 {
 * {
     margin: 0;
 }
+/*pequena div para  input*/
 .e {
     display: flex;
 }

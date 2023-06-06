@@ -74,12 +74,14 @@ body {
     color: #999;
 }
 
+/*responsável pela estruturação do site*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
 	color: #999;
 }
 
+/*responsável pela estruturação do site*/
 .content_comment_card p::before {
 	content: "\201C";
 	display: inline;

@@ -45,13 +45,18 @@ body {
     margin-bottom: 0;
 }
 
+
+/*responsáel pelos ícones/imagens do comentário*/
 .icon_profile {
     border-radius: 100%;
 }
 
+/*não tem utilidade*/
 .content_comment_card {
 
 }
+
+/*responsável pelo nome dos ícones*/
 .nickname {
     margin-left: 5%;
     margin-top: 5%;

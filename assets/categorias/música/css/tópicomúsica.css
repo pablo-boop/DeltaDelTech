@@ -49,10 +49,6 @@ body{
     margin-bottom: -5px;
  }
 
- *{
-    margin: 0;
- }
-
  /*Estilização do sla*/
  .sla {
     margin: 2%;

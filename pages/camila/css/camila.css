@@ -112,6 +112,7 @@ h1{
         padding: 2vh;
         margin-bottom: 5vh;
     }
+    /*Estilização da section s2*/
     #s2 {
         flex-direction: column;
     }

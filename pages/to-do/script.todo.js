@@ -39,10 +39,13 @@ function plotar() {
             global.push(info);
             //atualiza
             atualizarlista()
+
         } else {
+
             for(let i = 0; counter == global[i]; i++) {
                 itens = global[i];
             }
+            
             counter = -1;
         }
     }

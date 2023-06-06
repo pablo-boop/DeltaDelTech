@@ -2,6 +2,7 @@
 let global = [];
 let info = [];
 
+let counter = -1;
 
 var title = "";
 var description = "";
@@ -26,17 +27,24 @@ function plotar() {
         document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";
     //se não for vazio, realiza o plot do artigo
     } else {
-        document.getElementById("errorMsg").innerHTML = "";
-        info.push(title);
-        info.push(description);
-        info.push(categoria);
-        info.push(autor);
-        info.push(novadata);
+        if(counter < 0) {
+            document.getElementById("errorMsg").innerHTML = "";
+            info.push(title);
+            info.push(description);
+            info.push(categoria);
+            info.push(autor);
+            info.push(novadata);
 
 
-        global.push(info);
-        //atualiza
-        atualizarlista()
+            global.push(info);
+            //atualiza
+            atualizarlista()
+        } else {
+            for(let i = 0; counter == global[i]; i++) {
+                itens = global[i];
+            }
+            counter = -1;
+        }
     }
 
 
@@ -98,7 +106,6 @@ function editplot(position) {
     document.getElementById("resumo").value = element[1];
     document.getElementById("categoria").value = element[2];
     document.getElementById("autortitle").value = element[3];
-    document.getElementById("data").value = data;
     
-    
+    counter = position;
 }

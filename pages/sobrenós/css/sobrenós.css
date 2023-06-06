@@ -283,9 +283,6 @@ hr {
   margin-bottom: -5px;
 }
 
-*{
-  margin: 0;
-}
 
 /*media para deixar o site responsivo*/
 @media screen and (max-width: 500px) {

@@ -27,7 +27,7 @@ body {
 .loi:hover {
     transform: scale(1.05);
 }
-
+/*estilizaçao do card 1 junto com a imagem, icon e texto sobre*/
 .loi {
     background-color: #c6d0de;
     border: 1px black solid;

@@ -99,9 +99,12 @@ p{
     margin-top: 3%;
     border-top: 1px solid black;
     display: flex;
-    width: 80%;
-    margin-left: 9%;
+    width: 94vw;
     margin-bottom: 5px solid black;
+}
+
+#div0 {
+margin-left: 50px;
 }
 
 /*estilização do paragrafo*/
@@ -167,7 +170,8 @@ li {
 #art4 {
     background-color: none;
     margin: 1%;
-    padding: 10%;
+    padding: 4%;
+    display: flex;
     margin-bottom: 0;
 
 }

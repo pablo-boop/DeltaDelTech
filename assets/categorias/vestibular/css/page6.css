@@ -91,6 +91,7 @@ html {
     display: flex;
   }
 
+  /*estilizaçao do card sobre vestibular e icon*/
   #linha2 {
     border-left: 1px solid black;
   }

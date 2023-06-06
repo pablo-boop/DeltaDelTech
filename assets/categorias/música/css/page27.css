@@ -159,7 +159,7 @@ h2 {
 
 li {
     margin: 5px;
-   margin-left: 2px;
+    margin-left: 2px;
     list-style: none;
 }
 
@@ -213,6 +213,7 @@ li {
 	color: #999;
 }
 
+/*responsável pela estilização e estruturação dos comentarios*/
 .content_comment_card p::before {
 	content: "\201C";
 	display: inline;

@@ -63,11 +63,13 @@ body {
     border-bottom: 2px solid #063e8d;
 }
 
+/*responsável pela informação dos ícones*/
 .comment_info {
     display: flex;
     margin-top: 10%;
 }
 
+/*responsável pelo título dos ícones*/
 .title_name {
     color: #999;
 }

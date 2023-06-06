@@ -277,6 +277,9 @@ h1 {
     .p {
         font-size: 13px
     }
+    .flexslider h1 {
+        font-size: 30px;
+    }
 
     /*Arrumando os cards*/
     #div3 {
@@ -299,5 +302,4 @@ h1 {
         margin: 0%;
         height: 55vh;
     }
-
 }

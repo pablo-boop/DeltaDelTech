@@ -51,11 +51,6 @@ body {
     border-radius: 100%;
 }
 
-/*não tem utilidade*/
-.content_comment_card {
-
-}
-
 /*responsável pelo nome dos ícones*/
 .nickname {
     margin-left: 5%;
@@ -81,23 +76,26 @@ body {
 	color: #999;
 }
 
-/*responsável pela estruturação do site*/
+/*responsável pela estruturação do card*/
 .content_comment_card p::before {
 	content: "\201C";
 	display: inline;
 	color: #999;
 }
 
+/*responsável pelo espaçamento*/
 #div5 form {
     margin-left: 4%;
    flex-direction: column;
    display: flex;
 }
 
+/*interligada com o card comments (comentários), largura*/
 #your_comment {
     width: 30.8%;
 }
 
+/*tamanho da letra dos cards comments(comentário)*/
 #comments {
     font-size:x-large;
 }

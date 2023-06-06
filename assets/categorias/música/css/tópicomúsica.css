@@ -58,19 +58,19 @@ body{
     margin: 2%;
  }
 
- /*Estiliza~ção da div ee*/
+ /*Estilização da div ee*/
  #ee{
     background-color: #c6d0de;
     text-align: center;
     margin-top: 2%;
  }
 
-  /*Estilização imgg*/
+  /*Estilização img*/
   .imgg{
     margin-top: 2%;
  }
 
-
+ /*Estilização da responsividade*/
  @media screen and (max-width: 687px) {
     #iframe2 {
         margin-bottom: -28px;

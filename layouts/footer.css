@@ -43,6 +43,7 @@ body{
 @keyframes mymove {
   
 }
+/*Estilizacção do hover da imagem*/
 #imggg:hover {
     transform: rotate(350deg);
     animation:alternate;

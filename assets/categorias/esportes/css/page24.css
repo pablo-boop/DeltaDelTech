@@ -277,10 +277,7 @@ h1 {
     .p {
         font-size: 13px
     }
-    .flexslider h1 {
-        font-size: 30px;
-    }
-
+    
     /*Arrumando os cards*/
     #div3 {
         flex-direction: column;

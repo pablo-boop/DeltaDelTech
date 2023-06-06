@@ -41,7 +41,7 @@ h1 {
 /*Estilização div1*/
 #div1 {
     text-align: center;
-    padding: 2%;
+    padding: 2vw;
 
 }
 
@@ -120,10 +120,6 @@ h2 {
     margin: 1%;
     padding: 2%;
     display: flex;
-    margin-bottom: 0;
-    margin-top: 4%;
-    margin-right: 10%;
-
 }
 
 .sec4 {
@@ -211,7 +207,7 @@ h2 {
     }
 
     .sec4 {
-        width: 65vw;
+        width: 55vw;
     }
 
     #bloco1 {
@@ -222,6 +218,8 @@ h2 {
     /*arrumando blosos*/
     #div1 {
         width: 100vw;
+        margin: 0;
+        padding: 0;
     }
     #div2 {
         flex-direction: column;
@@ -267,6 +265,9 @@ h2 {
 }
 .flexslider h1 {
     font-size: 20px;
-    margin: ;
+    margin-left: 100px;
+}
+.main-banner{
+    width: 95vw;
 }
 }

@@ -102,6 +102,7 @@ h1{
         width: 350px;
         height: 300px;
     }
+    /*Estilização do texto da section s1*/
     #s1 p {
         width: 50vw;
         margin-left: 1vw;

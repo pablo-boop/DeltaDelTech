@@ -125,6 +125,7 @@ h2 {
   
   }
   
+  /*estilizaçao dos cometarios*/
   .content_comment_card p::after {
   content: "\201D";
   display: inline;
@@ -137,6 +138,7 @@ h2 {
   color: #999;
   }
   
+  /*div com a pagina de contato*/
   #div5 form {
     margin-left: 4%;
    flex-direction: column;

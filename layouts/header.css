@@ -1,3 +1,4 @@
+/*Estilização das cores do site*/
 :root{
     --color-white: #fff;
     --color-dark1: rgb(39, 39, 39);
@@ -11,9 +12,11 @@
     padding: 0;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+/*Estilização da imagem do header*/
 .img_logo_header{
     width: 45px;
 }
+/*Estilização da barra de navegação*/
 .header,
 .navigation_header{
     display: flex;
@@ -59,6 +62,7 @@
     display: none;
     margin-left: 5vw;
 }
+/*Estilização da responsividade do header*/
 @media screen and (max-width: 768px) {
     .navigation_header{
         position: absolute;
@@ -75,6 +79,7 @@
         display: block;
     }
 }
+/*Animação da sidebar*/
 @keyframes showSidebar {
     from {margin-left: -100vw;}
     to {margin-left: -10vw;}

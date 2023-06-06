@@ -94,6 +94,7 @@ p{
     margin-top: 10px;
 }
 
+/*estilização do div4*/
 #div4{
     margin-top: 3%;
     border-top: 1px solid black;
@@ -103,29 +104,35 @@ p{
     margin-bottom: 5px solid black;
 }
 
+/*estilização do paragrafo*/
 #p1{
     margin-top: 6%;
     margin-left: 5%;
 }
 
+/*estilização do imagem4*/
 #img4 {
     margin-top: 1%;
 }
 
+/*estilização do imagem5*/
 #img5 {
     margin-left: 3%;
 }
 
+/*estilização do imagem0*/
 #img0 {
     margin-bottom: -2%;
     margin-top: 2%;
 }
 
+/*estilização do titulo*/
 h2 {
     margin-top: 1%;
 
 }
 
+/*estilização do paragrafo*/
 #p2 {
     margin-top: 9%;
     margin-left: -19%;
@@ -154,9 +161,6 @@ li {
    margin-left: 2px;
     list-style: none;
 }
-#div{
-    margin-bottom: 0;
-}
 
 /*responsável pela aba de comentários*/
 #art4 {
@@ -167,6 +171,7 @@ li {
 
 }
 
+/*responsável pela estilização do art4*/
 .sec4 {
     background-color: white;
     border-radius: 0.25rem;
@@ -178,19 +183,19 @@ li {
     margin-top: 3%;
 }
 
+/*responsável pela estilização dos ícones*/
 .icon_profile {
     border-radius: 100%;
 }
 
-.content_comment_card {
-
-}
+/*responsável pela estilização dos comentarios*/
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
     border-bottom: 2px solid #063e8d;
 }
 
+/*responsável pela estilização dos comentarios*/
 .comment_info {
     display: flex;
     margin-top: 10%;
@@ -200,10 +205,7 @@ li {
     color: #999;
 }
 
-.comment_card {
-
-}
-
+/*responsável pela estilização dos comentarios*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
@@ -229,6 +231,7 @@ li {
     margin-top: 4%;
 }
 
+/*responsável pela estilização do paragrafo*/
 p {
 font-size: 20px;
 }    

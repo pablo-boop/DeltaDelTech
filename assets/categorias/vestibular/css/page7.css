@@ -148,8 +148,10 @@ h2 {
     font-size: 20px;
 }
 
-@media screen and (max-width: 500px) {
 
+/*responsividade do site*/
+@media screen and (max-width: 500px) {
+/*responsável pelos títulos iniciais*/
   #div1 {
     width: 230vw;
     font-size: 25px;
@@ -160,12 +162,14 @@ h2 {
     width: 100vw;
   }
 
+  /*imagem*/
   #img1 {
     margin-left: 5vw;
     height: 60vh;
     width: 220vw;
   }
 
+  /*-responsável pelo card 1 sobre qual é melhor junto com icon ilustrativo*/
   #div3 {
     width: 250vw;
     margin-bottom: 10vh;

@@ -296,6 +296,7 @@ p {
         width: 30.8%;
     }
     
+    /*estilização do comentário*/
     #comments {
         font-size:x-large;
         margin-top: 4%;
@@ -310,6 +311,7 @@ p {
         border-radius: 10px;
     }
     
+    /*estilização do h3*/
     h3 {
         text-align: center;
         margin-right: 4%;
@@ -317,14 +319,13 @@ p {
         margin-bottom: 3%;
     }
     
+    /*estilização do paragrafo*/
     p {
         text-align: justify;
-    }
-    
-    p {
         font-size: 20px;
     }
-
+    
+    /*estilização da imagem*/
     .imagens {
         width:90vw;
     }

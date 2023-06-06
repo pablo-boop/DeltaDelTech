@@ -202,6 +202,8 @@ p {
     margin: 5%;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
     #div1{
         display: flex;
@@ -215,6 +217,7 @@ p {
         width: 83vw;
     }
 
+    /*Parte onde contem a escrita do artigo*/
     #card1 {
         display: flex;
         flex-direction: column;
@@ -222,6 +225,7 @@ p {
         padding: 15px;
     }
 
+    /*responsividade do paragrafo*/
     p {
         text-align: justify;
     }
@@ -234,6 +238,7 @@ p {
         width: 83vw;
     }
 
+    /*div*/
     .lado {
         display: flex;
         flex-direction: column;

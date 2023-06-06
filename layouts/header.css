@@ -48,10 +48,8 @@
 }
 .navigation_header a:hover{
     color: var(--color-white);
-}
-.active{
-    background: var(--color-dark2);
-    padding: 10px;
+    background-color: var(--color-dark2);
+    padding: 2vh;
     border-radius: 10px;
 }
 .btn_icon_header{
@@ -77,6 +75,15 @@
     }
     .btn_icon_header{
         display: block;
+    }
+    .navigation_header a:hover{
+        color: var(--color-white);
+        background-color: var(--color-dark2);
+        padding: 2vh;
+        border-radius: 10px;
+    }
+    .navigation_header a {
+        width: 30vw;
     }
 }
 /*Animação da sidebar*/

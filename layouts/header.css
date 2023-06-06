@@ -85,6 +85,7 @@
         padding: 2vh;
         border-radius: 10px;
     }
+    /*Estilizacção dos links da barra de nvagação*/
     .navigation_header a {
         width: 30vw;
     }

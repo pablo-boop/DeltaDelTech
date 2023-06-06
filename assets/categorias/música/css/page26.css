@@ -253,13 +253,12 @@ html {
     font-size: 16px;
 }
 
+/*responsável pela borda da CLASS icon*/
 .icon_profile {
     border-radius: 100%;
 }
 
-.content_comment_card {
-
-}
+/*responsável pelo nome dos ícones*/
 .nickname {
     margin-top: 5%;
     border-bottom: 2px solid #063e8d;
@@ -380,29 +379,34 @@ html {
     margin-right: 6%;
   }
 
+  /*Responsável pela margem esquerda do ID jm*/
   #jm {
     margin-left: 15%;
   }
 
+  /*Responsável pela margem esquerda do ID sla*/
   #sla {
   margin-left: 5%;
   }
   
+  /*CLASS responsável pelo IFRAME*/
   .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;
 }
 
+/*CLASS responsável pelo alinhamento do texto*/
 .sla {
     text-align: center;
 }
 
+/*Responsável pelo ID card1, tamanho da letra e alinhamento do texto*/
 #card1 {
   font-size: 20px;
   text-align: center;
-  text-align: left;
 }
 
+/*Responsável pelo alinhamento do texto*/
 #paragrafo1 {
   text-align: justify;
 }

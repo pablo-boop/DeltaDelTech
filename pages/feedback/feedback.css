@@ -2,7 +2,7 @@
 body {
     background-color: rgb(220, 220, 220);
 }
-
+/*primeiro input*/
 #input1 {
     display: flex;
     font-family: Andale Mono, monospace;

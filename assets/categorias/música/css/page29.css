@@ -26,6 +26,8 @@ body {
     margin-left: 18%;
 }
 
+
+/*estilização do bloco 2*/
 #bloco2 { 
     width: 60%;
       background-color: #c6d0de;
@@ -42,6 +44,8 @@ body {
 .lado {
     display: flex;
 }
+
+/*estilização do bloco 3*/
 #bloco3{
     padding:2%;
     margin: 1%;
@@ -50,6 +54,8 @@ body {
 aside {
     width: 40%;
 }
+
+/*estilização do card3*/
 #card3 {
     background-color: #c6d0de;
     border: 1px black solid;
@@ -62,28 +68,30 @@ aside {
     margin: 1%
 }
 
+/*estilização do h1*/
 h1{
     text-align: center;
     margin: 5px;
 }
 
+/*estilização do card1*/
 #card1{
   display: flex;
 }
 
+/*estilização da imagem*/
 img{
     border-radius: 10px;
 }
 
+/*estilização do iframe*/
 #iframe{
     bottom: 0%;
     margin-bottom: -5px;
 }
 
-*{
-    margin: 0;
-}
 
+/*estilização do paragrafo*/
 p{
     margin-top: 10px;
 }

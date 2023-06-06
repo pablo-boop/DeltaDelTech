@@ -187,9 +187,8 @@ img {
 #art4 {
     background-color: none;
     margin: 1%;
-    padding: 2%;
+    padding: 4%;
     display: flex;
-    margin-bottom: 0;
 }
 
 /*estilização sec4*/
@@ -521,7 +520,7 @@ p {
 
 /*estilização do anuncio*/
     #imagemanuncio {
-        margin-left: -5vw;
+    margin-left: -5vw;
     padding: 15px;
     width: 80vw;
     }

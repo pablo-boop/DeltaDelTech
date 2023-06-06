@@ -1,9 +1,11 @@
+ /*responsável pela página inteira (corpo da página)*/
 body {
     background-color: #dfdfdf;
     font-size: 20px;
     text-align: justify;
 }
 
+ /*responsável pelo ID encontrado no html*/
 #div0 {
     text-align: center;
 }

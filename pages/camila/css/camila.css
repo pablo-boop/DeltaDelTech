@@ -116,6 +116,7 @@ h1{
     #s2 {
         flex-direction: column;
     }
+    /*Estilização da curiosidade*/
     #curiosidade {
         padding: 2vh;
     }

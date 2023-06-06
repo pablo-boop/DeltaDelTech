@@ -256,13 +256,13 @@ p {
     font-size: 20px;
 }
 
-
+/*estilização para tornar o site responsivo pelo celular*/
 @media screen and (max-width:687px) {
     body {
         background-color: rgb(223, 223, 223);
-        
     }
     
+/*estilização do título*/
     #titulo {
         color: rgb(0, 0, 0);
         text-align: center;

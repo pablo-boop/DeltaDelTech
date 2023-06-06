@@ -203,6 +203,7 @@ p {
 }
 
 @media screen and (max-width: 687px) {
+/* Primeiro texto responsivo */
     #div1{
         display: flex;
         align-items: center;
@@ -225,6 +226,7 @@ p {
     p {
         text-align: justify;
     }
+/* Segundo texto responsivo */
 
     #div4 {
         display: flex;
@@ -245,7 +247,7 @@ p {
     #bloco2 {
         width: 83vw;
     }
-
+    /* Sessão do gráfico responsivo */
     aside {
         width: 100vw;
     }
@@ -261,6 +263,7 @@ p {
         margin: 0;
     }
 
+/* Sessão comentários responsiva */
     form {
         text-align: center;
     }

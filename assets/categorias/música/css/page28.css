@@ -255,25 +255,22 @@ p {
         border-radius: 100%;
     }
     
-    .content_comment_card {
-    
-    }
+    /*estilização do icone nome*/
     .nickname {
         margin-left: 5%;
         margin-top: 5%;
         border-bottom: 2px solid #063e8d;
     }
     
+    /*estilização do icone informação*/
     .comment_info {
         display: flex;
         margin-top: 10%;
     }
     
+    /*estilização do icone título*/
     .title_name {
         color: #999;
-    }
-    
-    .comment_card {    
     }
     
     .content_comment_card p::after {

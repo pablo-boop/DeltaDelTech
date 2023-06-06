@@ -91,32 +91,39 @@ h1{
  }
 
  @media screen and (max-width: 500px) {
+    /*Estilização da section s1 geral*/
     #s1 {
         flex-direction: column;
         text-align: center;
         padding-bottom: 2vh;
         margin-bottom: 5vh;
     }
+    /*Estilização da imagem da section s1*/
     #s1 img {
         margin-left: 2vh;
         margin-bottom: -5vh;
         width: 350px;
         height: 300px;
     }
+    /*Estilização de texto da section s1*/
     #s1 p {
         width: 50vw;
         margin-left: 1vw;
     }
+    /*Estilização da section1*/
     #section1 {
         padding: 2vh;
         margin-bottom: 5vh;
     }
+    /*Estilização da section s2 geral*/
     #s2 {
         flex-direction: column;
     }
+    /*Estilização da section curiosidade*/
     #curiosidade {
         padding: 2vh;
     }
+    /*Estilização de texto*/
     .p1 {
         width: 50vw;
         font-size: 20px;

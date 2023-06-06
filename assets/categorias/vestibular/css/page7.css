@@ -176,13 +176,14 @@ h2 {
     margin-left: -20vw;
   }
 
+   /*label comentarios*/
   #comments {
     margin-left: 75vw;
     margin-bottom: 5vh;
     font-size: 35px;
   }
 
-
+/*responsividade do input - digite seu comentario*/
   #your_comment {
     width: 120vw;
     padding: 15px;
@@ -196,6 +197,7 @@ h2 {
     flex-direction: column;
   }
 
+  /*imagem*/
   #jml {
     margin-left: 60vw;
     margin-top: 5vh;
@@ -225,9 +227,11 @@ h2 {
   #bloco1 {
     width: 175vw;
   }
+  /*footer*/
   #iframe {
     width: 230vw;
   }
+  /*header*/
   #header {
     width: 230vw;
   }

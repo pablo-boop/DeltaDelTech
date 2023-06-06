@@ -154,6 +154,7 @@ p {
     font-size: 20px;
 }
 
+/*responsividade*/
 @media screen and (max-width: 500px) {
     #div6 {
         width: 200vw;
@@ -167,11 +168,13 @@ p {
         margin-bottom: 10vh;
     }
 
+    /*responsavel pelo card 1 junto com a imagem, icon e texto sobre*/
     .loi {
         width: 150vw;
         margin-bottom: 5vh;
     }
 
+    /*imagem*/
     .jml {
         margin-left: 75vw;
         margin-bottom: 5vh;

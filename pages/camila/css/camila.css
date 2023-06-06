@@ -88,6 +88,7 @@ h1{
  }
 
  @media screen and (max-width: 500px) {
+    /*Estilização da section s1*/
     #s1 {
         flex-direction: column;
         text-align: center;

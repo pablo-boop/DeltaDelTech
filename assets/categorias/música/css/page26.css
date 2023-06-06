@@ -166,12 +166,13 @@ html {
     margin-right: 10%;
   }
 
-  /*responsável pela largura e pela margem esquerda do ID P2 */
+  /*responsável pela largura e pela margem esquerda do ID P2*/
   #p2 {
     width: 50%;
     margin-left: 22%;
   }
 
+  /*responsável pelo ID ICON2, largura, margem esquerda e bordas*/
   #icon2 {
     width: 80px;
     margin-left: -6%;
@@ -179,23 +180,28 @@ html {
     border-radius: 100%;
   }
 
+  /*Resposável pela margem direita dessa tag*/
   h2 {
     margin-right: 6%;
   }
 
+  /*ID resposável pelo espaçamento da margem esquerda*/
   #jm {
     margin-left: 15%;
   }
 
+  /*ID resposável pelo espaçamento da margem esquerda*/
   #sla {
-margin-left: 5%;
+  margin-left: 5%;
   }
   
+  /*CLASS responsável pela margem do IFRAME*/
   .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;
 }
 
+  /*ID responsável pelo alinhamento do texto*/
 .sla {
     text-align: center;
 }

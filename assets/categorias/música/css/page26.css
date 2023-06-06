@@ -10,6 +10,7 @@ body {
     text-align: center;
 }
 
+/*responsável pelo card*/
 #card-item {
     background-color: #063e8d;
     border: #063e8d solid 1px;
@@ -18,9 +19,12 @@ body {
     margin-bottom: 2%;
 }
 
+/*responsável pelo espaçamento*/
 #div{
     margin-bottom: 0;
 }
+
+/*responsável pelo ID art4(artigo 4) que está interligado com a CLASS sec4*/
 #art4 {
     background-color: none;
     margin: 1%;
@@ -29,6 +33,8 @@ body {
     margin-bottom: 0;
 }
 
+
+/*responsável pela CLASS sec4(section 4) encontrado dentro do ID ART4*/
 .sec4 {
     background-color: white;
     border-radius: 0.25rem;

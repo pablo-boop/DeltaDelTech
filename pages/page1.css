@@ -1,14 +1,9 @@
-*{
-    margin: 0;
-}
+/*Estilização da div com display flex*/
 
-/* seção de bloco das categorias (por par) */
 #div_ {
     display: flex;
-
 }
-
-/* bloco da categoria estilização */
+/*Estilização da tag a*/
 a {
     width: 100%;
     text-align: center;
@@ -22,74 +17,70 @@ a {
     padding: 5%;
     text-decoration: none;
 }
-
+/*Estilização da tag body*/
 body {
     background-color: white
 }
-
-/*Bloco quando passa mouse em cima*/
+/*Estilização da class pp com hover*/
 .pp:hover{
     transform: scale(1.02);
     transition: 0.3s;
 }
+/*Estilização do id d1*/
 #d1{
     text-align: center;
 
 }
-
-/*estilização dos links das páginas*/
-
+/*Estilização do id bi com imagem*/
 #bi {
     background-image: url(../assets/imagens/img-economia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
-
+/*Estilização do id b2 com imagem*/
 #b2 {
     background-image: url(../assets/imagens/img-esportes.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*Estilização do id b3 com imagem*/
 #b3 {
     background-image: url(../assets/imagens/img-musica.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*Estilização do id b4 com imagem*/
 #b4 {
     background-image: url(../assets/imagens/img-profissões.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*Estilização do id b5 com imagem*/
 #b5 {
     background-image: url(../assets/imagens/img-saude.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*Estilização do id b6 com imagem*/
 #b6 {
     background-image: url(../assets/imagens/img-vestibular.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*Estilização da tag h1*/
 h1 {
     text-shadow: 3px 3px 15px #000000;
     color: #ffffff;
     
     font-size: 35px;
 }
-
+/*Estilização da tag body*/
 body {
     margin: 0;
 
 }
-
-/*footer*/
-
+/*Estilização da class iframe1*/
 .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;
@@ -97,37 +88,35 @@ body {
 
 
 @media screen and (max-width: 687px) {
-    /* Adaptar para tela de celular */
+    /*Estilização da tag body media*/
     body {
         width: 100vw;
         height: 100vh;
     }
-
+/*Estilização da tag main media*/
     main {
         margin-top: 20px;
         margin-bottom: -10px;
     }
-
-    /* Deixando cada bloco em linha */
+    /*Estilização do id div media*/
     #div_ {
         display: flex;
         flex-direction: column;
         width: 85%;
 
     }
-
-    /*Div que engloba todo o site*/
+/*Estilização da tag div media*/
     div {
         text-align: center;
         justify-content: center;
         align-items: center;
     }
+    /*Estilização da tag a media*/
     a {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
-    /* footer */
+    /*Estilização da class iframe1 media*/
     .iframe1 {
         margin-bottom: -10px;
     }

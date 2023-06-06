@@ -4,14 +4,17 @@
     text-align: justify;
     background-color: #c6d0de;
 }
+/*Estilização do texto da section*/
 #s1 p {
     font-size: 25px;
     padding: 10vh;
     width: 40vw;
 }
+/*Estilização da imagem da section*/
 #s1 img {
     margin: 5vh;
 }
+/*Estilização da section*/
 section  {
 
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -71,46 +74,53 @@ h1{
  *{
     margin: 0;
  }
-
+/*Estilização da lista*/
  ul li {
     font-size: 25px;
  }
-
+/*Estilização do titulo das curiosidades*/
  #curiosidade h1 {
     font-size: 30px;
  }
-
+/*Estilização da curiosidades*/
  #curiosidade {
     padding: 15vh;
  }
 
  @media screen and (max-width: 500px) {
+    /*Estilização da section s1*/
     #s1 {
         flex-direction: column;
         text-align: center;
         padding-bottom: 2vh;
         margin-bottom: 5vh;
     }
+    /*Estilização da imagem da section s1*/
     #s1 img {
         margin-left: 2vh;
         margin-bottom: -5vh;
         width: 350px;
         height: 300px;
     }
+    /*Estilização do texto da section s1*/
     #s1 p {
         width: 50vw;
         margin-left: 1vw;
     }
+    /*Estilização da section1*/
     #section1 {
         padding: 2vh;
         margin-bottom: 5vh;
     }
+    /*Estilização da section s2*/
     #s2 {
         flex-direction: column;
     }
+    /*Estilização da curiosidade*/
     #curiosidade {
         padding: 2vh;
     }
+    /*Estilização do texto p1*/
     .p1 {
         width: 50vw;
         font-size: 20px;

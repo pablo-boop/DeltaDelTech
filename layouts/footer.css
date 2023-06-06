@@ -39,16 +39,17 @@ body{
     animation: mymove 5s infinite;
     
 }
-
+/*Animação da imagem*/
 @keyframes mymove {
   
 }
+/*Estilizacção do hover da imagem*/
 #imggg:hover {
     transform: rotate(350deg);
     animation:alternate;
 }
 
-
+/*Estilizacção da borda*/
 #bordinhamarota {
     border-top: white 1px solid;
     border-left: none;

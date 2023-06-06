@@ -2,13 +2,13 @@
 body {
     background-color: rgb( 220, 220, 220);
 }
-
+/*Estilização de texto h11*/
 #h11{
     font-size: 70px;
     margin-top: 2%;
     margin-left: 6%;
 }
-
+/*Estilização da tag de texto p*/
 p {
     font-size: 20px;
     margin-bottom: 1%;
@@ -29,7 +29,7 @@ button {
     padding: 5px;
     margin-top: 1%;
 }
-
+/*Estilização do hover do botão*/
 button:hover {
     width:17%;
     height: 10%;
@@ -43,7 +43,7 @@ button:hover {
     height: 70%;
     margin-top: 20%;
 }
-
+/*Estilização do iframe*/
 #iframe{
     bottom: 0%;
     margin-bottom: -5px;
@@ -52,7 +52,7 @@ button:hover {
 *{
     margin: 0;
 } 
-
+/*Estilização com display flex*/
 #sla {
     display: flex;
 }
@@ -62,44 +62,52 @@ button:hover {
     margin-top: -100px;
     margin-left: 2%;
 }
-
+/*Estilização da p3*/
 #p3 {
     margin-left: 11%;
 }
-
+/*Estilização da p4*/
 #p4 {
     margin-left: 13%;
 }
 
 @media screen and (max-width: 500px) {
+    /*Estilização da media h11*/
     #h11 {
         text-align: center;
         font-size: 30px;
     }
+    /*Estilização da media sla com flex direction column*/
     #sla {
         flex-direction: column;
     }
+    /*Estilização da imagem da img1*/
     #img1 {
         margin-top: 5vh;
         margin-left: 15%;
         margin-right: 15%;
         height: 30vh;
     }
+    /*Estilização da media p2*/
     #p2 {
         margin-top: 5vh;
         text-align: center;
     }
+    /*Estilização do texto da media p2*/
     #p2 p {
         font-size: 20px;
     }
+    /*Estilização da media p3*/
     #p3 {
         font-size: 20px;
         margin-left: -2vw;
     }
+    /*Estilização da media p4*/
     #p4 {
         font-size: 20px;
         margin-left: -2vw;
     }
+    /*Estilização media do botao*/
     button {
         text-align: center;
         margin-left: 25vw;
@@ -108,6 +116,7 @@ button:hover {
         height: 10vh;
         width: 50vw;
     }
+    /*Estilização do hover do botao na media*/
     button:hover {
         text-align: center;
         margin-left: 25vw;

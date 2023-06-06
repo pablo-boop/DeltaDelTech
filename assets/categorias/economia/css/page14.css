@@ -185,6 +185,8 @@ margin-left: 5%;
   font-size: 20px;
 }
 
+
+/*responsividade do site*/
 @media screen and (max-width: 687px) {
   body {
     width: 100vw;
@@ -194,6 +196,7 @@ margin-left: 5%;
     margin: 0;
   }
 
+ /*responsividade dos artigos*/
   #bloco1 {
     margin: 5px;
     padding: 15px;
@@ -204,6 +207,7 @@ margin-left: 5%;
     text-align: justify;
   }
 
+  /*responsável pelo card sobre saneamento e saude junto com o icon*/
   #linha {
     display: flex;
     flex-direction: column;
@@ -212,10 +216,12 @@ margin-left: 5%;
     justify-content: center;
   }
 
+  /*responsividade do article*/
   #sla {
     margin: 0;
   }
 
+  /*responsividade da section*/
   #lower1 {
     margin: 0;
     width: 80vw;

@@ -42,6 +42,7 @@ function plotar() {
 
 }
 
+var itens = [];
 
 
 //função de inserir no to-do
@@ -50,17 +51,17 @@ function atualizarlista() {
 
     //valor constante
     const lista = document.getElementById("tabela");
-
+    
     for (let i = 0; i < global.length; i++) {
-        const itens = global[i];
+        itens = global[i];
         listaHtml += `
     <div class="plots">
         <section class="sec_tab">
-        <h3 class="title"> Título: ${itens[0]} </h3>
-        <p class="p_a"> Resumo: ${itens[1]} </p>
-        <p class="p_a"> Categoria: ${itens[2]} </p>
-        <p class="p_a"> Autor: ${itens[3]} </p>
-        <p class="p_a"> Data: ${itens[4]} </p>
+        <h3 class="title" id="titlep"> Título: ${itens[0]} </h3>
+        <p class="p_a" id="resumop"> Resumo: ${itens[1]} </p>
+        <p class="p_a" id="catep"> Categoria: ${itens[2]} </p>
+        <p class="p_a" id="autorp"> Autor: ${itens[3]} </p>
+        <p class="p_a" id="datap"> Data: ${itens[4]} </p>
         </section>
         <section class="sec_tab">
             <button id="btn_tab" onclick="antiplot(${i})">EXCLUIR</button>
@@ -98,6 +99,6 @@ function editplot(position) {
     document.getElementById("categoria").value = element[2];
     document.getElementById("autortitle").value = element[3];
     document.getElementById("data").value = data;
-
+    
     
 }

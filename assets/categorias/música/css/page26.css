@@ -160,13 +160,13 @@ html {
     display: flex;
   }
 
-  /*responsável pela borda  e margem direita do ID LINHA2*/
+  /*responsável pela borda e pela margem direita do ID LINHA2*/
   #linha2 {
     border-left: 1px solid black;
     margin-right: 10%;
-    
   }
 
+  /*responsável pela largura e pela margem esquerda do ID P2 */
   #p2 {
     width: 50%;
     margin-left: 22%;

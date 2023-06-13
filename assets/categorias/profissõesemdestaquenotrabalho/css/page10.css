@@ -265,7 +265,7 @@ p {
         margin-left: 8%;
 }
 #titulo{
-  margin-left: 10%;  
+  margin-left: 5%;  
 }
 #img1{
     margin-left: 5%;
@@ -278,7 +278,7 @@ p {
     flex-direction: column-reverse;
 }
 /*arrumando o art4*/
-art4{
+#art4{
     background-color: none;
     margin: 1%;
     padding: 2%;

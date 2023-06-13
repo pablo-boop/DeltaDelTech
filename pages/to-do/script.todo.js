@@ -23,7 +23,7 @@ function plotar() {
 
     //inverte e separar por "/"
     var novadata = data2.reverse().join("/");
-    let compdate = new Date(Date.length).getDay();
+    let compdate = new Date(value).getDay();
     if (data < compdate) {
         //verifica se os inputs estão vazios
         if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {

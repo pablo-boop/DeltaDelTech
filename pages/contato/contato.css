@@ -1,13 +1,15 @@
 /*corpo do site*/
 body {
     background-color: rgb(220, 220, 220);
+    margin: 0;
+    padding: 0;
 }
 /*primeiro input*/
 #input1 {
     display: flex;
     font-family: Andale Mono, monospace;
     margin-bottom: 14px;
-    width: 50%;
+    width: 100vw;
     border-radius: 5px;
     padding: 10px;
 }
@@ -86,7 +88,7 @@ h1 {
 
 /*Responsividade do feedback*/
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 500px) {
     /*primeira div*/
     #div1 {
         margin-left: 5%;

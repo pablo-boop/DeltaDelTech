@@ -152,6 +152,10 @@ p {
         margin: 0;
         padding: 0;
     }
+    .art1 img {
+        width: 350px;
+        height: 250px;
+    }
     .arc1 {
         width: 95vw;
         padding: 0;

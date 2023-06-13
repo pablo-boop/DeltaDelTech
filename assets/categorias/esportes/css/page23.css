@@ -328,6 +328,7 @@ main{
 #bloco3{
     width: 73vw;
     margin-left: 30%;
+    margin-top: 6vh;
 }
 #div7{
     height: 8vh;
@@ -343,8 +344,13 @@ main{
 }
 #bloco1{
     height: 70%;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
 }
 .comment_info {
     display: flex;
+}
+#card3{
+    margin-bottom: 6vh;
 }
 }

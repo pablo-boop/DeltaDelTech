@@ -146,6 +146,10 @@ p {
         width: 95vw;
         margin-left: 1vw;
     }
+    #s2 {
+        margin-bottom: 2vh;
+        height: 15vh;
+    }
     .art1 {
         width: 95vw;
         flex-direction: column;

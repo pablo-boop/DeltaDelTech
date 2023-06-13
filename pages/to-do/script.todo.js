@@ -31,6 +31,8 @@ function plotar() {
 
         //se não for vazio, realiza o plot do artigo
     } else {
+
+        //verificação de contador para editar
         if (counter != -1) {
             
             global[counter] = [

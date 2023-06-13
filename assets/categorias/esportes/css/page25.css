@@ -214,12 +214,16 @@ h2 {
         align-items: center;
         justify-content: center;
         display: flex;
+        width: 70vw;
+        margin: 0%;
+        height: 55vh;
     }
     /*arrumando blosos*/
     #div1 {
         width: 100vw;
         margin: 0;
         padding: 0;
+        
     }
     #div2 {
         flex-direction: column;

@@ -1,6 +1,8 @@
 /*Estilização do body*/
 body{
     background-color: rgb(220, 220, 220);
+    padding: 0;
+    margin: 0;
 }
 
 /*Estilização da div*/

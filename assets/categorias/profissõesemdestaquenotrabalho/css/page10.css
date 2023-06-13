@@ -251,7 +251,7 @@ p {
 #div1{
     margin-left: 0px;
     padding: 0%;
-    margin-right: 7%;
+    margin-right: 10%;
 }
 #bloco1{
    
@@ -264,8 +264,12 @@ p {
         width: 90%;
         margin-left: 8%;
 }
+#div_title{
+    margin-right: 4%;
+    margin-left: 3%;
+}
 #titulo{
-  margin-left: 10%;  
+  margin-left: 5%;  
 }
 #img1{
     margin-left: 5%;
@@ -278,7 +282,7 @@ p {
     flex-direction: column-reverse;
 }
 /*arrumando o art4*/
-art4{
+#art4{
     background-color: none;
     margin: 1%;
     padding: 2%;
@@ -303,7 +307,7 @@ art4{
 /*arrumando o card 2*/
 #div2{
     flex-direction: column;
-    width: 95%;
+    width: 90%;
     margin-right: 7%;
 }
 .img4{

@@ -277,7 +277,7 @@ h1 {
     .p {
         font-size: 13px
     }
-
+    
     /*Arrumando os cards*/
     #div3 {
         flex-direction: column;
@@ -299,5 +299,4 @@ h1 {
         margin: 0%;
         height: 55vh;
     }
-
 }

@@ -243,26 +243,20 @@ h2 {
 }
 
 @media screen and (max-width: 687px) {
-    #card1 {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin-right: 30%;
-    }
+    /*arrumando escritas*/
     .p {
         font-size: 13px
         
     }
-    #img1 {
-        margin-right: 6%;
-    }
-    
     h3{
         font-size: 10px;
     }
     h4{
           font-size: 8px;  
+    }
+    /*images*/
+    #img1 {
+        margin-right: 6%;
     }
     .imagemprincipal {
         width: 50vw;
@@ -278,7 +272,14 @@ h2 {
     .p {
         width: 175px;
 }
-
+/*arrumando blocos e cards*/
+#card1 {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30%;
+}
     div {
         align-items: center;
     }

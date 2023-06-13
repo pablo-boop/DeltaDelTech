@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+    height: 100%;
+}
 .imgADs{
     text-align: center;
 }
@@ -121,6 +125,8 @@ p {
 #iframe2{
     bottom: 0%;
     margin-bottom: -5px;
+    height: 100%;
+    width: 100%;
  }
 
  *{
@@ -129,38 +135,58 @@ p {
 
  @media screen and (max-width: 500px) {
     #firstarticle {
-        width: 100%;
+        width: 95vw;
         flex-direction: column;
     }
     #a1 {
-        width: 190vw;
-        margin-left: 10vw;
+        width: 95vw;
+        margin-left: 1vw;
     }
     #a2 {
-        width: 183vw;
-        margin-left: 13vw;
+        width: 95vw;
+        margin-left: 1vw;
     }
     .art1 {
-        width: 200vw;
+        width: 95vw;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .arc1 {
+        width: 95vw;
+        padding: 0;
+        margin: 0;
+    }
+    .risco {
+        display: none;
     }
     .s4 {
         font-size: 20px;
-        width: 120vw;
+        width: 95vw;
+    }
+    .s4 p {
+        width: 90vw;
     }
     .vejamais {
         width: 40vw;
         font-size: 20px;
     }
     .imgADs img {
-        width: 210vw;
+        width: 95vw;
     }
     .imgADs a {
-        width: 210vw;
+        width: 95vw;
     }
     #iframe2 {
-        width: 210vw;
+        width: 100%;
+        height: 100%;
     }
     #footer {
-        width: 210vw;
+        width: 100%;
+        height: 100%;
+    }
+    p {
+        margin: 0;
+        padding: 0;
     }
  }

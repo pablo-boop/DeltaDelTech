@@ -117,11 +117,11 @@ function antiplot(position) { //parametro inserido na atualizar lista
 
 function editplot(position) {
     const element = global[position];
-
+    //retorna aos inputs
     document.getElementById("titulo").value = element[0];
     document.getElementById("resumo").value = element[1];
     document.getElementById("categoria").value = element[2];
     document.getElementById("autortitle").value = element[3];
-
+    //contador verificação
     counter = position;
 }

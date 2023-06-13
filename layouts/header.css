@@ -69,6 +69,9 @@
 }
 /*Estilização da responsividade do header*/
 @media screen and (max-width: 768px) {
+    #header {
+        height: 9vh;
+    }
     /*Estilizacção da barra de nvagação*/
     .navigation_header{
         position: absolute;
@@ -112,7 +115,7 @@
         text-decoration: none;
     }
     .icons i {
-        padding-left: 2vw;
+        padding-left: 3vw;
     }
 }
 /*Animação da sidebar*/

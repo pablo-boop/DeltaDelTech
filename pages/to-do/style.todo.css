@@ -6,12 +6,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: #9BA4B5;
-    text-align: center;
-    padding: 20px;
-}
-
 main {
     height: 1000px;
 }
@@ -164,6 +158,11 @@ button {
 
     input {
         width: 50vw;
+        border: 1px solid black;
+    }
+
+    #categoria {
+        border: 1px solid black;
     }
 
     select {
@@ -175,7 +174,7 @@ button {
         margin: 10px;
         padding: 0;
         margin: 10px;
-
+        height: auto;
     }
 
     #left {
@@ -203,14 +202,33 @@ button {
         display: flex;
         flex-direction: column;
         height: 100%;
-        width: 10%;
+        width: 90vw;
         margin: 0;
         margin-right: -100%;
     }
 
+    .plots {
+        width: 80vw;
+        height: 30vh;
+        margin-left: -1vw;
+    }
+
     .sec_tab {
-        width: 100%;
-        
+        width: auto;
+        height: auto;
+        margin-left: 2vw;
+    }
+
+    #tabela {
+        height: auto;
+    }
+
+    #btn_tab {
+        width: 30vw;
+        margin-left: 2vw;
+    }
+    main {
+        height: auto;
     }
 
 }

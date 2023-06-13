@@ -23,12 +23,14 @@ body {
 #div1 {
     display: flex;
     width: 70%;
+    margin-left: 5%;
 }
 
 #arc1 {
     padding: 2%;
     margin: 1%;
     background-color: none;
+    margin-top: 10%;
 }
 /*foi tirada a cor do artigle para dar efeito no site*/
 #sec1 {

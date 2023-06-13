@@ -34,7 +34,7 @@ function plotar() {
 
         //verificação de contador para editar
         if (counter != -1) {
-            
+            //substituir valores
             global[counter] = [
                 title,
                 description,
@@ -42,6 +42,7 @@ function plotar() {
                 autor,
                 novadata
             ]
+            //retorna contador
             counter = -1;
             atualizarlista();
         } else {

@@ -227,9 +227,6 @@ h2 {
     }
     #div2 {
         flex-direction: column;
-        width: 70vw;
-        margin: 0%;
-        height: 55vh;
     }
     #div3{
         align-items: center;

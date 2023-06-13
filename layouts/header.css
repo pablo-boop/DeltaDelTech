@@ -103,7 +103,7 @@
 
     #mobile {
         display: block;
-        width: auto;
+        width: 150vw;
         margin-left: 2vw;
     }
     .icons {
@@ -112,7 +112,7 @@
         text-decoration: none;
     }
     .icons i {
-        padding-left: 3vw;
+        padding-left: 2vw;
     }
 }
 /*Animação da sidebar*/

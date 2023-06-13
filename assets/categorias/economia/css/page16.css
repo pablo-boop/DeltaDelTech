@@ -216,6 +216,7 @@ p {
         margin: 0;
         text-align: center;
         width: 83vw;
+        margin-top: 4vh;
     }
 
     /*Parte onde contem a escrita do artigo*/

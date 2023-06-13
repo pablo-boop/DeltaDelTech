@@ -70,7 +70,9 @@
 /*Estilização da responsividade do header*/
 @media screen and (max-width: 768px) {
     #header {
-        height: 9vh;
+        height: 100%;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
     }
     /*Estilizacção da barra de nvagação*/
     .navigation_header{

@@ -23,7 +23,8 @@ body {
 #div1 {
     display: flex;
     width: 70%;
-    margin-left: 5%;
+    margin-left: 4%;
+    margin-right: 5%;
 }
 
 #arc1 {
@@ -44,7 +45,10 @@ body {
 }
 /*estilizado o card*/
 .img1 {
-    text-align: end;
+    text-align: center;
+}
+legend{
+    margin-right: 5%;
 }
 
 #div2 {

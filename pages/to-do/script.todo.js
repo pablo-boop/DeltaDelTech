@@ -19,6 +19,7 @@ function plotar() {
     autor = document.getElementById("autortitle").value;
     data = document.getElementById("data").value;
 
+    let data1 = getDay()
     //transforma data em vetor pelo "-"
     let data2 = data.split("-");
 

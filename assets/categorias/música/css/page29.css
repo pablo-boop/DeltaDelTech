@@ -397,6 +397,7 @@ p {
     
     #div5 {
         text-align: center;
+        width: 100vw;
     }
     
     #img0 {
@@ -438,9 +439,7 @@ p {
         border-left: #063e8d solid 10px;
         border-radius: 10px;
         margin-top: 12%;
-        width: 60%;
-        margin-right: 23%;
-        width: 75vw;
+        width: 84vw;
         display: flex;
         flex-direction: column;
     }
@@ -509,15 +508,30 @@ p {
     
     #div5 form {
      display: flex;
+     width: 90vw;
+     margin-left: -10vw;
+    }
+
+    #div5 {
+        width: 90vw;
     }
     
     #your_comment {
         width: 50vw;
+        margin-left: 20vw;
     }
     
     #comments {
         font-size:x-large;
         margin-top: 4%;
+        width: 95vw;
+    }
+
+    #form {
+        width: 90vw;
+        margin-left: -10vw;
+        margin-right: 0;
+        padding: 0;
     }
     
 /*estilização do paragrafo*/
@@ -528,40 +542,12 @@ p {
 /*estilização do anuncio*/
     #imagemanuncio {
     margin-left: -5vw;
-    padding: 15px;
+    padding: 25px;
     width: 80vw;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #tituloprincipal {
+        font-size: 34px;
+        text-align: center;
+    }
 }

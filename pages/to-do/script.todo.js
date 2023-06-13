@@ -18,57 +18,56 @@ function plotar() {
     categoria = document.getElementById("categoria").value;
     autor = document.getElementById("autortitle").value;
     data = document.getElementById("data").value;
-
-    let data1 = getDay()
     //transforma data em vetor pelo "-"
     let data2 = data.split("-");
 
     //inverte e separar por "/"
     var novadata = data2.reverse().join("/");
-
-    //verifica se os inputs estão vazios
-    if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
-        document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";
-
-        //se não for vazio, realiza o plot do artigo
-    } else {
-
-        //verificação de contador para editar
-        if (counter != -1) {
-            //substituir valores
-            global[counter] = [
-                title,
-                description,
-                categoria,
-                autor,
-                novadata
-            ]
-            //retorna contador
-            counter = -1;
-            atualizarlista();
+    let compdate = new Date(Date.length).getDay();
+    if (data < compdate) {
+        //verifica se os inputs estão vazios
+        if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
+            document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";
+            //se não for vazio, realiza o plot do artigo
         } else {
 
-            document.getElementById("errorMsg").innerHTML = "";
+            //verificação de contador para editar
+            if (counter != -1) {
+                //substituir valores
+                global[counter] = [
+                    title,
+                    description,
+                    categoria,
+                    autor,
+                    novadata
+                ]
+                //retorna contador
+                counter = -1;
+                atualizarlista();
+            } else {
 
-            info.push(title);
-            info.push(description);
-            info.push(categoria);
-            info.push(autor);
-            info.push(novadata);
+                document.getElementById("errorMsg").innerHTML = "";
+
+                info.push(title);
+                info.push(description);
+                info.push(categoria);
+                info.push(autor);
+                info.push(novadata);
 
 
-            global.push(info);
+                global.push(info);
 
-            //atualiza
-            atualizarlista()
+                //atualiza
+                atualizarlista()
+            }
         }
+
+
+    var itens = [];
+    } else {
+        document.getElementById("errorMsg").innerHTML = "Data inválida! Coloque uma atual.";
     }
-
-
 }
-
-var itens = [];
-
 
 //função de inserir no to-do
 function atualizarlista() {

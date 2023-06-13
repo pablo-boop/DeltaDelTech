@@ -2,8 +2,11 @@
 let global = [];
 let info = [];
 
+//auxiliares
 let counter = -1;
+let compdate = new Date();
 
+//inputs
 var title = "";
 var description = "";
 var categoria = "";
@@ -23,8 +26,10 @@ function plotar() {
 
     //inverte e separar por "/"
     var novadata = data2.reverse().join("/");
-    let compdate = new Date(value).getDay();
-    if (data < compdate) {
+
+    let compdate2 = new Date(data);
+
+    if (compdate2 >= compdate) {
         //verifica se os inputs estão vazios
         if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
             document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";

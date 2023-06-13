@@ -31,14 +31,18 @@ function plotar() {
 
         //se não for vazio, realiza o plot do artigo
     } else {
-        if (counter !== -1) {
-            info = global[counter];
+        if (counter != -1) {
+            
+            global[counter] = [
+                title,
+                description,
+                categoria,
+                autor,
+                novadata
+            ]
             counter = -1;
-            atualizarlista()
-
-
+            atualizarlista();
         } else {
-
 
             document.getElementById("errorMsg").innerHTML = "";
 

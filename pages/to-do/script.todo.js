@@ -29,9 +29,16 @@ function plotar() {
     if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
         document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";
 
-    //se não for vazio, realiza o plot do artigo
+        //se não for vazio, realiza o plot do artigo
     } else {
-        if(counter == -1) {
+        if (counter !== -1) {
+            info = global[counter];
+            counter = -1;
+            atualizarlista()
+
+
+        } else {
+
 
             document.getElementById("errorMsg").innerHTML = "";
 
@@ -45,12 +52,6 @@ function plotar() {
             global.push(info);
 
             //atualiza
-            atualizarlista()
-
-        } else {
-            info = global[counter]
-            document.getElementById("tabela").innerHTML = info ;
-            counter = -1;
             atualizarlista()
         }
     }
@@ -68,7 +69,7 @@ function atualizarlista() {
 
     //valor constante
     const lista = document.getElementById("tabela");
-    
+
     for (let i = 0; i < global.length; i++) {
 
         itens = global[i];
@@ -117,6 +118,6 @@ function editplot(position) {
     document.getElementById("resumo").value = element[1];
     document.getElementById("categoria").value = element[2];
     document.getElementById("autortitle").value = element[3];
-    
+
     counter = position;
 }

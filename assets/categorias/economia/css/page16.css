@@ -216,6 +216,8 @@ p {
         margin: 0;
         text-align: center;
         width: 83vw;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
     }
 
     /*Parte onde contem a escrita do artigo*/
@@ -251,6 +253,7 @@ p {
 
     #bloco2 {
         width: 83vw;
+        margin-top: 6vh;
     }
     /* Sessão do gráfico responsivo */
     aside {
@@ -266,6 +269,7 @@ p {
         width: 83vw;
         align-items: center;
         margin: 0;
+        margin-top: 6vh;
     }
 
 /* Sessão comentários responsiva */

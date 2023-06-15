@@ -141,6 +141,7 @@ a {
 .cards_item {
   display: flex;
   padding: 1rem;
+  width: 100%;
 }
 
 /* class para poder ajustar a img dentro dos cards*/

@@ -105,12 +105,14 @@
     }
     #navigation_header {
         display: none;
+        align-items: center;
     }
 
     #mobile {
         display: block;
         width: 180vw;
         margin-left: 2vw;
+        align-items: center;
     }
     .icons {
         color: white;
@@ -118,10 +120,7 @@
         text-decoration: none;
     }
     .icons i {
-        padding-left: 3vw;
-    }
-    .img_logo_header {
-        margin-left: -5vw;
+        padding-left: 2vw;
     }
 }
 /*Animação da sidebar*/

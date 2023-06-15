@@ -161,31 +161,40 @@ p {
 
 /*responsividade*/
 @media screen and (max-width: 500px) {
+    /*Estilização de coluna dos cards do site*/
     #art1 {
         flex-direction: column;
     }
 
+    /*Estilização de coluna do artigo dos comentarios*/
     #art4 {
         flex-direction: column;
         margin-top: 5vh;
     }
+    /*Estilização do tamanho dos comentarios*/
     .sec4 {
         width: 90vw;
     }
+
+    /*Estilização dos comentarios*/
     #comments {
         margin-top: 5vh;
     }
+    /*Estilização do tamanho do input do comentarios*/
     #your_comment {
         width: 80vw;
     }
 
+    /*Estilização dos cards principais*/
     .loi {
         width: 80vw;
         margin-bottom: 2vh;
     }
+    /*Estilização da imagem dos cards*/
     .image {
         margin-left: 10vw;
     }
+    /*Estilização do icone no topo dos cards*/
     .jml {
         margin-left: 35vw;
         margin-bottom: 2vh;

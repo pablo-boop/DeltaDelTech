@@ -28,6 +28,8 @@ function plotar() {
     var novadata = data2.reverse().join("/");
 
     let compdate2 = new Date(data);
+    console.log(compdate2);
+    let todaypost = compdate2.setDate(-1);
 
     if (compdate2 >= compdate) {
         //verifica se os inputs estão vazios

@@ -237,7 +237,7 @@ button {
     .plots {
         width: auto;
         height: auto;
-        margin-left: -1vw;
+        margin-left: 5%;
     }
 
     .sec_tab {

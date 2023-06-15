@@ -152,6 +152,10 @@ p {
         padding: 2vh;
         height: 15vh;
     }
+    #s2 h1 {
+        font-size: 30px
+    }
+
     .art1 {
         width: 95vw;
         flex-direction: column;

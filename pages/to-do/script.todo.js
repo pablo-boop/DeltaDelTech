@@ -4,7 +4,7 @@ let info = [];
 
 //auxiliares
 let counter = -1;
-let compdate = new Date().getDate();
+let compdate = new Date();
 
 //inputs
 var title = "";
@@ -12,6 +12,15 @@ var description = "";
 var categoria = "";
 var autor = "";
 var data = "";
+
+
+function getyesterday() {
+    var today = new Date(); // Obtém a data atual
+    today.setDate(today.getDate() - 1); // Subtrai um dia da data atual
+    return today;
+}
+
+var yesterday = getyesterday();
 
 //função de plotar
 function plotar() {
@@ -23,14 +32,12 @@ function plotar() {
     data = document.getElementById("data").value;
     //transforma data em vetor pelo "-"
     let data2 = data.split("-");
-
     //inverte e separar por "/"
-    var novadata = data2.reverse().join("/");
+    let novadata = data2.reverse().join("/");
 
-    let todaypost = new Date(data).getDate(+1);
-    console.log(todaypost);
+    let newD = new Date(data);
 
-    if (todaypost >= compdate) {
+    if (yesterday < newD) {
         //verifica se os inputs estão vazios
         if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
             document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";

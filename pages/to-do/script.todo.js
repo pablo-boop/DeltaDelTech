@@ -5,6 +5,8 @@ let info = [];
 //auxiliares
 let counter = -1;
 let compdate = new Date();
+var last;
+var tamanho;
 
 //inputs
 var title = "";
@@ -76,11 +78,13 @@ function plotar() {
         }
 
 
-    var itens = [];
+        var itens = [];
     } else {
         document.getElementById("errorMsg").innerHTML = "Data inválida! Coloque uma atual.";
     }
 }
+
+
 
 //função de inserir no to-do
 function atualizarlista() {
@@ -104,12 +108,22 @@ function atualizarlista() {
         <p class="p_a" id="datap"> Data: ${itens[4]} </p>
         </section>
         <section class="sec_tab">
+            <p id="edited"></p>
             <button id="btn_tab" onclick="antiplot(${i})">EXCLUIR</button>
             <button id="btn_tab" onclick="editplot(${i})">EDITAR</button>
         </section>
     </div>
     `
         info = [];
+
+        tamanho = global.length;
+        last = tamanho - 1;
+
+        if (last == global.length - 1) {
+            document.getElementById("edited").innerHTML = "(Novo...)";
+        } else {
+            document.getElementById("edited").innerHTML = " ";
+        }
     }
 
     //receber a alteração
@@ -122,6 +136,7 @@ function atualizarlista() {
     document.getElementById("categoria").value = "Categoria...";
     document.getElementById("autortitle").value = "";
     document.getElementById("data").value = "";
+
 }
 
 //exclui..
@@ -140,4 +155,5 @@ function editplot(position) {
     document.getElementById("autortitle").value = element[3];
     //contador verificação
     counter = position;
+    document.getElementById("edited").innerHTML = "(Editado...)";
 }

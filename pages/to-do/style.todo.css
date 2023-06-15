@@ -172,6 +172,21 @@ button {
 
     #categoria {
         border: 1px solid black;
+        border-radius: 5px;
+        width: 70vw;
+        height: 10vw;
+    }
+
+    #titulo {
+        height: 10vw;
+    }
+
+    #resumo {
+        height: 10vw;
+    }
+
+    #autortitle {
+        height: 10vw;
     }
 
     select {
@@ -184,6 +199,7 @@ button {
         padding: 0;
         margin: 10px;
         height: auto;
+        align-items: center;
     }
 
     #left {
@@ -191,20 +207,23 @@ button {
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin-bottom: 5vh;
     }
 
     #tabela {
-        height: 40vh;
+        height: auto;
         margin: 0;
         width: 90%;
     }
 
     #data {
-        margin: 0;
+        margin: 5vw;
     }
 
     #botao {
         margin: 10px;
+        padding: 1vh;
+        font-size: 20px;
     }
 
     #plots {
@@ -217,8 +236,8 @@ button {
     }
 
     .plots {
-        width: 80vw;
-        height: 30vh;
+        width: auto;
+        height: auto;
         margin-left: -1vw;
     }
 
@@ -238,6 +257,16 @@ button {
     }
     main {
         height: auto;
+    }
+
+    label {
+        font-size: 25px;
+    }
+
+    input {
+        border: 1px solid black;
+        width: 70vw;
+        border-radius: 5px;
     }
 
 }

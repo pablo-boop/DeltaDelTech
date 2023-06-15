@@ -73,6 +73,7 @@
         height: 100%;
         padding-bottom: 3vh;
         padding-top: 3vh;
+        padding: 3vh;
     }
     /*Estilizacção da barra de nvagação*/
     .navigation_header{
@@ -108,7 +109,7 @@
 
     #mobile {
         display: block;
-        width: 150vw;
+        width: 180vw;
         margin-left: 2vw;
     }
     .icons {
@@ -118,6 +119,9 @@
     }
     .icons i {
         padding-left: 3vw;
+    }
+    .img_logo_header {
+        margin-left: -5vw;
     }
 }
 /*Animação da sidebar*/

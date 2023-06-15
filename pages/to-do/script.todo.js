@@ -33,10 +33,6 @@ function plotar() {
     categoria = document.getElementById("categoria").value;
     autor = document.getElementById("autortitle").value;
     data = document.getElementById("data").value;
-    //transforma data em vetor pelo "-"
-    let data2 = data.split("-");
-    //inverte e separar por "/"
-    let novadata = data2.reverse().join("/");
 
     let newD = new Date(data);
 
@@ -55,7 +51,7 @@ function plotar() {
                     description,
                     categoria,
                     autor,
-                    novadata
+                    data
                 ];
                 
                 counter = -1;
@@ -70,7 +66,7 @@ function plotar() {
                 info.push(description);
                 info.push(categoria);
                 info.push(autor);
-                info.push(novadata);
+                info.push(data);
 
 
                 global.push(info);
@@ -108,7 +104,7 @@ function atualizarlista() {
         <p class="p_a" id="resumop"> Resumo: ${itens[1]} </p>
         <p class="p_a" id="catep"> Categoria: ${itens[2]} </p>
         <p class="p_a" id="autorp"> Autor: ${itens[3]} </p>
-        <p class="p_a" id="datap"> Data: ${itens[4]} </p>
+        <p class="p_a" id="datap"> Data: ${itens[4].split("-").reverse().join("/")} </p>
         </section>
         <section class="sec_tab">
             <p id="edited"></p>
@@ -157,11 +153,14 @@ function antiplot(position) { //parametro inserido na atualizar lista
 
 function editplot(position) {
     const element = global[position];
+
     //retorna aos inputs
     document.getElementById("titulo").value = element[0];
     document.getElementById("resumo").value = element[1];
     document.getElementById("categoria").value = element[2];
     document.getElementById("autortitle").value = element[3];
+    document.getElementById("data").value = element[4];
+
     //contador verificação
     counter = position;
     //counter2 = position;

@@ -4,7 +4,7 @@ let info = [];
 
 //auxiliares
 let counter = -1;
-let compdate = new Date();
+let compdate = new Date().getDate();
 
 //inputs
 var title = "";
@@ -27,11 +27,10 @@ function plotar() {
     //inverte e separar por "/"
     var novadata = data2.reverse().join("/");
 
-    let compdate2 = new Date(data);
-    console.log(compdate2);
-    let todaypost = compdate2.setDate(-1);
+    let todaypost = new Date(data).getDate(+1);
+    console.log(todaypost);
 
-    if (compdate2 >= compdate) {
+    if (todaypost >= compdate) {
         //verifica se os inputs estão vazios
         if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
             document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";

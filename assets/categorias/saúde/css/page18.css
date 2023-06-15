@@ -257,6 +257,7 @@ p {
         justify-content: center;
         align-items: center;
         text-align: justify;
+        margin-top: 4vh;
       }
 
       #bloco2 {

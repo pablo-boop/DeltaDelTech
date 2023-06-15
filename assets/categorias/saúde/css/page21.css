@@ -304,6 +304,7 @@ p {
         justify-content: center;
         align-items: center;
         text-align: justify;
+        margin-top: 2vh;
       }
 
       #bloco3{
@@ -468,5 +469,9 @@ p {
     /*responsividade da imagem*/
     img {
        margin-left: -3vw;
+    }
+
+    #div1 {
+      margin-top: 4vh;
     }
 } 

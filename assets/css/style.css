@@ -1,6 +1,6 @@
 body {
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .imgADs{
     text-align: center;
@@ -146,6 +146,10 @@ p {
         width: 95vw;
         margin-left: 1vw;
     }
+    #s2 {
+        margin-bottom: 2vh;
+        height: 15vh;
+    }
     .art1 {
         width: 95vw;
         flex-direction: column;
@@ -181,7 +185,8 @@ p {
     .imgADs a {
         width: 95vw;
     }
-    #iframe2 {
+    
+    #header {
         width: 100%;
         height: 100%;
     }
@@ -189,6 +194,7 @@ p {
         width: 100%;
         height: 100%;
     }
+
     p {
         margin: 0;
         padding: 0;

@@ -358,4 +358,9 @@ aside {
 h2 {
     text-align: center;
 }
+
+/*Responsividade do titulo*/
+#titulo1{
+  margin-bottom: 5vh;
+}
 } 

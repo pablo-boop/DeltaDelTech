@@ -471,7 +471,8 @@ p {
        margin-left: -3vw;
     }
 
-    #div1 {
-      margin-top: 4vh;
-    }
+    /*Responsividade do titulo*/
+#divj{
+  margin-bottom: 5vh;
+}
 } 

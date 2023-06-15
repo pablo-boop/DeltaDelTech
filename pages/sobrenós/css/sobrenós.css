@@ -148,6 +148,7 @@ a {
 .card_image {
   position: relative;
   max-height: 250px;
+  width: 100%;
 }
 
 /* class para poder ajustar a img dentro dos cards*/

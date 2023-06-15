@@ -55,7 +55,13 @@ function plotar() {
                     categoria,
                     autor,
                     novadata
-                ]
+                ];
+
+                for (let i = 0; i < global.length; i++) {
+                    if (counter == global[i]) {
+                        document.getElementById("edited").innerHTML = "(Editado...)";
+                    }
+                }
                 //retorna contador
                 counter = -1;
                 atualizarlista();
@@ -120,7 +126,7 @@ function atualizarlista() {
         last = tamanho - 1;
 
         if (last == global.length - 1) {
-            document.getElementById("edited").innerHTML = "(Novo...)";
+          document.getElementById("edited").innerHTML = "(Novo...)";
         } else {
             document.getElementById("edited").innerHTML = " ";
         }
@@ -155,5 +161,5 @@ function editplot(position) {
     document.getElementById("autortitle").value = element[3];
     //contador verificação
     counter = position;
-    document.getElementById("edited").innerHTML = "(Editado...)";
+    
 }

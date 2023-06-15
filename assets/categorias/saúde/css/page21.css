@@ -469,4 +469,9 @@ p {
     img {
        margin-left: -3vw;
     }
+
+    /*Responsividade do titulo*/
+#divj{
+  margin-bottom: 5vh;
+}
 } 

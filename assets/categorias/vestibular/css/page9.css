@@ -161,70 +161,33 @@ p {
 
 /*responsividade*/
 @media screen and (max-width: 500px) {
-    #div6 {
-        width: 200vw;
-        font-size: 25px;
-    }
-
     #art1 {
-        display: flex;
         flex-direction: column;
-        margin-left: 20vw;
-        margin-bottom: 10vh;
     }
 
-    /*responsavel pelo card 1 junto com a imagem, icon e texto sobre*/
-    .loi {
-        width: 150vw;
-        margin-bottom: 5vh;
-    }
-
-    /*imagem*/
-    .jml {
-        margin-left: 75vw;
-        margin-bottom: 5vh;
-    }
-
-    .image {
-        margin-left: 50vw;
-    }
-
-    /*responsividade do input - digite seu comentario*/
-    #your_comment {
-        width: 100vw;
-        padding: 15px;
-        margin-left: 50vw;
-        margin-bottom: 5vh;
-        font-size: 20px;
-    }
-
-    /*label comentarios*/
-    #comments {
-        margin-left: 80vw;
-        font-size: 30px;
-    }
-
-/* article dos comentarios*/
     #art4 {
-        display: flex;
         flex-direction: column;
-        margin-left: 45vw;
+        margin-top: 5vh;
     }
-
     .sec4 {
-        width: 185vw;
-        margin-left: -40vw;
-        font-size: 20px;
+        width: 90vw;
+    }
+    #comments {
+        margin-top: 5vh;
+    }
+    #your_comment {
+        width: 80vw;
     }
 
-    .sec4 p {
-        font-size: 35px;
-      }
-/*footer*/
-      #iframe {
-        width: 200vw;
-      }
-      #header {
-        width: 200vw;
-      }
+    .loi {
+        width: 80vw;
+        margin-bottom: 2vh;
+    }
+    .image {
+        margin-left: 10vw;
+    }
+    .jml {
+        margin-left: 35vw;
+        margin-bottom: 2vh;
+    }
 }

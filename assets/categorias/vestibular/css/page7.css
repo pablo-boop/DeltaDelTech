@@ -164,15 +164,21 @@ h2 {
 
 /*responsividade do site*/
 @media screen and (max-width: 500px) {
+  /*Estilização de coluna dos comentários*/
   #art4 {
     flex-direction: column;
   }
+  /*Tamanho dos cards de comentários*/
   .sec4 {
     width: 90vw;
   }
+
+  /*Estilização do tamanho do input de comentários*/
   #your_comment {
     width: 80vw;
   }
+
+  /*Estilização do card principal da página*/
   #div3 {
     width: 105vw;
     margin-left: -5vw;
@@ -180,15 +186,18 @@ h2 {
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
+  /*Estilização de coluna dentro da div3*/
   #card1 {
     flex-direction: column;
   }
 
+  /*Estilização da imagem do card da div3*/
   #jml {
     margin-top: 5vh;
     margin-left: 5vw;
   }
 
+  /*Estilização da imagem no topo do site*/
   #img1 {
     width: 95vw;
     margin-left: 2vw;

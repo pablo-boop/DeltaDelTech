@@ -7,6 +7,7 @@ let counter = -1;
 let compdate = new Date();
 var last;
 var tamanho;
+//let counter2 = -1;
 
 //inputs
 var title = "";
@@ -56,15 +57,10 @@ function plotar() {
                     autor,
                     novadata
                 ];
-
-               /*for (let i = 0; i < global.length; i++) {
-                    if (counter == global[i]) {
-                        document.getElementById("edited").innerHTML = "(Editado...)";
-                    }
-                }
-                */
-                //retorna contador
+                
                 counter = -1;
+
+                //retorna contador
                 atualizarlista();
             } else {
 
@@ -130,7 +126,13 @@ function atualizarlista() {
           document.getElementById("edited").innerHTML = "(Novo...)";
         } else {
             document.getElementById("edited").innerHTML = " ";
-        } */
+        } 
+
+        if (counter2 = i) {
+            document.getElementById("edited").innerHTML = "(Editado...)"
+            counter2 = -1;
+        }
+        */
     }
 
     //receber a alteração
@@ -162,5 +164,6 @@ function editplot(position) {
     document.getElementById("autortitle").value = element[3];
     //contador verificação
     counter = position;
+    //counter2 = position;
     
 }

@@ -94,6 +94,7 @@ input {
     width: 15vw;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 
@@ -147,6 +148,14 @@ input {
 
 button {
     margin: 10px;
+}
+
+#edited {
+    font-style: italic;
+    position: absolute;
+    text-align: center;
+    top: 4vh;
+    color: rgba(107, 98, 98, 0.667);
 }
 
 @media screen and (max-width: 800px) {

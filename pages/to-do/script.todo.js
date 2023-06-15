@@ -5,6 +5,8 @@ let info = [];
 //auxiliares
 let counter = -1;
 let compdate = new Date();
+var last;
+var tamanho;
 
 //inputs
 var title = "";
@@ -12,6 +14,15 @@ var description = "";
 var categoria = "";
 var autor = "";
 var data = "";
+
+
+function getyesterday() {
+    var today = new Date(); // Obtém a data atual
+    today.setDate(today.getDate() - 1); // Subtrai um dia da data atual
+    return today;
+}
+
+var yesterday = getyesterday();
 
 //função de plotar
 function plotar() {
@@ -23,13 +34,12 @@ function plotar() {
     data = document.getElementById("data").value;
     //transforma data em vetor pelo "-"
     let data2 = data.split("-");
-
     //inverte e separar por "/"
-    var novadata = data2.reverse().join("/");
+    let novadata = data2.reverse().join("/");
 
-    let compdate2 = new Date(data);
+    let newD = new Date(data);
 
-    if (compdate2 >= compdate) {
+    if (yesterday < newD) {
         //verifica se os inputs estão vazios
         if (data == "" || autor == "" || description == "" || title == "" || categoria == "Categorias..." || categoria == "") {
             document.getElementById("errorMsg").innerHTML = "Campo(s) em branco! Error";
@@ -45,7 +55,14 @@ function plotar() {
                     categoria,
                     autor,
                     novadata
-                ]
+                ];
+
+               /*for (let i = 0; i < global.length; i++) {
+                    if (counter == global[i]) {
+                        document.getElementById("edited").innerHTML = "(Editado...)";
+                    }
+                }
+                */
                 //retorna contador
                 counter = -1;
                 atualizarlista();
@@ -68,11 +85,13 @@ function plotar() {
         }
 
 
-    var itens = [];
+        var itens = [];
     } else {
         document.getElementById("errorMsg").innerHTML = "Data inválida! Coloque uma atual.";
     }
 }
+
+
 
 //função de inserir no to-do
 function atualizarlista() {
@@ -96,12 +115,22 @@ function atualizarlista() {
         <p class="p_a" id="datap"> Data: ${itens[4]} </p>
         </section>
         <section class="sec_tab">
+            <p id="edited"></p>
             <button id="btn_tab" onclick="antiplot(${i})">EXCLUIR</button>
             <button id="btn_tab" onclick="editplot(${i})">EDITAR</button>
         </section>
     </div>
     `
         info = [];
+
+        /*tamanho = global.length;
+        last = tamanho - 1;
+
+        if (last == global.length - 1) {
+          document.getElementById("edited").innerHTML = "(Novo...)";
+        } else {
+            document.getElementById("edited").innerHTML = " ";
+        } */
     }
 
     //receber a alteração
@@ -114,6 +143,7 @@ function atualizarlista() {
     document.getElementById("categoria").value = "Categoria...";
     document.getElementById("autortitle").value = "";
     document.getElementById("data").value = "";
+
 }
 
 //exclui..
@@ -132,4 +162,5 @@ function editplot(position) {
     document.getElementById("autortitle").value = element[3];
     //contador verificação
     counter = position;
+    
 }

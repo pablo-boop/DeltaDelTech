@@ -288,6 +288,7 @@ iframe{
 /*Estilização do bloco2 media*/
     #bloco2 {
         width: 83vw;
+        margin-top: 6vh;
     }
 /*Estilização do aside media*/
     aside {
@@ -304,6 +305,8 @@ iframe{
     #card3 {
         width: 83vw;
         margin: 0;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
     }
 /*Estilização do id da div4 media*/
     #div4 {

@@ -214,6 +214,8 @@ h2 {
         align-items: center;
         justify-content: center;
         display: flex;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
     }
     /*arrumando blosos*/
     #div1 {
@@ -246,7 +248,7 @@ h2 {
         text-align: center;
         width: 68vw;
         margin-left: 5vh;
-        margin-top: 2vh;
+        margin-top: 6vh;
         
     }
     /*arrumando escritas*/

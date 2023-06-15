@@ -206,10 +206,16 @@ p {
         flex-direction: column;
         text-align: justify;
         align-items: center;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
     }
 
     #arc1 {
         align-items: center;
+    }
+    #sec2 {
+        margin-top: 6vh;
+        margin-bottom: 6vh;
     }
 
 /* Curiosidades e aapl responsiva */

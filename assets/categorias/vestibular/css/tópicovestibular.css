@@ -70,14 +70,25 @@ body{
  }
 
  /*responsividade do site*/
- @media screen and (max-width: 500px) {
-    #div {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 5vh;
-    }
-    .pp {
-        margin-bottom: 5vh;
-        width: 70vw;
-    }
- }
+ @media screen and (max-width: 687px) {
+
+    /* Footer */    
+        #iframe2 {
+            margin-bottom: -28px;
+        }
+    /* Tamanho de cada bloco */
+        .pp {
+            height: 25vh;
+        }
+    
+    /* Alinhamento do conteúdo */
+        #bi {
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+        }
+
+        #div {
+            margin-top: 5vh;
+        }
+     }

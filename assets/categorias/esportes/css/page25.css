@@ -222,7 +222,7 @@ h2 {
         width: 100vw;
         margin: 0;
         padding: 0;
-        
+        margin-top: 4vh;
     }
     #div2 {
         flex-direction: column;

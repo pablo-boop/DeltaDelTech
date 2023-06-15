@@ -421,4 +421,9 @@ p {
     #img4{
         margin-left: 13vh;
     }
+
+  /*Responsividade do titulo*/
+    #titulo{
+      margin-bottom: 5vh;
+    }
   } 

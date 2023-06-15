@@ -165,6 +165,19 @@ button {
         border: 1px solid black;
         border-radius: 5px;
         width: 70vw;
+        height: 10vw;
+    }
+
+    #titulo {
+        height: 10vw;
+    }
+
+    #resumo {
+        height: 10vw;
+    }
+
+    #autortitle {
+        height: 10vw;
     }
 
     select {
@@ -189,13 +202,13 @@ button {
     }
 
     #tabela {
-        height: 40vh;
+        height: auto;
         margin: 0;
         width: 90%;
     }
 
     #data {
-        margin: 0;
+        margin: 5vw;
     }
 
     #botao {
@@ -215,7 +228,7 @@ button {
 
     .plots {
         width: auto;
-        height: 30vh;
+        height: auto;
         margin-left: -1vw;
     }
 

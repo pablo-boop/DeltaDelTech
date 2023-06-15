@@ -57,11 +57,12 @@ function plotar() {
                     novadata
                 ];
 
-                for (let i = 0; i < global.length; i++) {
+               /*for (let i = 0; i < global.length; i++) {
                     if (counter == global[i]) {
                         document.getElementById("edited").innerHTML = "(Editado...)";
                     }
                 }
+                */
                 //retorna contador
                 counter = -1;
                 atualizarlista();
@@ -122,14 +123,14 @@ function atualizarlista() {
     `
         info = [];
 
-        tamanho = global.length;
+        /*tamanho = global.length;
         last = tamanho - 1;
 
         if (last == global.length - 1) {
           document.getElementById("edited").innerHTML = "(Novo...)";
         } else {
             document.getElementById("edited").innerHTML = " ";
-        }
+        } */
     }
 
     //receber a alteração

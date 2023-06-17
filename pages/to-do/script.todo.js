@@ -7,7 +7,8 @@ let counter = -1;
 let compdate = new Date();
 var last;
 var tamanho;
-//let counter2 = -1;
+var flag; 
+
 
 //inputs
 var title = "";
@@ -92,6 +93,7 @@ function atualizarlista() {
 
     //valor constante
     const lista = document.getElementById("tabela");
+    const editado = document.getElementById("edited");
 
     for (let i = 0; i < global.length; i++) {
 
@@ -123,13 +125,16 @@ function atualizarlista() {
         } else {
             document.getElementById("edited").innerHTML = " ";
         } 
-
-        if (counter2 = i) {
-            document.getElementById("edited").innerHTML = "(Editado...)"
-            counter2 = -1;
-        }
         */
+
+        if (flag == true) {
+            console.log("passou");
+            editado.innerHTML = "(Editado...)"
+        }
+
     }
+
+    flag = false;
 
     //receber a alteração
     lista.innerHTML = listaHtml;
@@ -163,6 +168,6 @@ function editplot(position) {
 
     //contador verificação
     counter = position;
-    //counter2 = position;
-    
+
+    flag = true;
 }

@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    height: 1000px;
+    height: auto;
 }
 
 input {
@@ -63,7 +63,7 @@ input {
 }
 
 #botao {
-    width: 200px;
+    width: 100%;
     margin-top: 20px;
     margin-left: 50px;
     border: 1px solid black;

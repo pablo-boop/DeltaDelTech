@@ -5,9 +5,6 @@ let info = [];
 //auxiliares
 let counter = -1;
 let compdate = new Date();
-var last;
-var tamanho;
-var flag; 
 
 
 //inputs
@@ -77,7 +74,6 @@ function plotar() {
             }
         }
 
-
         var itens = [];
     } else {
         document.getElementById("errorMsg").innerHTML = "Data inválida! Coloque uma atual.";
@@ -117,24 +113,7 @@ function atualizarlista() {
     `
         info = [];
 
-        /*tamanho = global.length;
-        last = tamanho - 1;
-
-        if (last == global.length - 1) {
-          document.getElementById("edited").innerHTML = "(Novo...)";
-        } else {
-            document.getElementById("edited").innerHTML = " ";
-        } 
-        */
-
-        if (flag == true) {
-            console.log("passou");
-            editado.innerHTML = "(Editado...)"
-        }
-
     }
-
-    flag = false;
 
     //receber a alteração
     lista.innerHTML = listaHtml;
@@ -168,6 +147,4 @@ function editplot(position) {
 
     //contador verificação
     counter = position;
-
-    flag = true;
 }
